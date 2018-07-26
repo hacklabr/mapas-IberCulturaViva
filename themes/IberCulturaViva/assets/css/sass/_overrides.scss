@@ -29,9 +29,32 @@
 // }
 
 #main-header {
-  background-color: #6b106f;
+
+  #brand-logo img {
+    height: 30px;
+
+    @media screen and (min-width: 768px) {
+      height: 48px;
+    }
+  }
 
   a {
-    color: #f0c6f2;
+    color: #ccc;
   }
+}
+
+#main-nav {
+
+}
+
+#home-events {
+  @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/05/cuatro-gatos-arte-al-parqie-529x350.jpg', $brand-event);
+}
+
+#home-spaces {
+  @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/11/jongo_pinheiral_1374170479.jpg', $brand-space);
+}
+
+#home-watermark {
+  background: transparent;
 }
