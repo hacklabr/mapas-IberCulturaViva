@@ -28,12 +28,14 @@ services:
     ports:
       - "9000:9000"
     volumes:
-      - ./docker-data/assets:/var/www/html/assets
-      - ./docker-data/public-files:/var/www/html/files
-      - ./docker-data/private-files:/var/www/private-files
       - ./themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
       - ./compose/config.php:/var/www/html/protected/application/conf/config.php
       - ./compose/config.d:/var/www/html/protected/application/conf/config.d
+
+      # o usuário www-data dentro do container precisa ter permissão de escrita nessas 3 pastas abaixo
+      - ./docker-data/assets:/var/www/html/assets
+      - ./docker-data/public-files:/var/www/html/files
+      - ./docker-data/private-files:/var/www/private-files
 
     links:
       - db
