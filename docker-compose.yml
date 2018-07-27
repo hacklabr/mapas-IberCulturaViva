@@ -29,8 +29,6 @@ services:
       - "9000:9000"
     volumes:
       - ./themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
-      - ./compose/config.php:/var/www/html/protected/application/conf/config.php
-      - ./compose/config.d:/var/www/html/protected/application/conf/config.d
 
       # o usuário www-data dentro do container precisa ter permissão de escrita nessas 3 pastas abaixo
       - ./docker-data/assets:/var/www/html/assets
