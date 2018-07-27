@@ -54,7 +54,7 @@ deploy to production:
   image: cdrx/rancher-gitlab-deploy
   script:
     - upgrade --environment Shared --stack iberculturaviva-mapas-prod --service mapas --no-finish-upgrade
-    - restart --environment Shared --stack iberculturaviva-mapas-prod --service web
+    - upgrade --environment Shared --stack iberculturaviva-mapas-prod --service web 
   only:
     - tags
   environment: production
