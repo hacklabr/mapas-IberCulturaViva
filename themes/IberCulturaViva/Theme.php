@@ -49,6 +49,12 @@ class Theme extends BaseV1\Theme{
     }
 
     protected function _publishAssets() {
+        $this->asset('img/home--agents.jpg', false);
+        $this->asset('img/home--developers.jpg', false);
+        $this->asset('img/home--intro.jpg', false);
+        $this->asset('img/home--opportunities.jpg', false);
+        $this->asset('img/home--projects.jpg', false);
+
         $this->jsObject['assets']['logo-instituicao'] = $this->asset('img/logo-instituicao.png', false);
     }
 

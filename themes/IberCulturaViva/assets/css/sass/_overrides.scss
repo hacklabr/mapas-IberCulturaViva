@@ -39,22 +39,40 @@
   }
 
   a {
-    color: #ccc;
+    color: #777;
   }
 }
 
-#main-nav {
+#home {
+  &-agents {
+    @include backgroundTransparency('/assets/img/home--agents.jpg', $brand-agent);
+  }
 
-}
+  &-developers {
+    @include backgroundTransparency('/assets/img/home--developers.jpg', $brand-developer);
+  }
 
-#home-events {
-  @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/05/cuatro-gatos-arte-al-parqie-529x350.jpg', $brand-event);
-}
+  &-events {
+    @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/05/cuatro-gatos-arte-al-parqie-529x350.jpg', $brand-event);
+  }
 
-#home-spaces {
-  @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/11/jongo_pinheiral_1374170479.jpg', $brand-space);
-}
+  &-intro {
+    @include backgroundTransparency('/assets/img/home--intro.jpg', $brand-primary);
+  }
 
-#home-watermark {
-  background: transparent;
+  &-opportunities {
+    @include backgroundTransparency('/assets/img/home--opportunities.jpg', $brand-opportunity);
+  }
+
+  &-projects {
+    @include backgroundTransparency('/assets/img/home--projects.jpg', $brand-project);
+  }
+
+  &-spaces {
+    @include backgroundTransparency('http://iberculturaviva.org/wp-content/uploads/2016/11/jongo_pinheiral_1374170479.jpg', $brand-space);
+  }
+
+  &-watermark {
+    background: transparent;
+  }
 }

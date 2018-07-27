@@ -535,10 +535,10 @@ h6 {
   background-color: #ed2891 !important; }
 
 .bg-project {
-  background-color: #aaa !important; }
+  background-color: #999 !important; }
 
 .bg-opportunity {
-  background-color: #888 !important; }
+  background-color: #bbb !important; }
 
 .color-agent {
   color: #722e79 !important; }
@@ -550,10 +550,10 @@ h6 {
   color: #ed2891 !important; }
 
 .color-project {
-  color: #aaa !important; }
+  color: #999 !important; }
 
 .color-opportunity {
-  color: #888 !important; }
+  color: #bbb !important; }
 
 #header-search-row {
   position: relative;
@@ -609,14 +609,14 @@ h6 {
     background: #ed2891; }
 
 #filter-projects {
-  background: #aaa; }
+  background: #999; }
   #filter-projects .advanced-filters {
-    background: #aaa; }
+    background: #999; }
 
 #filter-opportunities {
-  background: #888; }
+  background: #bbb; }
   #filter-opportunities .advanced-filters {
-    background: #888; }
+    background: #bbb; }
 
 .filter {
   box-sizing: border-box;
@@ -839,12 +839,12 @@ h6 {
   border-right-color: #ed2891; }
 
 #project-list-header {
-  border-left-color: #aaa;
-  border-right-color: #aaa; }
+  border-left-color: #999;
+  border-right-color: #999; }
 
 #opportunity-list-header {
-  border-left-color: #888;
-  border-right-color: #888; }
+  border-left-color: #bbb;
+  border-right-color: #bbb; }
 
 #seal-list-header {
   border-left-color: #cc0033;
@@ -923,10 +923,10 @@ h6 {
   color: #ed2891; }
 
 .project .objeto:hover h1 a, .project .objeto-meta a {
-  color: #aaa; }
+  color: #999; }
 
 .opportunity .objeto:hover h1 a, .opportunity .objeto-meta a {
-  color: #888; }
+  color: #bbb; }
 
 .seal .objeto:hover h1 a, .seal .objeto-meta a {
   color: #cc0033; }
@@ -1126,10 +1126,10 @@ article.event .header-image {
   background-color: #ee3042; }
 
 article.project .header-image {
-  background-color: #aaa; }
+  background-color: #999; }
 
 article.opportunity .header-image, article.registration .header-image {
-  background-color: #888; }
+  background-color: #bbb; }
 
 article.subsite .header-image {
   background-color: #cc0033; }
@@ -1169,9 +1169,9 @@ article.seal .header-image {
     text-transform: uppercase;
     color: inherit; }
   .header-content .project-type {
-    color: #aaa; }
+    color: #999; }
   .header-content .opportunity-type, .header-content .registration-type {
-    color: #888; }
+    color: #bbb; }
   .header-content .agent-type {
     color: #722e79; }
   .header-content .event-type {
@@ -1491,28 +1491,28 @@ article.seal .header-image {
   border-right: 8px solid transparent; }
 
 #entities-menu-project.active, #entities-menu-project:hover, #entities-menu-project.current-entity-parent {
-  border-top-color: #aaa;
-  color: #aaa; }
+  border-top-color: #999;
+  color: #999; }
   #entities-menu-project.active a, #entities-menu-project:hover a, #entities-menu-project.current-entity-parent a {
-    color: #aaa; }
+    color: #999; }
 #entities-menu-project.active:after {
   content: "";
   position: absolute;
   top: -8px;
-  border-bottom: 8px solid #aaa;
+  border-bottom: 8px solid #999;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent; }
 
 #entities-menu-opportunity.active, #entities-menu-opportunity:hover, #entities-menu-opportunity.current-entity-parent {
-  border-top-color: #888;
-  color: #888; }
+  border-top-color: #bbb;
+  color: #bbb; }
   #entities-menu-opportunity.active a, #entities-menu-opportunity:hover a, #entities-menu-opportunity.current-entity-parent a {
-    color: #888; }
+    color: #bbb; }
 #entities-menu-opportunity.active:after {
   content: "";
   position: absolute;
   top: -8px;
-  border-bottom: 8px solid #888;
+  border-bottom: 8px solid #bbb;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent; }
 
@@ -1775,10 +1775,10 @@ article.seal .header-image {
   background: #ed2891; }
 
 #nav-projects {
-  background: #aaa; }
+  background: #999; }
 
 #nav-opportunities {
-  background: #888; }
+  background: #bbb; }
 
 #nav-subsite {
   background: #cc0033; }
@@ -1787,7 +1787,7 @@ article.seal .header-image {
   background: #cc0033; }
 
 #nav-developers {
-  background: #ccc; }
+  background: #999; }
 
 .up {
   border-top-right-radius: 2px; }
@@ -2011,11 +2011,11 @@ article.seal .header-image {
 
 #projects-filter:hover,
 #projects-filter:focus {
-  background-color: #aaa; }
+  background-color: #999; }
 
 #opportunities-filter:hover,
 #opportunities-filter:focus {
-  background-color: #888; }
+  background-color: #bbb; }
 
 #seals-filter:hover,
 #seals-filter:focus {
@@ -2037,14 +2037,14 @@ article.seal .header-image {
     border-bottom-color: #ed2891; }
 
 #home-projects {
-  background: #aaa; }
+  background: #999; }
   #home-projects .abas li.active {
-    border-bottom-color: #aaa; }
+    border-bottom-color: #999; }
 
 #home-opportunities {
-  background: #888; }
+  background: #bbb; }
   #home-opportunities .abas li.active {
-    border-bottom-color: #888; }
+    border-bottom-color: #bbb; }
 
 #home-subsite {
   background: #cc0033; }
@@ -2057,7 +2057,7 @@ article.seal .header-image {
     border-bottom-color: #cc0033; }
 
 #home-developers {
-  background: #ccc; }
+  background: #999; }
   #home-developers .box {
     float: none;
     width: auto; }
@@ -2742,18 +2742,18 @@ nav.sidebar-panel ul {
     color: #ed2891; }
 
 .sidebar.project {
-  border-top-color: #aaa; }
+  border-top-color: #999; }
   .sidebar.project:before {
-    border-top-color: #aaa !important; }
+    border-top-color: #999 !important; }
   .sidebar.project .widget-list-item > a {
-    color: #aaa; }
+    color: #999; }
 
 .sidebar.opportunity, .sidebar.registration {
-  border-top-color: #888; }
+  border-top-color: #bbb; }
   .sidebar.opportunity:before, .sidebar.registration:before {
-    border-top-color: #888 !important; }
+    border-top-color: #bbb !important; }
   .sidebar.opportunity .widget-list-item > a, .sidebar.registration .widget-list-item > a {
-    color: #888; }
+    color: #bbb; }
 
 .sidebar.seal {
   border-top-color: #cc0033; }
@@ -4138,10 +4138,10 @@ h1 .icon {
   background-color: #ed2891; }
 
 .tag-project {
-  background-color: #aaa; }
+  background-color: #999; }
 
 .tag-opportunity {
-  background-color: #888; }
+  background-color: #bbb; }
 
 .tag-seal {
   background-color: #cc0033; }
@@ -4528,7 +4528,7 @@ h1 .icon {
     margin-bottom: 0.75rem;
     line-height: 1.5; }
   .registrations-table tbody a, .my-registrations tbody a {
-    color: #888; }
+    color: #bbb; }
     .registrations-table tbody a.icon-download, .my-registrations tbody a.icon-download {
       width: 100%;
       vertical-align: top; }
@@ -4682,7 +4682,7 @@ h1 .icon {
       content: ""; } }
 
 .registration-header {
-  background-color: #888;
+  background-color: #bbb;
   color: #fff;
   padding: 0.75rem;
   border-radius: 2px; }
@@ -5652,18 +5652,36 @@ button.mfp-arrow-left {
     #main-header #brand-logo img {
       height: 48px; } }
 #main-header a {
-  color: #ccc; }
+  color: #777; }
 
+#home-agents {
+  background-image: url("/assets/img/home--agents.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 10000px rgba(114, 46, 121, 0.85); }
+#home-developers {
+  background-image: url("/assets/img/home--developers.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 10000px rgba(153, 153, 153, 0.85); }
 #home-events {
   background-image: url("http://iberculturaviva.org/wp-content/uploads/2016/05/cuatro-gatos-arte-al-parqie-529x350.jpg");
   background-size: cover;
-  box-shadow: inset 0 0 0 10000px rgba(238, 48, 66, 0.8); }
-
+  box-shadow: inset 0 0 0 10000px rgba(238, 48, 66, 0.85); }
+#home-intro {
+  background-image: url("/assets/img/home--intro.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 10000px rgba(114, 46, 121, 0.85); }
+#home-opportunities {
+  background-image: url("/assets/img/home--opportunities.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 10000px rgba(187, 187, 187, 0.85); }
+#home-projects {
+  background-image: url("/assets/img/home--projects.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0 0 10000px rgba(153, 153, 153, 0.85); }
 #home-spaces {
   background-image: url("http://iberculturaviva.org/wp-content/uploads/2016/11/jongo_pinheiral_1374170479.jpg");
   background-size: cover;
-  box-shadow: inset 0 0 0 10000px rgba(237, 40, 145, 0.8); }
-
+  box-shadow: inset 0 0 0 10000px rgba(237, 40, 145, 0.85); }
 #home-watermark {
   background: transparent; }
 
