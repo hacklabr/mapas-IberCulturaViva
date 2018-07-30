@@ -41,6 +41,14 @@
   a {
     color: #444;
   }
+
+  ul.submenu.hidden {
+    background-color: $white;
+  }
+
+  .user .submenu.hidden::before {
+    border-bottom: 8px solid $white;
+  }
 }
 
 #home {

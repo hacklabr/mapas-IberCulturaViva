@@ -5653,6 +5653,10 @@ button.mfp-arrow-left {
       height: 48px; } }
 #main-header a {
   color: #444; }
+#main-header ul.submenu.hidden {
+  background-color: #f7f7f7; }
+#main-header .user .submenu.hidden::before {
+  border-bottom: 8px solid #f7f7f7; }
 
 #home-agents {
   background-image: url("/assets/img/home--agents.jpg");
