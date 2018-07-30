@@ -35,6 +35,18 @@ class Theme extends BaseV1\Theme{
 //
 //            'search: verified results' => 'Resultados Verificados',
 //            'search: verified' => "Verificados"
+
+            'opportunity_claim' => i::__('Solicitud de Recurso de Convocatoria'),
+            'entities: Opportunities' => i::__('Convocatorias'),
+            'entities: My Opportunities' => i::__('Mis Convocatorias'),
+            'entities: My opportunities' => i::__('Mis convocatorias'),
+            'entities: opportunity found' => i::__('convocatoria encontrada'),
+            'entities: opportunities found' => i::__('convocatorias encontradas'),
+            'entities: Opportunities of the agent' => i::__('Convocatorias del agente'),
+            'entities: Opportunities of the space' => i::__('Convocatorias del espacio'),
+            'entities: Opportunities of the event' => i::__('Convocatorias del evento'),
+            'entities: opportunity' => i::__('convocatoria'),
+            'entities: opportunities' => i::__('convocatorias'),
         ];
     }
 
