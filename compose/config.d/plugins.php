@@ -2,9 +2,9 @@
 
 return [
     'plugins' => [
-        // ... outros plugins
-        'MultipleLocalAuth' => [
-            'namespace' => 'MultipleLocalAuth',
-        ],
+        'MultipleLocalAuth' => [ 'namespace' => 'MultipleLocalAuth' ],
+        'EvaluationMethodTechnical' => ['namespace' => 'EvaluationMethodTechnical'],
+        'EvaluationMethodSimple' => ['namespace' => 'EvaluationMethodSimple'],
+        'EvaluationMethodDocumentary' => ['namespace' => 'EvaluationMethodDocumentary']
     ]
 ];
