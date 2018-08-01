@@ -1,4 +1,4 @@
-FROM hacklab/mapasculturais:latest
+FROM hacklab/mapasculturais:4.1.1
 
 COPY themes/IberCulturaViva /var/www/html/protected/application/themes/IberCulturaViva
 
