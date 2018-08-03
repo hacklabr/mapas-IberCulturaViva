@@ -76,4 +76,11 @@ class Theme extends BaseV1\Theme{
         $this->jsObject['assets']['logo-instituicao'] = $this->asset('img/logo-instituicao.png', false);
     }
 
+    function getAddressByPostalCode($postalCode) {
+        return [
+            'success' => false,
+            'error_msg' => 'Busca por CEP desabilitada para esse tema.'
+        ];
+    }
+
 }
