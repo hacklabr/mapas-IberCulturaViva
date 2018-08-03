@@ -4,3 +4,10 @@
         display: none;
     }
 }
+
+// Hide CEP input
+.infos {
+    p.endereco + p {
+        display: none;
+    }
+}
