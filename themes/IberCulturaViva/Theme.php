@@ -23,7 +23,7 @@ class Theme extends BaseV1\Theme{
 //            'site: by the site owner' => 'pela Secretaria',
 //
            'home: title' => i::__("Bem-vind@!"),
-           'home: abbreviation' => "Mapa IberCultura Viva",
+           'home: abbreviation' => "plataforma MICV",
            'home: colabore' => i::__('Participe'),
            'home: welcome' => i::__("O Mapa IberCultura Viva é a plataforma livre, gratuita e colaborativa de mapeamento do programa de cooperação IberCultura Viva sobre as políticas culturais de base comunitária dos países iberoamericanos. É um espaço no qual você pode registrar-se como agente cultural, difundir seus eventos, cadastrar projetos, e inscrever-se nas convocatórias e concursos publicados.<br/><br/>
            A informação coletada pelo Mapa IberCultura Viva será utilizada para a construção/consolidação de indicadores culturais que fortalecerão os sistemas de informação cultural dos países membros."),
