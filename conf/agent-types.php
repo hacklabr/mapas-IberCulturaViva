@@ -14,7 +14,7 @@ return array(
 
         'documento' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('CPF ou CNPJ'),
+            'label' => \MapasCulturais\i::__('Documento de identidade'),
 //            'validations' => array(
 //                'required' => \MapasCulturais\i::__('Seu CPF ou CNPJ deve ser informado.'),
 //                'unique' => \MapasCulturais\i::__('Este documento já está registrado em nosso sistema.'),

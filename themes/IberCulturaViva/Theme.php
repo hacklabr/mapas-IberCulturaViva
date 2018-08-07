@@ -22,11 +22,11 @@ class Theme extends BaseV1\Theme{
 //            'site: owner' => 'Secretaria',
 //            'site: by the site owner' => 'pela Secretaria',
 //
-           'home: title' => i::__("Bienvenid@!"),
-           'home: abbreviation' => "MICV",
+           'home: title' => i::__("Bem-vind@!"),
+           'home: abbreviation' => "Mapa IberCultura Viva",
            'home: colabore' => i::__('Participe'),
-           'home: welcome' => i::__("El Mapa IberCultura Viva es la plataforma libre, gratuita y colaborativa de mapeo del programa de cooperación IberCultura Viva sobre las políticas culturales de base comunitaria de los países iberoamericanos. Es un espacio colaborativo en el que puedes registrarte como agente cultural, difundir tus eventos, subir espacios, proyectos, e inscribirte a las convocatorias y concursos publicados.<br/><br/>
-           La información recabada por el Mapa IberCultura Viva será utilizada para la construcción/consolidación de indicadores culturales que fortalecerán los sistemas de información cultural de los países miembros."),
+           'home: welcome' => i::__("O Mapa IberCultura Viva é a plataforma livre, gratuita e colaborativa de mapeamento do programa de cooperação IberCultura Viva sobre as políticas culturais de base comunitária dos países iberoamericanos. É um espaço no qual você pode registrar-se como agente cultural, difundir seus eventos, cadastrar projetos, e inscrever-se nas convocatórias e concursos publicados.<br/><br/>
+           A informação coletada pelo Mapa IberCultura Viva será utilizada para a construção/consolidação de indicadores culturais que fortalecerão os sistemas de informação cultural dos países membros."),
 //            'home: events' => "Você pode pesquisar eventos culturais nos campos de busca combinada. Como usuário cadastrado, você pode incluir seus eventos na plataforma e divulgá-los gratuitamente.",
 //            'home: agents' => "Você pode colaborar na gestão da cultura com suas próprias informações, preenchendo seu perfil de agente cultural. Neste espaço, estão registrados artistas, gestores e produtores; uma rede de atores envolvidos na cena cultural da região. Você pode cadastrar um ou mais agentes (grupos, coletivos, bandas instituições, empresas, etc.), além de associar ao seu perfil eventos e espaços culturais com divulgação gratuita.",
 //            'home: spaces' => "Procure por espaços culturais incluídos na plataforma, acessando os campos de busca combinada que ajudam na precisão de sua pesquisa. Cadastre também os espaços onde desenvolve suas atividades artísticas e culturais.",
@@ -35,18 +35,6 @@ class Theme extends BaseV1\Theme{
 //
 //            'search: verified results' => 'Resultados Verificados',
 //            'search: verified' => "Verificados"
-
-            'opportunity_claim' => i::__('Solicitud de Recurso de Convocatoria'),
-            'entities: Opportunities' => i::__('Convocatorias'),
-            'entities: My Opportunities' => i::__('Mis Convocatorias'),
-            'entities: My opportunities' => i::__('Mis convocatorias'),
-            'entities: opportunity found' => i::__('convocatoria encontrada'),
-            'entities: opportunities found' => i::__('convocatorias encontradas'),
-            'entities: Opportunities of the agent' => i::__('Convocatorias del agente'),
-            'entities: Opportunities of the space' => i::__('Convocatorias del espacio'),
-            'entities: Opportunities of the event' => i::__('Convocatorias del evento'),
-            'entities: opportunity' => i::__('convocatoria'),
-            'entities: opportunities' => i::__('convocatorias'),
         ];
     }
 
