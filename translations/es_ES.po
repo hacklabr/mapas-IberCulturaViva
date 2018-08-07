@@ -3116,20 +3116,20 @@ msgstr "Enviar mensaje"
 
 #: lib/modules/EntityOpportunities/Module.php:58
 msgid "Nome da aba oportunidade"
-msgstr "Nombre de la pestaña oportunidad"
+msgstr "Nombre de la pestaña convocatoria"
 
 #: lib/modules/EntityOpportunities/Module.php:62
 msgid "Usar a aba oportunidades?"
-msgstr "¿Usar la pestaña oportunidades?"
+msgstr "¿Usar la pestaña convocatorias?"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:10
 msgid "Configurações da aba Oportunidade"
-msgstr "Configuraciones de la pestaña Oportunidad"
+msgstr "Configuraciones de la pestaña Convocatoria"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:11
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:12
 msgid "Utilizar a aba de oportunidades?"
-msgstr "¿Utilizar la pestaña oportunidades?"
+msgstr "¿Utilizar la pestaña convocatorias?"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:14
 msgid "Nome da aba"
@@ -4453,7 +4453,7 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:178
 msgid "texto da seção \"oportunidades\" da home"
-msgstr "texto de la sección \"oportunidades\" de la home (página principal)"
+msgstr "texto de la sección \"convocatorias\" de la home (página principal)"
 
 #: themes/BaseV1/Theme.php:180
 msgid ""
@@ -5146,15 +5146,15 @@ msgstr "proyectos"
 
 #: themes/BaseV1/Theme.php:465 themes/BaseV1/Theme.php:527
 msgid "texto \"Oportunidades\""
-msgstr "texto \"Oportunidades\""
+msgstr "texto \"Convocatorias\""
 
 #: themes/BaseV1/Theme.php:466 themes/BaseV1/Theme.php:528
 msgid "nome da entidade Oportunidade no plural"
-msgstr "nombre de la entidad Oportunidad en plural"
+msgstr "nombre de la entidad Convocatoria en plural"
 
 #: themes/BaseV1/Theme.php:471 themes/BaseV1/Theme.php:533
 msgid "texto \"Minhas Oportunidades\""
-msgstr "texto \"Mis Oportunidades\""
+msgstr "texto \"Mis Convocatorias\""
 
 #: themes/BaseV1/Theme.php:473 themes/BaseV1/Theme.php:474
 #: themes/BaseV1/Theme.php:535 themes/BaseV1/Theme.php:536
@@ -5165,7 +5165,7 @@ msgstr "Mis Convocatorias"
 
 #: themes/BaseV1/Theme.php:477 themes/BaseV1/Theme.php:539
 msgid "texto \"Minhas oportunidades\""
-msgstr "texto \"Mis Oportunidades\""
+msgstr "texto \"Mis Convocatorias\""
 
 #: themes/BaseV1/Theme.php:479 themes/BaseV1/Theme.php:480
 #: themes/BaseV1/Theme.php:541 themes/BaseV1/Theme.php:542
@@ -5175,7 +5175,7 @@ msgstr "Mis convocatorias"
 
 #: themes/BaseV1/Theme.php:483 themes/BaseV1/Theme.php:545
 msgid "texto \"oportunidade encontrada\""
-msgstr "texto \"convoca encontrada\""
+msgstr "texto \"convocatoria encontrada\""
 
 #: themes/BaseV1/Theme.php:485 themes/BaseV1/Theme.php:486
 #: themes/BaseV1/Theme.php:547 themes/BaseV1/Theme.php:548
@@ -5184,7 +5184,7 @@ msgstr "convocatoria encontrada"
 
 #: themes/BaseV1/Theme.php:489 themes/BaseV1/Theme.php:551
 msgid "texto \"oportunidades encontradas\""
-msgstr "texto \"oportunidades encontradas \""
+msgstr "texto \"convocatorias encontradas \""
 
 #: themes/BaseV1/Theme.php:491 themes/BaseV1/Theme.php:492
 #: themes/BaseV1/Theme.php:553 themes/BaseV1/Theme.php:554
@@ -5193,11 +5193,11 @@ msgstr "convocatorias encontradas"
 
 #: themes/BaseV1/Theme.php:495 themes/BaseV1/Theme.php:557
 msgid "texto \"Oportunidades do agente\""
-msgstr "texto \"Oportunidades del agente\""
+msgstr "texto \"Convocatorias del agente\""
 
 #: themes/BaseV1/Theme.php:496 themes/BaseV1/Theme.php:558
 msgid "Título da listagem das oportunidades do agente em seu perfil"
-msgstr "Título del listado de las oportunidades del agente en su perfil"
+msgstr "Título del listado de las convocatorias del agente en su perfil"
 
 #: themes/BaseV1/Theme.php:497 themes/BaseV1/Theme.php:498
 #: themes/BaseV1/Theme.php:559 themes/BaseV1/Theme.php:560
@@ -5206,11 +5206,11 @@ msgstr "Convocatorias del agente"
 
 #: themes/BaseV1/Theme.php:501 themes/BaseV1/Theme.php:563
 msgid "texto \"Oportunidades do espaço\""
-msgstr "texto \"Oportunidades del espacio\""
+msgstr "texto \"Convocatorias del espacio\""
 
 #: themes/BaseV1/Theme.php:502 themes/BaseV1/Theme.php:564
 msgid "Título da listagem das oportunidades do espaço"
-msgstr "Título del listado de las oportunidades del espacio"
+msgstr "Título del listado de las convocatorias del espacio"
 
 #: themes/BaseV1/Theme.php:503 themes/BaseV1/Theme.php:504
 #: themes/BaseV1/Theme.php:565 themes/BaseV1/Theme.php:566
@@ -5227,11 +5227,11 @@ msgstr "Convocatorias del espacio"
 
 #: themes/BaseV1/Theme.php:507 themes/BaseV1/Theme.php:569
 msgid "texto \"Oportunidades do evento\""
-msgstr "texto \"Oportunidades del evento\""
+msgstr "texto \"Convocatorias del evento\""
 
 #: themes/BaseV1/Theme.php:508 themes/BaseV1/Theme.php:570
 msgid "Título da listagem das oportunidades do evento"
-msgstr "Título del listado de las oportunidades del evento"
+msgstr "Título del listado de las convocatorias del evento"
 
 #: themes/BaseV1/Theme.php:509 themes/BaseV1/Theme.php:510
 #: themes/BaseV1/Theme.php:571 themes/BaseV1/Theme.php:572
@@ -5248,11 +5248,11 @@ msgstr "Convocatorias del evento"
 
 #: themes/BaseV1/Theme.php:513
 msgid "texto \"oportunidade\""
-msgstr "texto \"oportunidad\""
+msgstr "texto \"convocatoria\""
 
 #: themes/BaseV1/Theme.php:514
 msgid "nome da entidade Oportunidade no singular em minúsculo"
-msgstr "nombre de la entidad Oportunidad en sigular en minúscula"
+msgstr "nombre de la entidad Convocatoria en sigular en minúscula"
 
 #: themes/BaseV1/Theme.php:515 themes/BaseV1/Theme.php:516
 #: themes/BaseV1/Theme.php:1564
@@ -5261,11 +5261,11 @@ msgstr "convocatoria"
 
 #: themes/BaseV1/Theme.php:519
 msgid "texto \"oportunidades\""
-msgstr "texto \"oportunidades\""
+msgstr "texto \"convocatorias\""
 
 #: themes/BaseV1/Theme.php:520
 msgid "nome da entidade Oportunidade no plural em minúsculo"
-msgstr "nombre de la entidad Oportunidad en plural en minúscula"
+msgstr "nombre de la entidad Convocatoria en plural en minúscula"
 
 #: themes/BaseV1/Theme.php:521 themes/BaseV1/Theme.php:522
 msgid "oportunidades"
