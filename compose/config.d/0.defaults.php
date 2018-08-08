@@ -96,5 +96,5 @@ return [
     'app.log.assets' => env('LOG_ASSETS', false),
 
     'app.useGoogleGeocode' => true,
-    'app.googleApiKey' => 'AIzaSyBPS0XAyLSk4qBSHefCfIHwkS5S15hBt8k',
+    'app.googleApiKey' => env('GOOGLE_GEOCODING_API_KEY', ''),
 ];
