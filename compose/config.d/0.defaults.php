@@ -1,4 +1,6 @@
 <?php
+define('APP_BASE_URL', (isset($_SERVER['HTTPS']) ? 'https://' : 'http://' ) . @$_SERVER['HTTP_HOST'] . '/');
+
 switch(env('LOG_LEVEL', 'NOTICE')){
     case 'ALERT':
         $loglevel = \Slim\Log::ALERT;
@@ -38,7 +40,7 @@ return [
 
     'themes.active' => env('ACTIVE_THEME', 'MapasCulturais\Themes\BaseV1'),
 
-    'app.lcode' => env('APP_LCODE', 'pt_BR'),
+    'app.lcode' => env('APP_LCODE', 'es_ES,pt_BR'),
 
     'namespaces' => array(
         'MapasCulturais\Themes' => THEMES_PATH,
