@@ -1,0 +1,13 @@
+// Hide sexual orientation
+.ficha-spcultura {
+    p.privado:nth-child(6) {
+        display: none;
+    }
+}
+
+// Hide CEP input
+.infos {
+    p.endereco + p {
+        display: none;
+    }
+}

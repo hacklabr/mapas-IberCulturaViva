@@ -1,1 +1,3 @@
 docker-data
+themes/*/assets/css/*.css
+themes/*/assets/css/*.css.map
