@@ -9,6 +9,9 @@
  *      number: number,
  *      neighborhood: neighborhood,
  *      city: city,
+ *      state: state,
+ *      country: country,
+ *      postalCode: cep
  *  }, geocode_callback);
  *
  */
@@ -27,11 +30,20 @@ MapasCulturais.geocoder = {
 
         var address = false;
 
+        if (addressElements.fullAddress)
+            address = addressElements.fullAddress;
+
         if (!address) {
             address = addressElements.streetName + (addressElements.number ? ', ' + addressElements.number : '');
 
             if (addressElements.city)
                 address += ', ' + addressElements.city;
+
+            if (addressElements.state)
+                address += ', ' + addressElements.state;
+
+            if (addressElements.country)
+            address += ', ' + addressElements.country;
         }
 
         this.geocoder.geocode({'address': address}, function(results, status) {
