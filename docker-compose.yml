@@ -49,6 +49,8 @@ services:
       - SLIM_DEBUG=true
       - ACTIVE_THEME=IberCulturaViva
 
+      - GOOGLE_GEOCODING_API_KEY=AIzaSyCkHK9L03_cQZLy8TM8O0YgDmAGWLGPbgk
+
     depends_on:
       - db
 
