@@ -95,5 +95,6 @@ return [
     'app.log.apiDql' => env('LOG_APIDQL', false),
     'app.log.assets' => env('LOG_ASSETS', false),
 
-    'app.useAssetsUrlCache' => env('USE_CACHE_ASSETS', true),
+    'app.useGoogleGeocode' => true,
+    'app.googleApiKey' => 'AIzaSyBPS0XAyLSk4qBSHefCfIHwkS5S15hBt8k',
 ];
