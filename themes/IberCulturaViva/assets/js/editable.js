@@ -1122,8 +1122,9 @@ $(function(){
         var bairro = $('#En_Bairro').editable('getValue', true);
         var municipio = $('#En_Municipio').editable('getValue', true);
         var estado = $('#En_Estado').editable('getValue', true);
-        if(nome_logradouro && numero && bairro && municipio){
-            var endereco = MapasCulturais.buildAddress(nome_logradouro, numero, complemento, bairro, municipio, estado, cep);
+        var pais = $('#En_Pais').editable('getValue', true);
+        if (nome_logradouro && numero && bairro && municipio && estado && pais){
+            var endereco = MapasCulturais.buildAddress(nome_logradouro, numero, complemento, bairro, municipio, estado, pais, cep);
             $('#endereco').editable('setValue', endereco);
             $('#endereco').trigger('changeAddress', endereco);
             $('.js-endereco').html(endereco);
@@ -1132,7 +1133,7 @@ $(function(){
 
     };
 
-    $('#En_Nome_Logradouro, #En_CEP, #En_Num, #En_Complemento, #En_Bairro, #En_Municipio,  #En_Estado').on('hidden', function(e, params) {
+    $('#En_Nome_Logradouro, #En_CEP, #En_Num, #En_Complemento, #En_Bairro, #En_Municipio,  #En_Estado, #En_Pais').on('hidden', function(e, params) {
         concatena_enderco();
     });
 

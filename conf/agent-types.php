@@ -180,37 +180,26 @@ return array(
             'label' => \MapasCulturais\i::__('Estado'),
             'private' => function(){
                 return !$this->publicLocation;
+            }
+        ],
+        'En_Pais' => [
+            'label' => \MapasCulturais\i::__('País'),
+            'private' => function(){
+                return !$this->publicLocation;
             },
             'type' => 'select',
-
             'options' => array(
-                'AC'=>'Acre',
-                'AL'=>'Alagoas',
-                'AP'=>'Amapá',
-                'AM'=>'Amazonas',
-                'BA'=>'Bahia',
-                'CE'=>'Ceará',
-                'DF'=>'Distrito Federal',
-                'ES'=>'Espírito Santo',
-                'GO'=>'Goiás',
-                'MA'=>'Maranhão',
-                'MT'=>'Mato Grosso',
-                'MS'=>'Mato Grosso do Sul',
-                'MG'=>'Minas Gerais',
-                'PA'=>'Pará',
-                'PB'=>'Paraíba',
-                'PR'=>'Paraná',
-                'PE'=>'Pernambuco',
-                'PI'=>'Piauí',
-                'RJ'=>'Rio de Janeiro',
-                'RN'=>'Rio Grande do Norte',
-                'RS'=>'Rio Grande do Sul',
-                'RO'=>'Rondônia',
-                'RR'=>'Roraima',
-                'SC'=>'Santa Catarina',
-                'SP'=>'São Paulo',
-                'SE'=>'Sergipe',
-                'TO'=>'Tocantins',
+                'AR'=>'Argentina',
+                'BR'=>'Brasil',
+                'CL'=>'Chile',
+                'CR'=>'Costa Rica',
+                'EC'=>'Ecuador',
+                'SV'=>'El Salvador',
+                'ES'=>'España',
+                'GT'=>'Guatemala',
+                'MX'=>'México',
+                'PE'=>'Perú',
+                'UY'=>'Uruguay',
             )
         ],
 

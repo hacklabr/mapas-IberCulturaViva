@@ -59,8 +59,6 @@ class Theme extends BaseV1\Theme{
         $this->asset('img/home--projects.jpg', false);
         $this->asset('img/home--spaces.jpg', false);
 
-        $this->enqueueScript('app', 'hide-fields', 'js/hide-fields.js');
-
         $this->jsObject['assets']['logo-instituicao'] = $this->asset('img/logo-instituicao.png', false);
     }
 

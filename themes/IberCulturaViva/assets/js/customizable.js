@@ -19,8 +19,8 @@
  *
  *
  */
-MapasCulturais.buildAddress = function(streetName, streetNumber, complement, neighborhood, city, state, postalCode) {
-    return streetName + ", " + streetNumber + (complement ? ", " + complement : "") + (neighborhood ? ", " + neighborhood : "") + ", " + city;
+MapasCulturais.buildAddress = function(streetName, streetNumber, complement, neighborhood, city, state, country, postalCode) {
+    return streetName + ", " + streetNumber + (complement ? ", " + complement : "") + ", " + neighborhood + ", " + postalCode  + ", " + city + ", " + state + ", " + country;
 }
 
 
