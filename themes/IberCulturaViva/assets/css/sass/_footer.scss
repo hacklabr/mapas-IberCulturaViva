@@ -1,0 +1,61 @@
+#main-section {
+min-height: 90vh;
+}
+
+footer#main-footer {
+    bottom: 0;
+    color: #111;
+    display: table;
+    padding: 30px 0 0;
+    position: absolute;
+    width: 100%;
+
+    .column {
+        display: table-cell;
+        margin: 0;
+        text-align: center;
+        vertical-align: middle;
+        width: 50%;
+
+        .logo-iberculturaviva {
+            img {
+                width: 200px;
+                max-width: 90%;
+            }
+        }
+
+        .logo-hacklab {
+
+            a {
+                display: inline-flex;
+
+                img {
+                    height: 18px;
+                    position: relative;
+                    top: 3px;
+                }
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+
+    .social-icons {
+        display: flex;
+        font-family: 'ElegantIcons';
+        justify-content: center;
+
+        a {
+            color: darkgray;
+            font-size: 18px;
+            padding: 0 5px;
+
+            &:hover {
+                color: $brand-primary;
+                text-decoration: none;
+            }
+        }
+    }
+}
