@@ -91,27 +91,32 @@
   }
 }
 
+#main-section {
+  min-height: 90vh;
+}
+
 footer#main-footer {
+  bottom: 0;
   color: #111;
+  display: table;
+  padding: 30px 0 0;
+  position: absolute;
+  width: 100%;
 
-  .row {
-    display: inline-block;
+  .column {
+    display: table-cell;
+    margin: 0;
     text-align: center;
-    width: 100%;
+    vertical-align: middle;
+    width: 50%;
 
-    .col-6 {
-      display: inline-block;
-      vertical-align: middle;
-      width: 49%;
-
-      img {
-        width: 200px;
-        max-width: 90%;
-      }
+    img {
+      width: 200px;
+      max-width: 90%;
     }
+  }
 
-    p {
-      margin-bottom: 5px;
-    }
+  p {
+    margin-bottom: 5px;
   }
 }
