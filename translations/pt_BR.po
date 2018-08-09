@@ -1100,7 +1100,7 @@ msgstr ""
 
 #: conf/conf-base.php:65
 msgid "Solicitação de Recurso de Oportunidade"
-msgstr "Solicitação de Recurso de Convocatória"
+msgstr "Solicitação de Recurso de Edital"
 
 #: conf/conf-base.php:69
 msgid "Solicitação de requisição"
@@ -1383,7 +1383,7 @@ msgstr ""
 
 #: conf/conf-base.php:455 lib/MapasCulturais/Entities/Opportunity.php:304
 msgid "Oportunidade"
-msgstr "Convocatória"
+msgstr "Edital"
 
 #: conf/conf-base.php:455 lib/MapasCulturais/Entities/Opportunity.php:302
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--tabs-edit.php:1
@@ -1396,7 +1396,7 @@ msgstr "Convocatória"
 #: themes/BaseV1/layouts/parts/singles/subsite-entities.php:70
 #: themes/BaseV1/layouts/parts/singles/subsite-entities.php:71
 msgid "Oportunidades"
-msgstr "Convocatórias"
+msgstr "Editais"
 
 #: conf/conf-base.php:456
 #: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--admin--table.php:10
@@ -2488,12 +2488,12 @@ msgstr ""
 #: lib/MapasCulturais/Controllers/Opportunity.php:89
 #, php-format
 msgid "oportunidade-%s--inscricoes"
-msgstr "convocatoria-%s--inscricoes"
+msgstr "edital-%s--inscricoes"
 
 #: lib/MapasCulturais/Controllers/Opportunity.php:112
 #, php-format
 msgid "oportunidade-%s--avaliacoes"
-msgstr "convocatoria-%s--avaliacoes"
+msgstr "edital-%s--avaliacoes"
 
 #: lib/MapasCulturais/Controllers/Registration.php:186
 msgid "Este formulário é um pré-visualização da da ficha de inscrição."
@@ -2596,7 +2596,7 @@ msgstr ""
 
 #: lib/MapasCulturais/Entities/Opportunity.php:310
 msgid "O nome da oportunidade é obrigatório"
-msgstr "O nome da convocatória é obrigatório"
+msgstr "O nome do edital é obrigatório"
 
 #: lib/MapasCulturais/Entities/Opportunity.php:313
 msgid "A introdução é obrigatória"
@@ -2604,7 +2604,7 @@ msgstr ""
 
 #: lib/MapasCulturais/Entities/Opportunity.php:316
 msgid "O tipo da oportunidade é obrigatório"
-msgstr "O tipo da convocatória é obrigatório"
+msgstr "O tipo do edital é obrigatório"
 
 #: lib/MapasCulturais/Entities/Opportunity.php:319
 #: lib/MapasCulturais/Entities/Opportunity.php:323
@@ -2705,7 +2705,7 @@ msgstr ""
 
 #: lib/MapasCulturais/Entities/RegistrationFileConfiguration.php:87
 msgid "A oportunidade é obrigatória."
-msgstr "A convocatória é obrigatória."
+msgstr "O edital é obrigatório."
 
 #: lib/MapasCulturais/Entities/Seal.php:162
 msgid "O nome do selo é obrigatório"
@@ -2920,7 +2920,7 @@ msgstr ""
 
 #: lib/MapasCulturais/Traits/ControllerOpportunities.php:21
 msgid "Nova Oportunidade"
-msgstr "Nova Convocatória"
+msgstr "Novo Edital"
 
 #: lib/MapasCulturais/Traits/ControllerSealRelation.php:119
 #, php-format
@@ -3175,20 +3175,20 @@ msgstr ""
 
 #: lib/modules/EntityOpportunities/Module.php:58
 msgid "Nome da aba oportunidade"
-msgstr "Nome da aba convocatória"
+msgstr "Nome da aba edital"
 
 #: lib/modules/EntityOpportunities/Module.php:62
 msgid "Usar a aba oportunidades?"
-msgstr "Usar a aba convocatórias?"
+msgstr "Usar a aba editais?"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:10
 msgid "Configurações da aba Oportunidade"
-msgstr "Configurações da aba Convocatória"
+msgstr "Configurações da aba Edital"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:11
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:12
 msgid "Utilizar a aba de oportunidades?"
-msgstr "Utilizar a aba de convocatórias?"
+msgstr "Utilizar a aba de editais?"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:14
 msgid "Nome da aba"
@@ -3204,11 +3204,11 @@ msgstr ""
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:18
 msgid "Escolha o método de avaliação da oportunidade"
-msgstr "Escolha o método de avaliação da convocatória"
+msgstr "Escolha o método de avaliação do edital"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:31
 msgid "Criar oportunidade"
-msgstr "Criar convocatória"
+msgstr "Criar edital"
 
 #: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--item.php:16
 msgid "(Rascunho)"
@@ -3216,12 +3216,12 @@ msgstr ""
 
 #: lib/modules/Notifications/Module.php:84
 msgid "Requisição para avaliar oportunidade"
-msgstr "Requisição para avaliar convocatória"
+msgstr "Requisição para avaliar edital"
 
 #: lib/modules/Notifications/Module.php:85
 #, php-format
 msgid "%s te convida para avaliar a oportunidade %s vinculada ao %s %s."
-msgstr "%s te convida para avaliar a convocatória %s vinculada ao %s %s."
+msgstr "%s te convida para avaliar o edital %s vinculado ao %s %s."
 
 #: lib/modules/Notifications/Module.php:86
 #, php-format
@@ -3601,11 +3601,11 @@ msgstr ""
 
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phase-status.php:10
 msgid "Esta fase da oportunidade é um rascunho."
-msgstr "Esta fase da convocatória é um rascunho."
+msgstr "Esta fase do edital é um rascunho."
 
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phase-status.php:12
 msgid "Esta fase da oportunidade está na lixeira."
-msgstr "Esta fase da convocatória está na lixeira."
+msgstr "Esta fase do edital está na lixeira."
 
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phases-tabs.php:4
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:87
@@ -4407,7 +4407,7 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:178
 msgid "texto da seção \"oportunidades\" da home"
-msgstr "texto da seção \"convocatórias\" da home"
+msgstr "texto da seção \"editais\" da home"
 
 #: themes/BaseV1/Theme.php:180
 msgid ""
@@ -4415,9 +4415,8 @@ msgid ""
 "editais, oficinas, prêmios e concursos. Você também pode criar o seu próprio "
 "formulário e divulgar uma oportunidade para outros agentes culturais."
 msgstr ""
-"Faça a sua inscrição ou acesse o resultado de diversas convocatórias como "
-"editais, oficinas, prêmios e concursos. Você também pode criar o seu próprio "
-"formulário e divulgar uma convocatória para outros agentes culturais."
+"Faça a sua inscrição ou acesse o resultado de diversos editais. Você também "
+"pode criar o seu próprio formulário e divulgar para outros agentes culturais."
 
 #: themes/BaseV1/Theme.php:183
 msgid "texto da seção \"desenvolvedores\" da home"
@@ -5086,76 +5085,76 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:465 themes/BaseV1/Theme.php:527
 msgid "texto \"Oportunidades\""
-msgstr "texto \"Convocatórias\""
+msgstr "texto \"Editais\""
 
 #: themes/BaseV1/Theme.php:466 themes/BaseV1/Theme.php:528
 msgid "nome da entidade Oportunidade no plural"
-msgstr "nome da entidade Convocatória no plural"
+msgstr "nome da entidade Edital no plural"
 
 #: themes/BaseV1/Theme.php:471 themes/BaseV1/Theme.php:533
 msgid "texto \"Minhas Oportunidades\""
-msgstr "texto \"Minhas Convocatórias\""
+msgstr "texto \"Meus Editais\""
 
 #: themes/BaseV1/Theme.php:473 themes/BaseV1/Theme.php:474
 #: themes/BaseV1/Theme.php:535 themes/BaseV1/Theme.php:536
 #: themes/BaseV1/layouts/parts/nav-main-user.php:70
 #: themes/BaseV1/layouts/parts/panel-nav.php:38
 msgid "Minhas Oportunidades"
-msgstr "Minhas Convocatórias"
+msgstr "Meus Editais"
 
 #: themes/BaseV1/Theme.php:477 themes/BaseV1/Theme.php:539
 msgid "texto \"Minhas oportunidades\""
-msgstr "texto \"Minhas convocatórias\""
+msgstr "texto \"Meus editais\""
 
 #: themes/BaseV1/Theme.php:479 themes/BaseV1/Theme.php:480
 #: themes/BaseV1/Theme.php:541 themes/BaseV1/Theme.php:542
 #: themes/BaseV1/views/panel/opportunities.php:7
 msgid "Minhas oportunidades"
-msgstr "Minhas convocatórias"
+msgstr "Meus editais"
 
 #: themes/BaseV1/Theme.php:483 themes/BaseV1/Theme.php:545
 msgid "texto \"oportunidade encontrada\""
-msgstr "texto \"convocatória encontrada\""
+msgstr "texto \"edital encontrado\""
 
 #: themes/BaseV1/Theme.php:485 themes/BaseV1/Theme.php:486
 #: themes/BaseV1/Theme.php:547 themes/BaseV1/Theme.php:548
 msgid "oportunidade encontrada"
-msgstr "convocatória encontrada"
+msgstr "edital encontrado"
 
 #: themes/BaseV1/Theme.php:489 themes/BaseV1/Theme.php:551
 msgid "texto \"oportunidades encontradas\""
-msgstr "texto \"convocatórias encontradas\""
+msgstr "texto \"editais encontrados\""
 
 #: themes/BaseV1/Theme.php:491 themes/BaseV1/Theme.php:492
 #: themes/BaseV1/Theme.php:553 themes/BaseV1/Theme.php:554
 msgid "oportunidades encontradas"
-msgstr "convocatórias encontradas"
+msgstr "editais encontrados"
 
 #: themes/BaseV1/Theme.php:495 themes/BaseV1/Theme.php:557
 msgid "texto \"Oportunidades do agente\""
-msgstr "texto \"Convocatórias do agente\""
+msgstr "texto \"Editais do agente\""
 
 #: themes/BaseV1/Theme.php:496 themes/BaseV1/Theme.php:558
 msgid "Título da listagem das oportunidades do agente em seu perfil"
-msgstr "Título da listagem das convocatórias do agente em seu perfil"
+msgstr "Título da listagem dos editais do agente em seu perfil"
 
 #: themes/BaseV1/Theme.php:497 themes/BaseV1/Theme.php:498
 #: themes/BaseV1/Theme.php:559 themes/BaseV1/Theme.php:560
 msgid "Oportunidades do agente"
-msgstr "Convocatórias"
+msgstr "Editais do agente"
 
 #: themes/BaseV1/Theme.php:501 themes/BaseV1/Theme.php:563
 msgid "texto \"Oportunidades do espaço\""
-msgstr "texto \"Convocatórias do espaço\""
+msgstr "texto \"Editais do espaço\""
 
 #: themes/BaseV1/Theme.php:502 themes/BaseV1/Theme.php:564
 msgid "Título da listagem das oportunidades do espaço"
-msgstr "Título da listagem das convocatórias do espaço"
+msgstr "Título da listagem dos editais do espaço"
 
 #: themes/BaseV1/Theme.php:503 themes/BaseV1/Theme.php:504
 #: themes/BaseV1/Theme.php:565 themes/BaseV1/Theme.php:566
 msgid "Oportunidades do espaço"
-msgstr "Convocatórias do espaço"
+msgstr "Editais do espaço"
 
 #: themes/BaseV1/Theme.php:503 themes/BaseV1/Theme.php:565
 msgid "Editais do espaço"
@@ -5167,16 +5166,16 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:507 themes/BaseV1/Theme.php:569
 msgid "texto \"Oportunidades do evento\""
-msgstr "texto \"Convocatórias do evento\""
+msgstr "texto \"Editais do evento\""
 
 #: themes/BaseV1/Theme.php:508 themes/BaseV1/Theme.php:570
 msgid "Título da listagem das oportunidades do evento"
-msgstr "Título da listagem das convocatórias do evento"
+msgstr "Título da listagem dos editais do evento"
 
 #: themes/BaseV1/Theme.php:509 themes/BaseV1/Theme.php:510
 #: themes/BaseV1/Theme.php:571 themes/BaseV1/Theme.php:572
 msgid "Oportunidades do evento"
-msgstr "Convocatórias do evento"
+msgstr "Editais do evento"
 
 #: themes/BaseV1/Theme.php:509 themes/BaseV1/Theme.php:571
 msgid "Editais do evento"
@@ -5188,28 +5187,28 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:513
 msgid "texto \"oportunidade\""
-msgstr "texto \"convocatória\""
+msgstr "texto \"edital\""
 
 #: themes/BaseV1/Theme.php:514
 msgid "nome da entidade Oportunidade no singular em minúsculo"
-msgstr "nome da entidade Convocatória no singular em minúsculo"
+msgstr "nome da entidade Edital no singular em minúsculo"
 
 #: themes/BaseV1/Theme.php:515 themes/BaseV1/Theme.php:516
 #: themes/BaseV1/Theme.php:1564
 msgid "oportunidade"
-msgstr "convocatória"
+msgstr "edital"
 
 #: themes/BaseV1/Theme.php:519
 msgid "texto \"oportunidades\""
-msgstr "texto \"convocatórias\""
+msgstr "texto \"editais\""
 
 #: themes/BaseV1/Theme.php:520
 msgid "nome da entidade Oportunidade no plural em minúsculo"
-msgstr "nome da entidade Convocatórias no plural em minúsculo"
+msgstr "nome da entidade Edital no plural em minúsculo"
 
 #: themes/BaseV1/Theme.php:521 themes/BaseV1/Theme.php:522
 msgid "oportunidades"
-msgstr "convocatórias"
+msgstr "editais"
 
 #: themes/BaseV1/Theme.php:578
 msgid "texto \"Eventos\""
@@ -5661,7 +5660,7 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:1624
 msgid "esta oportunidade"
-msgstr "esta convocatória"
+msgstr "este edital"
 
 #: themes/BaseV1/Theme.php:1625
 #, php-format
@@ -5919,15 +5918,14 @@ msgstr ""
 
 #: themes/BaseV1/Theme.php:1844
 msgid "O número de vagas da inscrição no oportunidade se esgotou."
-msgstr "O número de vagas da inscrição na convocatória se esgotou."
+msgstr "O número de vagas da inscrição no edital se esgotou."
 
 #: themes/BaseV1/Theme.php:1845
 msgid ""
 "Para se inscrever nesta oportunidade você deve selecionar um agente "
 "responsável."
 msgstr ""
-"Para se inscrever nesta convocatória você deve selecionar um agente "
-"responsável."
+"Para se inscrever neste edital você deve selecionar um agente responsável."
 
 #: themes/BaseV1/Theme.php:1848
 msgid "Você tem certeza que deseja excluir o avaliador?"
@@ -6346,15 +6344,15 @@ msgstr ""
 
 #: themes/BaseV1/layouts/parts/home-opportunities.php:29
 msgid "oportunidades cadastradas"
-msgstr "convocatórias cadastradas"
+msgstr "editais cadastrados"
 
 #: themes/BaseV1/layouts/parts/home-opportunities.php:33
 msgid "oportunidades da "
-msgstr "convocatórias da"
+msgstr "editais da "
 
 #: themes/BaseV1/layouts/parts/home-opportunities.php:37
 msgid "Encontre oportunidades por"
-msgstr "Encontre convocatórias por"
+msgstr "Encontre editais por"
 
 #: themes/BaseV1/layouts/parts/home-projects.php:29
 msgid "projetos cadastrados"
@@ -7418,7 +7416,7 @@ msgstr ""
 #: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--committee--table.php:50
 #: themes/BaseV1/layouts/parts/singles/opportunity-registrations--tables--manager.php:89
 msgid "Número máximo de vagas na oportunidade:"
-msgstr "Número máximo de vagas na convocatória:"
+msgstr "Número máximo de vagas no edital:"
 
 #: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--admin--table.php:38
 #: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--committee--table.php:53
@@ -7588,8 +7586,8 @@ msgid ""
 "As inscrições para esta oportunidade já foram encerradas. Não é mais "
 "possível configurar a avaliação."
 msgstr ""
-"As inscrições para esta convocatória já foram encerradas. Não é mais "
-"possível configurar a avaliação."
+"As inscrições para este edital já foram encerradas. Não é mais possível "
+"configurar a avaliação."
 
 #: themes/BaseV1/layouts/parts/singles/opportunity-registrations--agent-relations.php:11
 msgid ""
@@ -9205,11 +9203,11 @@ msgstr ""
 
 #: themes/BaseV1/views/panel/index.php:98
 msgid "Ver minhas oportunidades"
-msgstr "Ver minhas convocatórias"
+msgstr "Ver meus editais"
 
 #: themes/BaseV1/views/panel/index.php:100
 msgid "Ver Oportunidades Cedidas"
-msgstr "Ver Convocatórias Cedidas"
+msgstr "Ver Editais Cedidos"
 
 #: themes/BaseV1/views/panel/index.php:114
 msgid "Ver meus subsites"
@@ -9259,23 +9257,23 @@ msgstr ""
 
 #: themes/BaseV1/views/panel/opportunities.php:22
 msgid "Você não possui nehuma oportunidade."
-msgstr "Você não possui nehuma convocatória."
+msgstr "Você não possui nehum edital."
 
 #: themes/BaseV1/views/panel/opportunities.php:31
 msgid "Você não possui nenhum rascunho de oportunidade."
-msgstr "Você não possui nenhum rascunho de convocatória."
+msgstr "Você não possui nenhum rascunho de edital."
 
 #: themes/BaseV1/views/panel/opportunities.php:40
 msgid "Você não possui nenhuma oportunidade na lixeira."
-msgstr "Você não possui nenhuma convocatória na lixeira."
+msgstr "Você não possui nenhum edital na lixeira."
 
 #: themes/BaseV1/views/panel/opportunities.php:50
 msgid "Você não possui nenhuma oportunidade arquivada."
-msgstr "Você não possui nenhuma convocatória arquivada."
+msgstr "Você não possui nenhum edital arquivado."
 
 #: themes/BaseV1/views/panel/opportunities.php:60
 msgid "Você não possui nehuma oportunidade liberada."
-msgstr "Você não possui nehuma convocatória liberada."
+msgstr "Você não possui nenhum edital liberado."
 
 #: themes/BaseV1/views/panel/projects.php:7
 msgid "Adicionar novo projeto"

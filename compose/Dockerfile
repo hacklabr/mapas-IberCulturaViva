@@ -9,6 +9,8 @@ COPY conf/agent-types.php /var/www/html/protected/application/conf/agent-types.p
 COPY conf/opportunity-types.php /var/www/html/protected/application/conf/opportunity-types.php
 COPY conf/taxonomies.php /var/www/html/protected/application/conf/taxonomies.php
 
+COPY translations/pt_BR.mo /var/www/html/protected/application/translations/pt_BR.mo
+COPY translations/pt_BR.po /var/www/html/protected/application/translations/pt_BR.po
 COPY translations/es_ES.mo /var/www/html/protected/application/translations/es_ES.mo
 COPY translations/es_ES.po /var/www/html/protected/application/translations/es_ES.po
 

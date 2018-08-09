@@ -41,6 +41,8 @@ services:
       - ./conf/taxonomies.php:/var/www/html/protected/application/conf/taxonomies.php
       - ./translations/es_ES.mo:/var/www/html/protected/application/translations/es_ES.mo
       - ./translations/es_ES.po:/var/www/html/protected/application/translations/es_ES.po
+      - ./translations/pt_BR.mo:/var/www/html/protected/application/translations/pt_BR.mo
+      - ./translations/pt_BR.po:/var/www/html/protected/application/translations/pt_BR.po
 
     links:
       - db
