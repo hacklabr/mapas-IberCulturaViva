@@ -1,5 +1,5 @@
 @mixin backgroundTransparency($image, $color) {
     background-image: url($image);
     background-size: cover;
-    box-shadow: inset 0 0 0 10000px rgba($color, 0.9);
+    box-shadow: inset 0 0 0 10000px rgba($color, 0.85);
 }
