@@ -1,9 +1,7 @@
 FROM hacklab/mapasculturais:develop
 
-COPY themes/IberCulturaViva /var/www/html/protected/application/themes/IberCulturaViva
-
 RUN git clone https://github.com/LibreCoopUruguay/MultipleLocalAuth /var/www/html/protected/application/plugins/MultipleLocalAuth
-
+RUN curl https://raw.githubusercontent.com/opauth/facebook/master/FacebookStrategy.php > /var/www/html/protected/application/plugins/MultipleLocalAuth/Facebook/FacebookStrategy.php
 
 COPY compose/config.d /var/www/html/protected/application/conf/config.d
 
@@ -14,4 +12,4 @@ COPY conf/taxonomies.php /var/www/html/protected/application/conf/taxonomies.php
 COPY translations/es_ES.mo /var/www/html/protected/application/translations/es_ES.mo
 COPY translations/es_ES.po /var/www/html/protected/application/translations/es_ES.po
 
-RUN curl https://raw.githubusercontent.com/opauth/facebook/master/FacebookStrategy.php > /var/www/html/protected/application/plugins/MultipleLocalAuth/Facebook/FacebookStrategy.php
+COPY themes/IberCulturaViva /var/www/html/protected/application/themes/IberCulturaViva
