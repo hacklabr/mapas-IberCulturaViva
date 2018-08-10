@@ -23,19 +23,23 @@ return array(
 //            )
         ),
 
-
-        'raca' => array(
+        'ehAfrodescentente' => array(
             'private' => true,
-            'label' => \MapasCulturais\i::__('Raça/cor'),
+            'label' => \MapasCulturais\i::__('É Afrodescendente?'),
             'type' => 'select',
             'options' => array(
-                '' => \MapasCulturais\i::__('Não Informar'),
-                'Branca' => \MapasCulturais\i::__('Branca'),
-                'Preta' => \MapasCulturais\i::__('Afrodescendente'),
-                'Amarela' => \MapasCulturais\i::__('Amarela'),
-                'Parda' => \MapasCulturais\i::__('Parda'),
-                'Indígena' => \MapasCulturais\i::__('Indígena'),
-                'Povo Originário' => \MapasCulturais\i::__('Pertence a um Povo Originário'),
+                'Sim' => \MapasCulturais\i::__('Sim'),
+                'Não' => \MapasCulturais\i::__('Não')
+            )
+        ),
+
+        'pertenceAPovoOriginario' => array(
+            'private' => true,
+            'label' => \MapasCulturais\i::__('Pertence a um Povo Originário?'),
+            'type' => 'select',
+            'options' => array(
+                'Sim' => \MapasCulturais\i::__('Sim'),
+                'Não' => \MapasCulturais\i::__('Não')
             )
         ),
 
@@ -70,21 +74,6 @@ return array(
                 'Homem' => \MapasCulturais\i::__('Homem'),
                 'Não Binário' => \MapasCulturais\i::__('Não Binário'),
                 'Travesti' => \MapasCulturais\i::__('Travesti'),
-                'Outras' => \MapasCulturais\i::__('Outras')
-            )
-        ),
-
-        'orientacaoSexual' => array(
-            'private' => true,
-            'label' => \MapasCulturais\i::__('Orientação Sexual'),
-            'type' => 'select',
-            'options' => array(
-                '' => \MapasCulturais\i::__('Não Informar'),
-                'Heterossexual' => \MapasCulturais\i::__('Heterossexual'),
-                'Lésbica' => \MapasCulturais\i::__('Lésbica'),
-                'Gay' => \MapasCulturais\i::__('Gay'),
-                'Bissexual' => \MapasCulturais\i::__('Bissexual'),
-                'Assexual' => \MapasCulturais\i::__('Assexual'),
                 'Outras' => \MapasCulturais\i::__('Outras')
             )
         ),
