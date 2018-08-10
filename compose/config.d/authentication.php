@@ -6,26 +6,26 @@ return [
         'timeout' => '24 hours',
         'strategies' => [
            'Facebook' => array(
-               'app_id' => 'SUA_APP_ID',
-               'app_secret' => 'SUA_APP_SECRET',
-               'scope' => 'email'
+               'app_id' => env('AUTH_FACEBOOK_APP_ID', null),
+               'app_secret' => env('AUTH_FACEBOOK_APP_SECRET', null),
+               'scope' => env('AUTH_FACEBOOK_SCOPE', 'email'),
            ),
 
             'LinkedIn' => array(
-                'api_key' => 'SUA_API_KEY',
-                'secret_key' => 'SUA_SECRET_KEY',
-                'redirect_uri' => URL_DO_SEU_SITE . '/autenticacao/linkedin/oauth2callback',
-                'scope' => 'r_emailaddress'
+                'api_key' => env('AUTH_LINKEDIN_API_KEY', null),
+                'secret_key' => env('AUTH_LINKEDIN_SECRET_KEY', null),
+                'redirect_uri' => APP_BASE_URL . 'autenticacao/linkedin/oauth2callback',
+                'scope' => env('AUTH_LINKEDIN_SCOPE', 'r_emailaddress')
             ),
             'Google' => array(
-                'client_id' => 'SEU_CLIENT_ID',
-                'client_secret' => 'SEU_CLIENT_SECRET',
-                'redirect_uri' => URL_DO_SEU_SITE . '/autenticacao/google/oauth2callback',
-                'scope' => 'email'
+                'client_id' => env('AUTH_GOOGLE_CLIENT_ID', null),
+                'client_secret' => env('AUTH_GOOGLE_CLIENT_SECRET', null),
+                'redirect_uri' => APP_BASE_URL . 'autenticacao/google/oauth2callback',
+                'scope' => env('AUTH_GOOGLE_SCOPE', 'email'),
             ),
             'Twitter' => array(
-                'app_id' => 'SUA_APP_ID',
-                'app_secret' => 'SUA_APP_SECRET',
+                'app_id' => env('AUTH_TWITTER_APP_ID', null),
+                'app_secret' => env('AUTH_TWITTER_APP_SECRET', null),
             ),
 
         ]

@@ -38,7 +38,13 @@
     }
   }
 
-  a {
+  #organization-logo {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  #main-nav a {
     color: #444;
   }
 
@@ -65,7 +71,12 @@
   }
 
   &-intro {
-    @include backgroundTransparency('/assets/img/home--intro.jpg', $brand-primary);
+    @include backgroundTransparency('/assets/img/home--intro.jpg', $gray);
+    color: $black;
+
+    h1 {
+      color: $brand-primary;
+    }
   }
 
   &-opportunities {
@@ -82,5 +93,11 @@
 
   &-watermark {
     background: transparent;
+  }
+
+  &-nav {
+    #nav-intro {
+      background-color: darkgray;
+    }
   }
 }

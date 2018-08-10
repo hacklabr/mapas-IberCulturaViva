@@ -29,13 +29,20 @@ services:
       - "9000:9000"
     volumes:
       - ./themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
-      - ./compose/config.php:/var/www/html/protected/application/conf/config.php
       - ./compose/config.d:/var/www/html/protected/application/conf/config.d
 
       # o usuário www-data dentro do container precisa ter permissão de escrita nessas 3 pastas abaixo
       - ./docker-data/assets:/var/www/html/assets
       - ./docker-data/public-files:/var/www/html/files
       - ./docker-data/private-files:/var/www/private-files
+
+      - ./conf/agent-types.php:/var/www/html/protected/application/conf/agent-types.php
+      - ./conf/opportunity-types.php:/var/www/html/protected/application/conf/opportunity-types.php
+      - ./conf/taxonomies.php:/var/www/html/protected/application/conf/taxonomies.php
+      - ./translations/es_ES.mo:/var/www/html/protected/application/translations/es_ES.mo
+      - ./translations/es_ES.po:/var/www/html/protected/application/translations/es_ES.po
+      - ./translations/pt_BR.mo:/var/www/html/protected/application/translations/pt_BR.mo
+      - ./translations/pt_BR.po:/var/www/html/protected/application/translations/pt_BR.po
 
     links:
       - db
@@ -44,11 +51,13 @@ services:
       - POSTGRES_USER=mapas
       - POSTGRES_DB=mapas
 
-      - APP_LCODE=es_ES
+      - APP_LCODE=es_ES,pt_BR
 
       - APP_MODE=development
       - SLIM_DEBUG=true
       - ACTIVE_THEME=IberCulturaViva
+
+      - GOOGLE_GEOCODING_API_KEY=AIzaSyCkHK9L03_cQZLy8TM8O0YgDmAGWLGPbgk
 
     depends_on:
       - db
