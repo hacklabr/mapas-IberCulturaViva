@@ -1,6 +1,79 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-10 17:26-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-08 18:55-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
@@ -119,45 +192,36 @@ msgstr "Nombre completo o Razón Social"
 msgid "Documento de identidade"
 msgstr "Documento de identidad"
 
-#: conf/agent-types.php:29
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
-#: themes/BaseV1/views/agent/create.php:101
-#: themes/BaseV1/views/agent/edit.php:101
-#: themes/BaseV1/views/agent/single.php:101
-msgid "Raça/cor"
-msgstr "Raza/Color"
+#: conf/agent-types.php:28
+msgid "É Afrodescendente?"
+msgstr "¿Es Afrodescendiente?"
 
-#: conf/agent-types.php:32 conf/agent-types.php:55 conf/agent-types.php:66
-#: conf/agent-types.php:82 conf/agent-types.php:54 conf/agent-types.php:65
-#: conf/agent-types.php:81
-msgid "Não Informar"
-msgstr "No ingresado"
+#: conf/agent-types.php:31 conf/agent-types.php:41 conf/event-types.php:48
+#: conf/event-types.php:58 conf/space-types.php:64
+#: lib/MapasCulturais/ApiOutputs/Html.php:190
+#: lib/MapasCulturais/ApiOutputs/Html.php:204
+#: lib/MapasCulturais/ApiOutputs/Html.php:217
+#: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:12
+#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:186
+msgid "Sim"
+msgstr "Sí"
 
-#: conf/agent-types.php:33
-msgid "Branca"
-msgstr "Blanca"
-
-#: conf/agent-types.php:34
-msgid "Afrodescendente"
-msgstr "Afrodescendiente"
-
-#: conf/agent-types.php:35
-msgid "Amarela"
-msgstr "Amarilla"
-
-#: conf/agent-types.php:36
-msgid "Parda"
-msgstr "Parda"
-
-#: conf/agent-types.php:37
-msgid "Indígena"
-msgstr "Indígena"
+#: conf/agent-types.php:32 conf/agent-types.php:42 conf/event-types.php:49
+#: conf/event-types.php:59 conf/space-types.php:65
+#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:187
+msgid "Não"
+msgstr "No"
 
 #: conf/agent-types.php:38
-msgid "Pertence a um Povo Originário"
-msgstr "Pertenece a un Pueblo Originario"
+msgid "Pertence a um Povo Originário?"
+msgstr "¿Pertenece a un Pueblo Originario?"
 
-#: conf/agent-types.php:44 conf/agent-types.php:43
+#: conf/agent-types.php:48
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:118
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:119
+#: themes/IberCulturaViva/views/agent/single.php:94
+#: themes/IberCulturaViva/views/agent/single.php:95 conf/agent-types.php:44
+#: conf/agent-types.php:43
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:118
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:119
 #: themes/BaseV1/views/agent/create.php:94
@@ -168,35 +232,47 @@ msgstr "Pertenece a un Pueblo Originario"
 msgid "Data de Nascimento/Fundação"
 msgstr "Fecha de Nacimiento/Fundación"
 
-#: conf/agent-types.php:47 conf/agent-types.php:46
+#: conf/agent-types.php:51 conf/agent-types.php:47 conf/agent-types.php:46
 msgid "Data inválida"
 msgstr "Fecha incorrecta"
 
-#: conf/agent-types.php:52
+#: conf/agent-types.php:56
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:179
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:34
-#: conf/agent-types.php:51 conf/conf-base.php:256
+#: conf/agent-types.php:52 conf/agent-types.php:51 conf/conf-base.php:256
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:183
 #: themes/BaseV1/layouts/parts/singles/location.php:30
 msgid "Localização"
 msgstr "Localización"
 
-#: conf/agent-types.php:56
+#: conf/agent-types.php:59 conf/agent-types.php:70 conf/agent-types.php:32
+#: conf/agent-types.php:55 conf/agent-types.php:66 conf/agent-types.php:82
+#: conf/agent-types.php:54 conf/agent-types.php:65 conf/agent-types.php:81
+msgid "Não Informar"
+msgstr "No ingresado"
+
+#: conf/agent-types.php:60
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:183
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:38
-#: conf/agent-types.php:55
+#: conf/agent-types.php:56 conf/agent-types.php:55
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:187
 #: themes/BaseV1/layouts/parts/singles/location.php:34
 msgid "Pública"
 msgstr "Pública"
 
-#: conf/agent-types.php:57
+#: conf/agent-types.php:61
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:183
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:38
-#: conf/agent-types.php:56
+#: conf/agent-types.php:57 conf/agent-types.php:56
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:187
 #: themes/BaseV1/layouts/parts/singles/location.php:34
 msgid "Privada"
 msgstr "Privada"
 
-#: conf/agent-types.php:63 conf/agent-types.php:62
+#: conf/agent-types.php:67
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:126
+#: themes/IberCulturaViva/views/agent/single.php:99 conf/agent-types.php:63
+#: conf/agent-types.php:62
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:126
 #: themes/BaseV1/views/agent/create.php:99
 #: themes/BaseV1/views/agent/edit.php:99
@@ -204,64 +280,39 @@ msgstr "Privada"
 msgid "Gênero"
 msgstr "Género"
 
-#: conf/agent-types.php:67 conf/agent-types.php:66
+#: conf/agent-types.php:71 conf/agent-types.php:67 conf/agent-types.php:66
 msgid "Mulher Transexual"
 msgstr "Mujer Transexual"
 
-#: conf/agent-types.php:68 conf/agent-types.php:67
+#: conf/agent-types.php:72 conf/agent-types.php:68 conf/agent-types.php:67
 msgid "Mulher"
 msgstr "Mujer"
 
-#: conf/agent-types.php:69 conf/agent-types.php:68
+#: conf/agent-types.php:73 conf/agent-types.php:69 conf/agent-types.php:68
 msgid "Homem Transexual"
 msgstr "Hombre Transexual"
 
-#: conf/agent-types.php:70 conf/agent-types.php:69
+#: conf/agent-types.php:74 conf/agent-types.php:70 conf/agent-types.php:69
 msgid "Homem"
 msgstr "Hombre"
 
-#: conf/agent-types.php:71 conf/agent-types.php:70
+#: conf/agent-types.php:75 conf/agent-types.php:71 conf/agent-types.php:70
 msgid "Não Binário"
 msgstr "No Binario"
 
-#: conf/agent-types.php:72 conf/agent-types.php:71
+#: conf/agent-types.php:76 conf/agent-types.php:72 conf/agent-types.php:71
 msgid "Travesti"
 msgstr "Travesti"
 
-#: conf/agent-types.php:73 conf/agent-types.php:88 conf/agent-types.php:72
-#: conf/agent-types.php:87
+#: conf/agent-types.php:77 conf/agent-types.php:73 conf/agent-types.php:88
+#: conf/agent-types.php:72 conf/agent-types.php:87
 msgid "Outras"
 msgstr "Otras"
 
-#: conf/agent-types.php:79 conf/agent-types.php:78
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:130
-#: themes/BaseV1/views/agent/create.php:100
-#: themes/BaseV1/views/agent/edit.php:100
-#: themes/BaseV1/views/agent/single.php:100
-msgid "Orientação Sexual"
-msgstr "Orientación sexual"
-
-#: conf/agent-types.php:83 conf/agent-types.php:82
-msgid "Heterossexual"
-msgstr "Heterosexual"
-
-#: conf/agent-types.php:84 conf/agent-types.php:83
-msgid "Lésbica"
-msgstr "Lésbica"
-
-#: conf/agent-types.php:85 conf/agent-types.php:84
-msgid "Gay"
-msgstr "Gay"
-
-#: conf/agent-types.php:86 conf/agent-types.php:85
-msgid "Bissexual"
-msgstr "Bisexual"
-
-#: conf/agent-types.php:87 conf/agent-types.php:86
-msgid "Assexual"
-msgstr "Asexual"
-
-#: conf/agent-types.php:93 conf/agent-types.php:92 conf/space-types.php:8
+#: conf/agent-types.php:82
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:138
+#: themes/IberCulturaViva/views/agent/single.php:105 conf/agent-types.php:93
+#: conf/agent-types.php:92 conf/space-types.php:8
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:142
 #: themes/BaseV1/layouts/parts/singles/history_space.php:142
 #: themes/BaseV1/layouts/parts/singles/space-servico.php:38
@@ -271,11 +322,15 @@ msgstr "Asexual"
 msgid "Email Público"
 msgstr "E-mail Público"
 
-#: conf/agent-types.php:95 conf/agent-types.php:94 conf/space-types.php:10
+#: conf/agent-types.php:84 conf/agent-types.php:95 conf/agent-types.php:94
+#: conf/space-types.php:10
 msgid "O email público não é um email válido."
 msgstr "El email público no es un email válido."
 
-#: conf/agent-types.php:101 conf/agent-types.php:100 conf/space-types.php:15
+#: conf/agent-types.php:90
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:134
+#: themes/IberCulturaViva/views/agent/single.php:101 conf/agent-types.php:101
+#: conf/agent-types.php:100 conf/space-types.php:15
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:138
 #: themes/BaseV1/layouts/parts/singles/history_space.php:138
 #: themes/BaseV1/layouts/parts/singles/space-servico.php:42
@@ -285,11 +340,15 @@ msgstr "El email público no es un email válido."
 msgid "Email Privado"
 msgstr "E-mail Privado"
 
-#: conf/agent-types.php:104 conf/agent-types.php:103 conf/space-types.php:17
+#: conf/agent-types.php:93 conf/agent-types.php:104 conf/agent-types.php:103
+#: conf/space-types.php:17
 msgid "O email privado não é um email válido."
 msgstr "El email privado ne es un email válido."
 
-#: conf/agent-types.php:109 conf/agent-types.php:108 conf/space-types.php:23
+#: conf/agent-types.php:98
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:142
+#: themes/IberCulturaViva/views/agent/single.php:109 conf/agent-types.php:109
+#: conf/agent-types.php:108 conf/space-types.php:23
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:146
 #: themes/BaseV1/layouts/parts/singles/history_event.php:128
 #: themes/BaseV1/layouts/parts/singles/history_space.php:146
@@ -300,13 +359,16 @@ msgstr "El email privado ne es un email válido."
 msgid "Telefone Público"
 msgstr "Teléfono Público"
 
-#: conf/agent-types.php:112 conf/agent-types.php:111 conf/event-types.php:35
-#: conf/space-types.php:26
+#: conf/agent-types.php:101 conf/agent-types.php:112 conf/agent-types.php:111
+#: conf/event-types.php:35 conf/space-types.php:26
 msgid "Por favor, informe o telefone público no formato (xx) xxxx-xxxx."
 msgstr ""
 "Por favor, introduzca el teléfono público en el formato (xx) xxxx-xxxx."
 
-#: conf/agent-types.php:118 conf/agent-types.php:117 conf/space-types.php:31
+#: conf/agent-types.php:107
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:146
+#: themes/IberCulturaViva/views/agent/single.php:113 conf/agent-types.php:118
+#: conf/agent-types.php:117 conf/space-types.php:31
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:150
 #: themes/BaseV1/layouts/parts/singles/history_space.php:150
 #: themes/BaseV1/views/agent/create.php:115
@@ -315,11 +377,15 @@ msgstr ""
 msgid "Telefone 1"
 msgstr "Teléfono 1"
 
-#: conf/agent-types.php:121 conf/agent-types.php:120 conf/space-types.php:34
+#: conf/agent-types.php:110 conf/agent-types.php:121 conf/agent-types.php:120
+#: conf/space-types.php:34
 msgid "Por favor, informe o telefone 1 no formato (xx) xxxx-xxxx."
 msgstr "Por favor, introduzca el teléfono 1 en el formato (xx) xxxx-xxxx."
 
-#: conf/agent-types.php:128 conf/agent-types.php:127 conf/space-types.php:41
+#: conf/agent-types.php:117
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/single.php:114 conf/agent-types.php:128
+#: conf/agent-types.php:127 conf/space-types.php:41
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:154
 #: themes/BaseV1/layouts/parts/singles/history_space.php:154
 #: themes/BaseV1/views/agent/create.php:116
@@ -328,14 +394,17 @@ msgstr "Por favor, introduzca el teléfono 1 en el formato (xx) xxxx-xxxx."
 msgid "Telefone 2"
 msgstr "Teléfono 2"
 
-#: conf/agent-types.php:131 conf/agent-types.php:130 conf/space-types.php:44
+#: conf/agent-types.php:120 conf/agent-types.php:131 conf/agent-types.php:130
+#: conf/space-types.php:44
 msgid "Por favor, informe o telefone 2 no formato (xx) xxxx-xxxx."
 msgstr "Por favor, introduzca el teléfono 2 en el formato (xx) xxxx-xxxx."
 
-#: conf/agent-types.php:139
+#: conf/agent-types.php:128
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:168
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:169
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:22
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:23
-#: conf/agent-types.php:138 conf/space-types.php:100
+#: conf/agent-types.php:139 conf/agent-types.php:138 conf/space-types.php:100
 #: lib/MapasCulturais/ApiOutputs/Html.php:83
 #: themes/BaseV1/layouts/parts/search/infobox-space.php:18
 #: themes/BaseV1/layouts/parts/search/list-space-item.php:28
@@ -352,9 +421,10 @@ msgstr "Por favor, introduzca el teléfono 2 en el formato (xx) xxxx-xxxx."
 msgid "Endereço"
 msgstr "Dirección"
 
-#: conf/agent-types.php:144
+#: conf/agent-types.php:133
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:170
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:24
-#: conf/agent-types.php:143 conf/space-types.php:106
+#: conf/agent-types.php:144 conf/agent-types.php:143 conf/space-types.php:106
 #: lib/MapasCulturais/ApiOutputs/Html.php:31
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:174
 #: themes/BaseV1/layouts/parts/singles/history_space.php:169
@@ -362,9 +432,10 @@ msgstr "Dirección"
 msgid "CEP"
 msgstr "CP"
 
-#: conf/agent-types.php:150
+#: conf/agent-types.php:139
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:171
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:25
-#: conf/agent-types.php:149 conf/space-types.php:109
+#: conf/agent-types.php:150 conf/agent-types.php:149 conf/space-types.php:109
 #: lib/MapasCulturais/ApiOutputs/Html.php:32
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:175
 #: themes/BaseV1/layouts/parts/singles/history_space.php:170
@@ -372,9 +443,10 @@ msgstr "CP"
 msgid "Logradouro"
 msgstr "Calle"
 
-#: conf/agent-types.php:156
+#: conf/agent-types.php:145
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:172
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:26
-#: conf/agent-types.php:155 conf/space-types.php:112
+#: conf/agent-types.php:156 conf/agent-types.php:155 conf/space-types.php:112
 #: lib/MapasCulturais/ApiOutputs/Html.php:33
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:176
 #: themes/BaseV1/layouts/parts/singles/history_space.php:171
@@ -383,9 +455,10 @@ msgstr "Calle"
 msgid "Número"
 msgstr "Número"
 
-#: conf/agent-types.php:162
+#: conf/agent-types.php:151
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:173
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:27
-#: conf/agent-types.php:161 conf/space-types.php:115
+#: conf/agent-types.php:162 conf/agent-types.php:161 conf/space-types.php:115
 #: lib/MapasCulturais/ApiOutputs/Html.php:34
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:177
 #: themes/BaseV1/layouts/parts/singles/history_space.php:172
@@ -393,9 +466,10 @@ msgstr "Número"
 msgid "Complemento"
 msgstr "Complemento"
 
-#: conf/agent-types.php:168
+#: conf/agent-types.php:157
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:174
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:28
-#: conf/agent-types.php:167 conf/space-types.php:118
+#: conf/agent-types.php:168 conf/agent-types.php:167 conf/space-types.php:118
 #: lib/MapasCulturais/ApiOutputs/Html.php:35
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:178
 #: themes/BaseV1/layouts/parts/singles/history_space.php:173
@@ -405,10 +479,11 @@ msgstr "Complemento"
 msgid "Bairro"
 msgstr "Barrio"
 
-#: conf/agent-types.php:174
+#: conf/agent-types.php:163
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:175
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:29
-#: conf/agent-types.php:173 conf/conf-base.php:173 conf/config.dev.php:37
-#: conf/config.template.php:45 conf/space-types.php:121
+#: conf/agent-types.php:174 conf/agent-types.php:173 conf/conf-base.php:173
+#: conf/config.dev.php:37 conf/config.template.php:45 conf/space-types.php:121
 #: lib/MapasCulturais/ApiOutputs/Html.php:36
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:179
 #: themes/BaseV1/layouts/parts/singles/history_space.php:174
@@ -418,10 +493,11 @@ msgstr "Barrio"
 msgid "Município"
 msgstr "Municipio/Localidad"
 
-#: conf/agent-types.php:180
+#: conf/agent-types.php:169
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:176
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:30
-#: conf/agent-types.php:179 conf/conf-base.php:170 conf/config.dev.php:34
-#: conf/config.template.php:42 conf/space-types.php:124
+#: conf/agent-types.php:180 conf/agent-types.php:179 conf/conf-base.php:170
+#: conf/config.dev.php:34 conf/config.template.php:42 conf/space-types.php:124
 #: lib/MapasCulturais/ApiOutputs/Html.php:37
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:180
 #: themes/BaseV1/layouts/parts/singles/history_space.php:175
@@ -430,15 +506,19 @@ msgstr "Municipio/Localidad"
 msgid "Estado"
 msgstr "Entidad Subnacional"
 
-#: conf/agent-types.php:186
+#: conf/agent-types.php:175
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:31
-#: conf/conf-base.php:168 conf/config.dev.php:32 conf/config.template.php:40
+#: conf/agent-types.php:186 conf/conf-base.php:168 conf/config.dev.php:32
+#: conf/config.template.php:40
 msgid "País"
 msgstr "País"
 
 #: conf/agent-types.php:207 conf/opportunity-types.php:31
-#: conf/agent-types.php:217 conf/conf-base.php:450 conf/event-types.php:64
-#: conf/project-types.php:8 conf/seal-types.php:8 conf/space-types.php:168
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:105
+#: themes/IberCulturaViva/views/agent/single.php:83
+#: themes/IberCulturaViva/views/agent/single.php:85 conf/agent-types.php:217
+#: conf/conf-base.php:450 conf/event-types.php:64 conf/project-types.php:8
+#: conf/seal-types.php:8 conf/space-types.php:168
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:105
 #: themes/BaseV1/layouts/parts/singles/history_event.php:123
 #: themes/BaseV1/layouts/parts/singles/history_space.php:133
@@ -641,7 +721,7 @@ msgstr "Edicto"
 msgid "Concurso"
 msgstr "Concurso"
 
-#: conf/opportunity-types.php:88 conf/taxonomies.php:99
+#: conf/opportunity-types.php:88 conf/taxonomies.php:100 conf/taxonomies.php:99
 #: conf/project-types.php:58 conf/taxonomies.php:97
 msgid "Exposição"
 msgstr "Exposición"
@@ -776,7 +856,8 @@ msgstr "Arte callejero"
 msgid "Arte Digital"
 msgstr "Arte Digital"
 
-#: conf/taxonomies.php:30 conf/taxonomies.php:91 conf/taxonomies.php:89
+#: conf/taxonomies.php:30 conf/taxonomies.php:92 conf/taxonomies.php:91
+#: conf/taxonomies.php:89
 msgid "Artes Visuais"
 msgstr "Artes Visuales"
 
@@ -784,11 +865,13 @@ msgstr "Artes Visuales"
 msgid "Artesanato"
 msgstr "Artesanato"
 
-#: conf/taxonomies.php:32 conf/taxonomies.php:92 conf/taxonomies.php:90
+#: conf/taxonomies.php:32 conf/taxonomies.php:93 conf/taxonomies.php:92
+#: conf/taxonomies.php:90
 msgid "Audiovisual"
 msgstr "Audiovisual"
 
-#: conf/taxonomies.php:33 conf/taxonomies.php:93 conf/taxonomies.php:91
+#: conf/taxonomies.php:33 conf/taxonomies.php:94 conf/taxonomies.php:93
+#: conf/taxonomies.php:91
 msgid "Cinema"
 msgstr "Cine"
 
@@ -812,8 +895,8 @@ msgstr "Cultura Gitana"
 msgid "Cultura Comunitária"
 msgstr "Cultura Comunitaria"
 
-#: conf/taxonomies.php:39 conf/taxonomies.php:94 conf/taxonomies.php:37
-#: conf/taxonomies.php:92
+#: conf/taxonomies.php:39 conf/taxonomies.php:95 conf/taxonomies.php:94
+#: conf/taxonomies.php:37 conf/taxonomies.php:92
 msgid "Cultura Digital"
 msgstr "Cultura Digital"
 
@@ -821,8 +904,8 @@ msgstr "Cultura Digital"
 msgid "Cultura Estrangeira (imigrantes)"
 msgstr "Cultura Extranjera (inmigrantes)"
 
-#: conf/taxonomies.php:41 conf/taxonomies.php:95 conf/taxonomies.php:39
-#: conf/taxonomies.php:93
+#: conf/taxonomies.php:41 conf/taxonomies.php:96 conf/taxonomies.php:95
+#: conf/taxonomies.php:39 conf/taxonomies.php:93
 msgid "Cultura Indígena"
 msgstr "Cultura Indígena"
 
@@ -838,8 +921,8 @@ msgstr "Cultura Negra"
 msgid "Cultura Popular"
 msgstr "Cultura Popular"
 
-#: conf/taxonomies.php:45 conf/taxonomies.php:98 conf/taxonomies.php:43
-#: conf/taxonomies.php:96
+#: conf/taxonomies.php:45 conf/taxonomies.php:99 conf/taxonomies.php:98
+#: conf/taxonomies.php:43 conf/taxonomies.php:96
 msgid "Dança"
 msgstr "Danza"
 
@@ -919,7 +1002,8 @@ msgstr "Moda"
 msgid "Museu"
 msgstr "Museo"
 
-#: conf/taxonomies.php:65 conf/taxonomies.php:102 conf/taxonomies.php:63
+#: conf/taxonomies.php:65 conf/taxonomies.php:103 conf/taxonomies.php:102
+#: conf/taxonomies.php:63
 msgid "Música"
 msgstr "Música"
 
@@ -935,112 +1019,116 @@ msgstr "Patrimonio Inmaterial"
 msgid "Patrimônio Material"
 msgstr "Patrimonio Material"
 
-#: conf/taxonomies.php:70 conf/taxonomies.php:68
+#: conf/taxonomies.php:70 conf/taxonomies.php:105
+msgid "Povos Originários"
+msgstr "Pueblos Originarios"
+
+#: conf/taxonomies.php:71 conf/taxonomies.php:70 conf/taxonomies.php:68
 msgid "Produção Cultural"
 msgstr "Producción Cultural"
 
-#: conf/taxonomies.php:71 conf/taxonomies.php:104 conf/taxonomies.php:69
-#: conf/taxonomies.php:103
+#: conf/taxonomies.php:72 conf/taxonomies.php:106 conf/taxonomies.php:71
+#: conf/taxonomies.php:104 conf/taxonomies.php:69 conf/taxonomies.php:103
 msgid "Rádio"
 msgstr "Radio"
 
-#: conf/taxonomies.php:72 conf/taxonomies.php:70
+#: conf/taxonomies.php:73 conf/taxonomies.php:72 conf/taxonomies.php:70
 msgid "Saúde"
 msgstr "Salud"
 
-#: conf/taxonomies.php:73 conf/taxonomies.php:71
+#: conf/taxonomies.php:74 conf/taxonomies.php:73 conf/taxonomies.php:71
 msgid "Sociologia"
 msgstr "Sociología"
 
-#: conf/taxonomies.php:74 conf/taxonomies.php:105 conf/taxonomies.php:72
-#: conf/taxonomies.php:104
+#: conf/taxonomies.php:75 conf/taxonomies.php:107 conf/taxonomies.php:74
+#: conf/taxonomies.php:105 conf/taxonomies.php:72 conf/taxonomies.php:104
 msgid "Teatro"
 msgstr "Teatro"
 
-#: conf/taxonomies.php:75 conf/taxonomies.php:73
+#: conf/taxonomies.php:76 conf/taxonomies.php:75 conf/taxonomies.php:73
 msgid "Televisão"
 msgstr "Televisión"
 
-#: conf/taxonomies.php:76 conf/taxonomies.php:74
+#: conf/taxonomies.php:77 conf/taxonomies.php:76 conf/taxonomies.php:74
 msgid "Turismo"
 msgstr "Turismo"
 
-#: conf/taxonomies.php:77 conf/taxonomies.php:116
-#: conf/notification-types.php:22 conf/notification-types.php:34
-#: conf/space-types.php:72 conf/space-types.php:416 conf/taxonomies.php:75
-#: conf/taxonomies.php:105
+#: conf/taxonomies.php:78 conf/taxonomies.php:118 conf/taxonomies.php:77
+#: conf/taxonomies.php:116 conf/notification-types.php:22
+#: conf/notification-types.php:34 conf/space-types.php:72
+#: conf/space-types.php:416 conf/taxonomies.php:75 conf/taxonomies.php:105
 msgid "Outros"
 msgstr "Otros"
 
-#: conf/taxonomies.php:83 conf/taxonomies.php:81
+#: conf/taxonomies.php:84 conf/taxonomies.php:83 conf/taxonomies.php:81
 msgid "Você deve informar ao menos uma linguagem"
 msgstr "Debe introducir al menos un tipo de evento"
 
-#: conf/taxonomies.php:89 conf/taxonomies.php:87
+#: conf/taxonomies.php:90 conf/taxonomies.php:89 conf/taxonomies.php:87
 msgid "Artes Circenses"
 msgstr "Artes Circenses"
 
-#: conf/taxonomies.php:90 conf/taxonomies.php:88
+#: conf/taxonomies.php:91 conf/taxonomies.php:90 conf/taxonomies.php:88
 msgid "Artes Integradas"
 msgstr "Artes Integradas"
 
-#: conf/taxonomies.php:96 conf/taxonomies.php:94
+#: conf/taxonomies.php:97 conf/taxonomies.php:96 conf/taxonomies.php:94
 msgid "Cultura Tradicional"
 msgstr "Cultura Tradicional"
 
-#: conf/taxonomies.php:97 conf/taxonomies.php:95
+#: conf/taxonomies.php:98 conf/taxonomies.php:97 conf/taxonomies.php:95
 msgid "Curso ou Oficina"
 msgstr "Curso o taller"
 
-#: conf/taxonomies.php:100 conf/taxonomies.php:98
+#: conf/taxonomies.php:101 conf/taxonomies.php:100 conf/taxonomies.php:98
 msgid "Hip Hop"
 msgstr "Hip Hop"
 
-#: conf/taxonomies.php:101 conf/taxonomies.php:99
+#: conf/taxonomies.php:102 conf/taxonomies.php:101 conf/taxonomies.php:99
 msgid "Livro e Literatura"
 msgstr "Libro y Literatura"
 
-#: conf/taxonomies.php:103 conf/taxonomies.php:102
+#: conf/taxonomies.php:104 conf/taxonomies.php:103 conf/taxonomies.php:102
 msgid "Palestra, Debate ou Encontro"
 msgstr "Conferencia, Debate o Encuentro"
 
-#: conf/taxonomies.php:106
+#: conf/taxonomies.php:108 conf/taxonomies.php:106
 msgid "Encontro de Comunidades Indígenas"
 msgstr "Encuentro de Comunidades Indígenas"
 
-#: conf/taxonomies.php:107
+#: conf/taxonomies.php:109 conf/taxonomies.php:107
 msgid "Encontro de Comunidades Afrodescendentes"
 msgstr "Encuentro de Comunidades Afrodescendientes"
 
-#: conf/taxonomies.php:108
+#: conf/taxonomies.php:110 conf/taxonomies.php:108
 msgid "Encontro de Cultura Jovem"
 msgstr "Encuentro de Cultura Joven"
 
-#: conf/taxonomies.php:109
+#: conf/taxonomies.php:111 conf/taxonomies.php:109
 msgid "Encontro de Cultura em Rede e Colaborativa"
 msgstr "Encuentro de Cultura en Red y Colaborativa"
 
-#: conf/taxonomies.php:110
+#: conf/taxonomies.php:112 conf/taxonomies.php:110
 msgid "Meios Alternativos e Comunitários"
 msgstr "Medios Alternativos y Comunitarios"
 
-#: conf/taxonomies.php:111
+#: conf/taxonomies.php:113 conf/taxonomies.php:111
 msgid "Encontro de Participação Cidadã e Políticas Públicas"
 msgstr "Encuentro de Participación Ciudadana y Políticas Públicas"
 
-#: conf/taxonomies.php:112
+#: conf/taxonomies.php:114 conf/taxonomies.php:112
 msgid "Sustentabilidade e Bem Viver"
 msgstr "Sustentabilidad y Buen Vivir"
 
-#: conf/taxonomies.php:113
+#: conf/taxonomies.php:115 conf/taxonomies.php:113
 msgid "Feira de Produções da Cultura Comunitária"
 msgstr "Feria de Producciones de la Cultura Comunitaria"
 
-#: conf/taxonomies.php:114
+#: conf/taxonomies.php:116 conf/taxonomies.php:114
 msgid "Encontro de Comunidades"
 msgstr "Encuentro de Comunidades"
 
-#: conf/taxonomies.php:115
+#: conf/taxonomies.php:117 conf/taxonomies.php:115
 msgid "Encontro de Diversidade Sexual"
 msgstr "Encuentro de Diversidad Sexual"
 
@@ -1052,6 +1140,669 @@ msgstr "¡Bienvenid@!"
 #: themes/IberCulturaViva/Theme.php:27
 msgid "Participe"
 msgstr "Participe"
+
+#: themes/IberCulturaViva/Theme.php:28
+msgid ""
+"O Mapa IberCultura Viva é a plataforma livre, gratuita e colaborativa de "
+"mapeamento do programa de cooperação IberCultura Viva. Neste espaço, "
+"representantes de organizações culturais comunitárias e povos originários "
+"podem se registrar como agentes culturais, difundir eventos, cadastrar "
+"projetos e inscrever-se nos editais e concursos publicados.<br/><br/>\n"
+"           A informação coletada pelo Mapa IberCultura Viva será utilizada "
+"para a construção/consolidação de indicadores culturais que fortalecerão os "
+"sistemas de informação cultural dos países membros do programa (Argentina, "
+"Brasil, Chile, Costa Rica, El Salvador, Equador, Espanha, Guatemala, México, "
+"Peru e Uruguai)."
+msgstr ""
+"El Mapa IberCultura Viva es la plataforma libre, gratuita y colaborativa de "
+"mapeo del programa de cooperación IberCultura Viva. En este espacio, "
+"representantes de organizaciones culturales comunitarias y de pueblos "
+"originarios pueden registrarse como agentes culturales, difundir sus "
+"eventos, subir espacios, proyectos, e inscribirse a las convocatorias y "
+"concursos publicados.<br/><br/>\n"
+"La información recabada por el Mapa IberCultura Viva será utilizada para la "
+"construcción/consolidación de indicadores culturales que fortalecerán los "
+"sistemas de información cultural de los países miembros (Argentina, Brasil, "
+"Chile, Costa Rica, Ecuador, El Salvador, España, Guatemala, México, Perú y "
+"Uruguay)."
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:24
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:48
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:108
+#: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:18
+#: lib/modules/OpportunityPhases/layouts/parts/widget-opportunity-phases.php:48
+#: plugins/EvaluationMethodTechnical/layouts/parts/technical--configuration-form.php:11
+#: themes/BaseV1/Theme.php:1567 themes/BaseV1/Theme.php:1663
+#: themes/BaseV1/layouts/parts/owner.php:43
+#: themes/BaseV1/layouts/parts/related-admin-agents.php:34
+#: themes/BaseV1/layouts/parts/related-agents.php:9
+#: themes/BaseV1/layouts/parts/related-agents.php:12
+#: themes/BaseV1/layouts/parts/related-agents.php:55
+#: themes/BaseV1/layouts/parts/singles/control--edit-buttons.php:12
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:24
+#: themes/BaseV1/layouts/parts/singles/history_event.php:20
+#: themes/BaseV1/layouts/parts/singles/history_space.php:24
+#: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--committee.php:92
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:26
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:46
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:77
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:119
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:139
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--form.php:10
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--rules.php:15
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:18
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:48
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:78
+#: themes/BaseV1/layouts/parts/singles/registration-edit--agents.php:30
+#: themes/BaseV1/layouts/parts/singles/registration-edit--fields.php:71
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:38
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:38
+#: themes/BaseV1/layouts/parts/singles/history_event.php:34
+#: themes/BaseV1/layouts/parts/singles/history_space.php:38
+#, php-format
+msgid "As informações deste registro é histórico gerado em %s."
+msgstr "La información de este registro y el histórico generado en %s."
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:41
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:41
+#: themes/BaseV1/layouts/parts/singles/history_event.php:37
+#: themes/BaseV1/layouts/parts/singles/history_space.php:41
+#, php-format
+msgid "Este %s está como <b>publicado</b>"
+msgstr "Este %s está como <b>publicado</b>"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:43
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:43
+#: themes/BaseV1/layouts/parts/singles/history_event.php:39
+#: themes/BaseV1/layouts/parts/singles/history_space.php:43
+#, php-format
+msgid "Este %s é um <b>rascunho</b>"
+msgstr "Este %s es un  <b>borrador</b>"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:45
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:45
+#: themes/BaseV1/layouts/parts/singles/history_event.php:41
+#: themes/BaseV1/layouts/parts/singles/history_space.php:45
+#, php-format
+msgid "Este %s está na <b>lixeira</b>"
+msgstr "Este %s está en la <b>papelera</b>"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:47
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:47
+#: themes/BaseV1/layouts/parts/singles/history_event.php:43
+#: themes/BaseV1/layouts/parts/singles/history_space.php:47
+#, php-format
+msgid "Este %s está <b>arquivado</b>"
+msgstr "Este %s está <b>archivado</b>"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:48
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:48
+#: themes/BaseV1/layouts/parts/singles/history_event.php:44
+#: themes/BaseV1/layouts/parts/singles/history_space.php:48
+#, php-format
+msgid "e pode ser acessado clicando <a href=\"%s\">aqui</a>"
+msgstr "y se puede acceder haciendo clic <a href=\"%s\">aquí</a>"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:65
+#: lib/MapasCulturais/ApiOutputs/Html.php:74
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:32
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:79
+#: themes/BaseV1/Theme.php:2147 themes/BaseV1/Theme.php:2174
+#: themes/BaseV1/layouts/parts/home-agents.php:43
+#: themes/BaseV1/layouts/parts/home-opportunities.php:39
+#: themes/BaseV1/layouts/parts/home-projects.php:39
+#: themes/BaseV1/layouts/parts/home-saas.php:41
+#: themes/BaseV1/layouts/parts/home-spaces.php:41
+#: themes/BaseV1/layouts/parts/panel-subsite.php:15
+#: themes/BaseV1/layouts/parts/search/infobox-agent.php:8
+#: themes/BaseV1/layouts/parts/search/infobox-space.php:11
+#: themes/BaseV1/layouts/parts/search/list-agent-item.php:12
+#: themes/BaseV1/layouts/parts/search/list-opportunity-item.php:14
+#: themes/BaseV1/layouts/parts/search/list-project-item.php:14
+#: themes/BaseV1/layouts/parts/search/list-space-item.php:13
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:65
+#: themes/BaseV1/layouts/parts/singles/history_space.php:65
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:69
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:111
+#: themes/BaseV1/layouts/parts/singles/permissions.php:15
+#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:184
+#: themes/BaseV1/layouts/parts/singles/type.php:8
+msgid "Tipo"
+msgstr "Tipo"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:65
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:65
+#: themes/BaseV1/layouts/parts/singles/history_space.php:65
+#: themes/BaseV1/layouts/parts/singles/type.php:8
+msgid "Selecione um tipo"
+msgstr "Seleccione un tipo"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:73
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:73
+#: themes/BaseV1/layouts/parts/singles/history_event.php:66
+#: themes/BaseV1/layouts/parts/singles/history_space.php:77
+#: themes/BaseV1/layouts/parts/singles/name.php:8
+#: themes/BaseV1/views/seal/sealrelation.php:33
+#: themes/BaseV1/views/seal/sealrelation.php:42
+msgid "Nome de exibição"
+msgstr "Nombre para mostrar"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:87
+#: themes/IberCulturaViva/views/agent/single.php:58
+#: lib/modules/OpportunityPhases/layouts/parts/opportunity-phases-tabs.php:4
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:87
+#: themes/BaseV1/layouts/parts/singles/history_event.php:88
+#: themes/BaseV1/layouts/parts/singles/history_space.php:91
+#: themes/BaseV1/layouts/parts/singles/project-tabs.php:4
+#: themes/BaseV1/views/agent/create.php:58
+#: themes/BaseV1/views/agent/edit.php:58
+#: themes/BaseV1/views/agent/single.php:58
+#: themes/BaseV1/views/event/create.php:146
+#: themes/BaseV1/views/event/edit.php:146
+#: themes/BaseV1/views/event/single.php:146
+#: themes/BaseV1/views/seal/create.php:51 themes/BaseV1/views/seal/edit.php:51
+#: themes/BaseV1/views/seal/single.php:51
+#: themes/BaseV1/views/space/create.php:62
+#: themes/BaseV1/views/space/edit.php:62
+#: themes/BaseV1/views/space/single.php:62
+msgid "Sobre"
+msgstr "Acerca de"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:98
+#: themes/IberCulturaViva/views/agent/single.php:76 conf/conf-base.php:247
+#: lib/MapasCulturais/ApiOutputs/Html.php:77
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:98
+#: themes/BaseV1/layouts/parts/singles/history_event.php:99
+#: themes/BaseV1/layouts/parts/singles/history_space.php:102
+#: themes/BaseV1/layouts/parts/singles/project-about.php:16
+#: themes/BaseV1/views/agent/create.php:76
+#: themes/BaseV1/views/agent/edit.php:76
+#: themes/BaseV1/views/agent/single.php:76
+#: themes/BaseV1/views/event/create.php:165
+#: themes/BaseV1/views/event/create.php:166
+#: themes/BaseV1/views/event/edit.php:165
+#: themes/BaseV1/views/event/edit.php:166
+#: themes/BaseV1/views/event/single.php:165
+#: themes/BaseV1/views/event/single.php:166
+#: themes/BaseV1/views/seal/create.php:64 themes/BaseV1/views/seal/edit.php:64
+#: themes/BaseV1/views/seal/single.php:64
+#: themes/BaseV1/views/space/create.php:80
+#: themes/BaseV1/views/space/edit.php:80
+#: themes/BaseV1/views/space/single.php:80
+#: themes/mapasculturais-culturaenlinea/config.php:26
+#: themes/mapasculturais-culturaenlinea/config.php:191
+msgid "Descrição Curta"
+msgstr "Descripción breve"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:98
+#: themes/IberCulturaViva/views/agent/single.php:76
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:98
+#: themes/BaseV1/layouts/parts/singles/history_event.php:99
+#: themes/BaseV1/layouts/parts/singles/history_space.php:102
+#: themes/BaseV1/layouts/parts/singles/project-about.php:16
+#: themes/BaseV1/views/agent/create.php:76
+#: themes/BaseV1/views/agent/edit.php:76
+#: themes/BaseV1/views/agent/single.php:76
+#: themes/BaseV1/views/seal/create.php:64 themes/BaseV1/views/seal/edit.php:64
+#: themes/BaseV1/views/seal/single.php:64
+#: themes/BaseV1/views/space/create.php:80
+#: themes/BaseV1/views/space/edit.php:80
+#: themes/BaseV1/views/space/single.php:80
+msgid "Insira uma descrição curta"
+msgstr "Agregue una descripción breve"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/single.php:92 conf/conf-base.php:244
+#: lib/MapasCulturais/ApiOutputs/Html.php:68
+#: lib/MapasCulturais/EvaluationMethod.php:85
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:23
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:63
+#: themes/BaseV1/Theme.php:1678 themes/BaseV1/layouts/parts/panel-search.php:14
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
+#: themes/BaseV1/views/agent/create.php:92
+#: themes/BaseV1/views/agent/edit.php:92
+#: themes/BaseV1/views/agent/single.php:92
+#: themes/BaseV1/views/generic/list.php:17
+#: themes/BaseV1/views/generic/list.php:32
+#: themes/mapasculturais-culturaenlinea/config.php:23
+#: themes/mapasculturais-culturaenlinea/config.php:188
+msgid "Nome"
+msgstr "Nombre"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/single.php:92
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
+#: themes/BaseV1/views/agent/create.php:92
+#: themes/BaseV1/views/agent/edit.php:92
+#: themes/BaseV1/views/agent/single.php:92
+msgid "Nome Completo ou Razão Social"
+msgstr "Nombre Completo o Razón Social"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/single.php:92
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
+#: themes/BaseV1/views/agent/create.php:92
+#: themes/BaseV1/views/agent/edit.php:92
+#: themes/BaseV1/views/agent/single.php:92
+msgid "Insira seu nome completo ou razão social"
+msgstr "Agregue el Nombre Completo o la Razón Social"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:114
+#: themes/IberCulturaViva/views/agent/single.php:93
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:114
+#: themes/BaseV1/views/agent/create.php:93
+#: themes/BaseV1/views/agent/edit.php:93
+#: themes/BaseV1/views/agent/single.php:93
+msgid "CPF/CNPJ"
+msgstr "Documento de Identidad"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:114
+#: themes/IberCulturaViva/views/agent/single.php:93
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:114
+#: themes/BaseV1/views/agent/create.php:93
+#: themes/BaseV1/views/agent/edit.php:93
+#: themes/BaseV1/views/agent/single.php:93
+msgid "Insira o CPF ou CNPJ com pontos, hífens e barras"
+msgstr "Ingrese el documento de identidad con puntos, guiones y barras"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:119
+#: themes/IberCulturaViva/views/agent/single.php:95
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:119
+#: themes/BaseV1/views/agent/create.php:95
+#: themes/BaseV1/views/agent/edit.php:95
+#: themes/BaseV1/views/agent/single.php:95
+msgid "Insira a data de nascimento ou fundação do agente"
+msgstr "Ingrese la fecha de nacimiento o fundación del agente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:126
+#: themes/IberCulturaViva/views/agent/single.php:99
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:126
+#: themes/BaseV1/views/agent/create.php:99
+#: themes/BaseV1/views/agent/edit.php:99
+#: themes/BaseV1/views/agent/single.php:99
+msgid "Selecione o gênero se for pessoa física"
+msgstr "Seleccione el género, en el caso de persona física"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:130
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
+#: themes/BaseV1/views/agent/create.php:101
+#: themes/BaseV1/views/agent/edit.php:101
+#: themes/BaseV1/views/agent/single.php:101
+msgid "Raça/Cor"
+msgstr "Raza/Color"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:130
+#: conf/agent-types.php:29
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
+#: themes/BaseV1/views/agent/create.php:101
+#: themes/BaseV1/views/agent/edit.php:101
+#: themes/BaseV1/views/agent/single.php:101
+msgid "Raça/cor"
+msgstr "Raza/Color"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:130
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
+#: themes/BaseV1/views/agent/create.php:101
+#: themes/BaseV1/views/agent/edit.php:101
+#: themes/BaseV1/views/agent/single.php:101
+msgid "Selecione a raça/cor se for pessoa física"
+msgstr "Seleccione raza/color en caso de persona física"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:134
+#: themes/IberCulturaViva/views/agent/single.php:101
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:138
+#: themes/BaseV1/layouts/parts/singles/history_space.php:138
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:42
+#: themes/BaseV1/views/agent/create.php:103
+#: themes/BaseV1/views/agent/edit.php:103
+#: themes/BaseV1/views/agent/single.php:103
+msgid "Insira um email que não será exibido publicamente"
+msgstr "Ingrese un e-mail que será exhibido públicamente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:138
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:142
+#: themes/BaseV1/layouts/parts/singles/history_space.php:142
+msgid "Email"
+msgstr "E-mail"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:138
+#: themes/IberCulturaViva/views/agent/single.php:105
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:142
+#: themes/BaseV1/layouts/parts/singles/history_space.php:142
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:38
+#: themes/BaseV1/views/agent/create.php:107
+#: themes/BaseV1/views/agent/edit.php:107
+#: themes/BaseV1/views/agent/single.php:107
+msgid "Insira um email que será exibido publicamente"
+msgstr "Ingrese un e-mail que será exhibido públicamente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:142
+#: themes/IberCulturaViva/views/agent/single.php:109
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:146
+#: themes/BaseV1/layouts/parts/singles/history_event.php:128
+#: themes/BaseV1/layouts/parts/singles/history_space.php:146
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:46
+#: themes/BaseV1/views/agent/create.php:111
+#: themes/BaseV1/views/agent/edit.php:111
+#: themes/BaseV1/views/agent/single.php:111
+msgid "Insira um telefone que será exibido publicamente"
+msgstr "Ingrese un teléfono que será exhibido públicamente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:146
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/single.php:113
+#: themes/IberCulturaViva/views/agent/single.php:114
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:150
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:154
+#: themes/BaseV1/layouts/parts/singles/history_space.php:150
+#: themes/BaseV1/layouts/parts/singles/history_space.php:154
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:50
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:51
+#: themes/BaseV1/views/agent/create.php:115
+#: themes/BaseV1/views/agent/create.php:116
+#: themes/BaseV1/views/agent/edit.php:115
+#: themes/BaseV1/views/agent/edit.php:116
+#: themes/BaseV1/views/agent/single.php:115
+#: themes/BaseV1/views/agent/single.php:116
+msgid "Telefone Privado"
+msgstr "Teléfono Privado"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:146
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/single.php:113
+#: themes/IberCulturaViva/views/agent/single.php:114
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:150
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:154
+#: themes/BaseV1/layouts/parts/singles/history_space.php:150
+#: themes/BaseV1/layouts/parts/singles/history_space.php:154
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:50
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:51
+#: themes/BaseV1/views/agent/create.php:115
+#: themes/BaseV1/views/agent/create.php:116
+#: themes/BaseV1/views/agent/edit.php:115
+#: themes/BaseV1/views/agent/edit.php:116
+#: themes/BaseV1/views/agent/single.php:115
+#: themes/BaseV1/views/agent/single.php:116
+msgid "Insira um telefone que não será exibido publicamente"
+msgstr "Ingrese un teléfono que no será exhibido públicamente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:168
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:22
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:172
+#: themes/BaseV1/layouts/parts/singles/history_space.php:167
+#: themes/BaseV1/layouts/parts/singles/location.php:19
+msgid "Insira o endereço"
+msgstr "Ingrese una dirección"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:170
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:24
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:174
+#: themes/BaseV1/layouts/parts/singles/history_space.php:169
+#: themes/BaseV1/layouts/parts/singles/location.php:21
+msgid "Insira o CEP"
+msgstr "Ingrese el CP"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:171
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:25
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:175
+#: themes/BaseV1/layouts/parts/singles/history_space.php:170
+#: themes/BaseV1/layouts/parts/singles/location.php:22
+msgid "Insira o logradouro"
+msgstr "Ingrese la calle"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:172
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:26
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:176
+#: themes/BaseV1/layouts/parts/singles/history_space.php:171
+#: themes/BaseV1/layouts/parts/singles/location.php:23
+msgid "Insira o Número"
+msgstr "Ingrese el Número"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:173
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:27
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:177
+#: themes/BaseV1/layouts/parts/singles/history_space.php:172
+#: themes/BaseV1/layouts/parts/singles/location.php:24
+msgid "Insira um complemento"
+msgstr "Ingrese un complemento"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:174
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:28
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:178
+#: themes/BaseV1/layouts/parts/singles/history_space.php:173
+#: themes/BaseV1/layouts/parts/singles/location.php:25
+msgid "Insira o Bairro"
+msgstr "Ingrese el Barrio"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:175
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:29
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:179
+#: themes/BaseV1/layouts/parts/singles/history_space.php:174
+#: themes/BaseV1/layouts/parts/singles/location.php:26
+msgid "Insira o Município"
+msgstr "Ingrese el Municipio/Localidad"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:176
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:30
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:180
+#: themes/BaseV1/layouts/parts/singles/history_space.php:175
+#: themes/BaseV1/layouts/parts/singles/location.php:27
+msgid "Insira o Estado"
+msgstr "Ingrese la Entidad Subnacional"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:197
+#: themes/IberCulturaViva/views/agent/single.php:126
+#: themes/BaseV1/layouts/parts/link-list.php:68
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:201
+#: themes/BaseV1/layouts/parts/singles/history_space.php:186
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:73
+#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:115
+#: themes/BaseV1/layouts/parts/singles/project-about.php:34
+#: themes/BaseV1/layouts/parts/singles/space-extra-info.php:2
+#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:139
+#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:182
+#: themes/BaseV1/layouts/parts/video-gallery.php:69
+#: themes/BaseV1/views/agent/create.php:128
+#: themes/BaseV1/views/agent/edit.php:128
+#: themes/BaseV1/views/agent/single.php:128
+#: themes/BaseV1/views/event/create.php:341
+#: themes/BaseV1/views/event/edit.php:341
+#: themes/BaseV1/views/event/single.php:341
+#: themes/BaseV1/views/generic/list.php:18
+#: themes/BaseV1/views/seal/create.php:96 themes/BaseV1/views/seal/edit.php:96
+#: themes/BaseV1/views/seal/single.php:96
+msgid "Descrição"
+msgstr "Descripción"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:198
+#: themes/IberCulturaViva/views/agent/single.php:127
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:202
+#: themes/BaseV1/views/agent/create.php:129
+#: themes/BaseV1/views/agent/edit.php:129
+#: themes/BaseV1/views/agent/single.php:129
+msgid "Descrição do Agente"
+msgstr "Descripción del Agente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:198
+#: themes/IberCulturaViva/views/agent/single.php:127
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:202
+#: themes/BaseV1/views/agent/create.php:129
+#: themes/BaseV1/views/agent/edit.php:129
+#: themes/BaseV1/views/agent/single.php:129
+msgid "Insira uma descrição do agente"
+msgstr "Ingrese una descripción del agente"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:205
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:209
+#: themes/BaseV1/layouts/parts/singles/history_event.php:198
+#: themes/BaseV1/layouts/parts/singles/history_space.php:198
+#: themes/BaseV1/layouts/parts/video-gallery.php:35
+msgid "Vídeos"
+msgstr "Videos"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:239
+#: themes/BaseV1/layouts/parts/related-seals.php:16
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:243
+#: themes/BaseV1/layouts/parts/singles/history_event.php:241
+#: themes/BaseV1/layouts/parts/singles/history_space.php:241
+msgid "Selos Aplicados"
+msgstr "Sellos Aplicados"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:270
+#: lib/MapasCulturais/ApiOutputs/Html.php:95
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:274
+#: themes/BaseV1/layouts/parts/singles/history_event.php:279
+#: themes/BaseV1/layouts/parts/singles/history_space.php:274
+#: themes/BaseV1/layouts/parts/widget-tags.php:9
+#: themes/BaseV1/layouts/parts/widget-tags.php:11
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: themes/IberCulturaViva/layouts/parts/history_agent.php:359
+#: themes/BaseV1/layouts/parts/link-list.php:29
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:363
+#: themes/BaseV1/layouts/parts/singles/history_event.php:343
+#: themes/BaseV1/layouts/parts/singles/history_space.php:324
+msgid "Links"
+msgstr "Enlaces"
+
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:11
+#: themes/BaseV1/layouts/parts/singles/location.php:11
+msgid "Encontrar minha localização"
+msgstr "Encontrar mi localización"
+
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:31
+msgid "Insira o País"
+msgstr "Ingrese el País"
+
+#: themes/IberCulturaViva/layouts/parts/singles/location.php:56
+msgid "Informações Geográficas"
+msgstr "Informaciones Geográficas"
+
+#: themes/IberCulturaViva/views/agent/single.php:60
+#: themes/BaseV1/layouts/parts/singles/project-tabs.php:11
+#: themes/BaseV1/views/agent/create.php:60
+#: themes/BaseV1/views/agent/edit.php:60
+#: themes/BaseV1/views/agent/single.php:60
+#: themes/BaseV1/views/event/create.php:148
+#: themes/BaseV1/views/event/edit.php:148
+#: themes/BaseV1/views/event/single.php:148
+#: themes/BaseV1/views/seal/create.php:53 themes/BaseV1/views/seal/edit.php:53
+#: themes/BaseV1/views/seal/single.php:53
+#: themes/BaseV1/views/space/create.php:64
+#: themes/BaseV1/views/space/edit.php:64
+#: themes/BaseV1/views/space/single.php:64
+msgid "Responsáveis"
+msgstr "Responsables"
+
+#: themes/IberCulturaViva/views/agent/single.php:72
+#: themes/BaseV1/layouts/parts/singles/project-about.php:12
+#: themes/BaseV1/views/agent/create.php:72
+#: themes/BaseV1/views/agent/edit.php:72
+#: themes/BaseV1/views/agent/single.php:72
+#: themes/BaseV1/views/event/create.php:161
+#: themes/BaseV1/views/event/edit.php:161
+#: themes/BaseV1/views/event/single.php:161
+#: themes/BaseV1/views/space/create.php:76
+#: themes/BaseV1/views/space/edit.php:76
+#: themes/BaseV1/views/space/single.php:76
+msgid ""
+"O limite de caracteres da descrição curta foi diminuido para 400, mas seu "
+"texto atual possui"
+msgstr ""
+"El límite de caracteres de la descripción breve fue acortado a 400, pero su "
+"texto actual posee"
+
+#: themes/IberCulturaViva/views/agent/single.php:72
+#: themes/BaseV1/layouts/parts/singles/project-about.php:12
+#: themes/BaseV1/views/agent/create.php:72
+#: themes/BaseV1/views/agent/edit.php:72
+#: themes/BaseV1/views/agent/single.php:72
+#: themes/BaseV1/views/event/create.php:161
+#: themes/BaseV1/views/event/edit.php:161
+#: themes/BaseV1/views/event/single.php:161
+#: themes/BaseV1/views/space/create.php:76
+#: themes/BaseV1/views/space/edit.php:76
+#: themes/BaseV1/views/space/single.php:76
+msgid "caracteres. Você deve alterar seu texto ou este será cortado ao salvar."
+msgstr "caracteres. Usted debe cambiar su texto o será cortado al guardar."
+
+#: themes/IberCulturaViva/views/agent/single.php:85
+#: themes/BaseV1/layouts/parts/singles/project-about.php:24
+#: themes/BaseV1/layouts/parts/singles/space-servico.php:31
+#: themes/BaseV1/views/agent/create.php:85
+#: themes/BaseV1/views/agent/edit.php:85
+#: themes/BaseV1/views/agent/single.php:85
+msgid "Insira a url de seu site"
+msgstr "Agregue la url de su página web"
+
+#: themes/IberCulturaViva/views/agent/single.php:105
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:27
+#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:69
+#: themes/BaseV1/views/agent/create.php:107
+#: themes/BaseV1/views/agent/edit.php:107
+#: themes/BaseV1/views/agent/single.php:107
+#: themes/BaseV1/views/auth/fake-authentication.php:105
+msgid "E-mail"
+msgstr "E-mail"
+
+#: themes/IberCulturaViva/views/agent/single.php:165
+#: themes/BaseV1/views/agent/create.php:167
+#: themes/BaseV1/views/agent/edit.php:167
+#: themes/BaseV1/views/agent/single.php:167
+msgid ""
+"Para adicionar arquivos para download ou links, primeiro é preciso salvar o "
+"agente."
+msgstr ""
+"Para agregar archivos para descarga o enlaces, primero es preciso guardar el "
+"agente."
+
+#: conf/agent-types.php:33
+msgid "Branca"
+msgstr "Blanca"
+
+#: conf/agent-types.php:35
+msgid "Amarela"
+msgstr "Amarilla"
+
+#: conf/agent-types.php:36
+msgid "Parda"
+msgstr "Parda"
+
+#: conf/agent-types.php:37
+msgid "Indígena"
+msgstr "Indígena"
+
+#: conf/agent-types.php:79 conf/agent-types.php:78
+#: themes/BaseV1/layouts/parts/singles/history_agent.php:130
+#: themes/BaseV1/views/agent/create.php:100
+#: themes/BaseV1/views/agent/edit.php:100
+#: themes/BaseV1/views/agent/single.php:100
+msgid "Orientação Sexual"
+msgstr "Orientación sexual"
+
+#: conf/agent-types.php:83 conf/agent-types.php:82
+msgid "Heterossexual"
+msgstr "Heterosexual"
+
+#: conf/agent-types.php:84 conf/agent-types.php:83
+msgid "Lésbica"
+msgstr "Lésbica"
+
+#: conf/agent-types.php:85 conf/agent-types.php:84
+msgid "Gay"
+msgstr "Gay"
+
+#: conf/agent-types.php:86 conf/agent-types.php:85
+msgid "Bissexual"
+msgstr "Bisexual"
+
+#: conf/agent-types.php:87 conf/agent-types.php:86
+msgid "Assexual"
+msgstr "Asexual"
 
 #: themes/IberCulturaViva/Theme.php:28
 msgid ""
@@ -1076,75 +1827,6 @@ msgstr ""
 "sistemas de información cultural de los países miembros (Argentina, Brasil, "
 "Chile, Costa Rica, Ecuador, El Salvador, España, Guatemala, México, Perú y "
 "Uruguay)."
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:11
-#: themes/BaseV1/layouts/parts/singles/location.php:11
-msgid "Encontrar minha localização"
-msgstr "Encontrar mi localización"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:22
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:172
-#: themes/BaseV1/layouts/parts/singles/history_space.php:167
-#: themes/BaseV1/layouts/parts/singles/location.php:19
-msgid "Insira o endereço"
-msgstr "Ingrese una dirección"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:24
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:174
-#: themes/BaseV1/layouts/parts/singles/history_space.php:169
-#: themes/BaseV1/layouts/parts/singles/location.php:21
-msgid "Insira o CEP"
-msgstr "Ingrese el CP"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:25
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:175
-#: themes/BaseV1/layouts/parts/singles/history_space.php:170
-#: themes/BaseV1/layouts/parts/singles/location.php:22
-msgid "Insira o logradouro"
-msgstr "Ingrese la calle"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:26
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:176
-#: themes/BaseV1/layouts/parts/singles/history_space.php:171
-#: themes/BaseV1/layouts/parts/singles/location.php:23
-msgid "Insira o Número"
-msgstr "Ingrese el Número"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:27
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:177
-#: themes/BaseV1/layouts/parts/singles/history_space.php:172
-#: themes/BaseV1/layouts/parts/singles/location.php:24
-msgid "Insira um complemento"
-msgstr "Ingrese un complemento"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:28
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:178
-#: themes/BaseV1/layouts/parts/singles/history_space.php:173
-#: themes/BaseV1/layouts/parts/singles/location.php:25
-msgid "Insira o Bairro"
-msgstr "Ingrese el Barrio"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:29
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:179
-#: themes/BaseV1/layouts/parts/singles/history_space.php:174
-#: themes/BaseV1/layouts/parts/singles/location.php:26
-msgid "Insira o Município"
-msgstr "Ingrese el Municipio/Localidad"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:30
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:180
-#: themes/BaseV1/layouts/parts/singles/history_space.php:175
-#: themes/BaseV1/layouts/parts/singles/location.php:27
-msgid "Insira o Estado"
-msgstr "Ingrese la Entidad Subnacional"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:31
-msgid "Insira o País"
-msgstr "Ingrese el País"
-
-#: themes/IberCulturaViva/layouts/parts/singles/location.php:56
-msgid "Informações Geográficas"
-msgstr "Informaciones Geográficas"
 
 #: conf/agent-types.php:17
 msgid "CPF ou CNPJ"
@@ -1282,22 +1964,6 @@ msgstr ""
 msgid "Id"
 msgstr "Id"
 
-#: conf/conf-base.php:244 lib/MapasCulturais/ApiOutputs/Html.php:68
-#: lib/MapasCulturais/EvaluationMethod.php:85
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:23
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:63
-#: themes/BaseV1/Theme.php:1678 themes/BaseV1/layouts/parts/panel-search.php:14
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
-#: themes/BaseV1/views/agent/create.php:92
-#: themes/BaseV1/views/agent/edit.php:92
-#: themes/BaseV1/views/agent/single.php:92
-#: themes/BaseV1/views/generic/list.php:17
-#: themes/BaseV1/views/generic/list.php:32
-#: themes/mapasculturais-culturaenlinea/config.php:23
-#: themes/mapasculturais-culturaenlinea/config.php:188
-msgid "Nome"
-msgstr "Nombre"
-
 #: conf/conf-base.php:245 lib/MapasCulturais/ApiOutputs/Html.php:137
 #: themes/mapasculturais-culturaenlinea/config.php:24
 #: themes/mapasculturais-culturaenlinea/config.php:189
@@ -1308,30 +1974,6 @@ msgstr "Fecha de creación"
 #: themes/mapasculturais-culturaenlinea/config.php:190
 msgid "Data de Atualização"
 msgstr "Fecha de actuaización"
-
-#: conf/conf-base.php:247 lib/MapasCulturais/ApiOutputs/Html.php:77
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:98
-#: themes/BaseV1/layouts/parts/singles/history_event.php:99
-#: themes/BaseV1/layouts/parts/singles/history_space.php:102
-#: themes/BaseV1/layouts/parts/singles/project-about.php:16
-#: themes/BaseV1/views/agent/create.php:76
-#: themes/BaseV1/views/agent/edit.php:76
-#: themes/BaseV1/views/agent/single.php:76
-#: themes/BaseV1/views/event/create.php:165
-#: themes/BaseV1/views/event/create.php:166
-#: themes/BaseV1/views/event/edit.php:165
-#: themes/BaseV1/views/event/edit.php:166
-#: themes/BaseV1/views/event/single.php:165
-#: themes/BaseV1/views/event/single.php:166
-#: themes/BaseV1/views/seal/create.php:64 themes/BaseV1/views/seal/edit.php:64
-#: themes/BaseV1/views/seal/single.php:64
-#: themes/BaseV1/views/space/create.php:80
-#: themes/BaseV1/views/space/edit.php:80
-#: themes/BaseV1/views/space/single.php:80
-#: themes/mapasculturais-culturaenlinea/config.php:26
-#: themes/mapasculturais-culturaenlinea/config.php:191
-msgid "Descrição Curta"
-msgstr "Descripción breve"
 
 #: conf/conf-base.php:248 themes/mapasculturais-culturaenlinea/config.php:27
 #: themes/mapasculturais-culturaenlinea/config.php:192
@@ -1657,20 +2299,6 @@ msgstr "Traducción para lenguaje de señas"
 #: themes/BaseV1/views/event/single.php:49
 msgid "Não Informado"
 msgstr "No informado"
-
-#: conf/event-types.php:48 conf/event-types.php:58 conf/space-types.php:64
-#: lib/MapasCulturais/ApiOutputs/Html.php:190
-#: lib/MapasCulturais/ApiOutputs/Html.php:204
-#: lib/MapasCulturais/ApiOutputs/Html.php:217
-#: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:12
-#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:186
-msgid "Sim"
-msgstr "Sí"
-
-#: conf/event-types.php:49 conf/event-types.php:59 conf/space-types.php:65
-#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:187
-msgid "Não"
-msgstr "No"
 
 #: conf/event-types.php:54
 msgid "Áudio descrição"
@@ -2406,32 +3034,6 @@ msgstr "Repite sábado"
 msgid "Link"
 msgstr "Vínculo"
 
-#: lib/MapasCulturais/ApiOutputs/Html.php:74
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:32
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:79
-#: themes/BaseV1/Theme.php:2147 themes/BaseV1/Theme.php:2174
-#: themes/BaseV1/layouts/parts/home-agents.php:43
-#: themes/BaseV1/layouts/parts/home-opportunities.php:39
-#: themes/BaseV1/layouts/parts/home-projects.php:39
-#: themes/BaseV1/layouts/parts/home-saas.php:41
-#: themes/BaseV1/layouts/parts/home-spaces.php:41
-#: themes/BaseV1/layouts/parts/panel-subsite.php:15
-#: themes/BaseV1/layouts/parts/search/infobox-agent.php:8
-#: themes/BaseV1/layouts/parts/search/infobox-space.php:11
-#: themes/BaseV1/layouts/parts/search/list-agent-item.php:12
-#: themes/BaseV1/layouts/parts/search/list-opportunity-item.php:14
-#: themes/BaseV1/layouts/parts/search/list-project-item.php:14
-#: themes/BaseV1/layouts/parts/search/list-space-item.php:13
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:65
-#: themes/BaseV1/layouts/parts/singles/history_space.php:65
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:69
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:111
-#: themes/BaseV1/layouts/parts/singles/permissions.php:15
-#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:184
-#: themes/BaseV1/layouts/parts/singles/type.php:8
-msgid "Tipo"
-msgstr "Tipo"
-
 #: lib/MapasCulturais/ApiOutputs/Html.php:80
 msgid "Termos"
 msgstr "Condiciones"
@@ -2439,15 +3041,6 @@ msgstr "Condiciones"
 #: lib/MapasCulturais/ApiOutputs/Html.php:92
 msgid "Descrição Legível do Horário"
 msgstr "Descripción legible del horario"
-
-#: lib/MapasCulturais/ApiOutputs/Html.php:95
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:274
-#: themes/BaseV1/layouts/parts/singles/history_event.php:279
-#: themes/BaseV1/layouts/parts/singles/history_space.php:274
-#: themes/BaseV1/layouts/parts/widget-tags.php:9
-#: themes/BaseV1/layouts/parts/widget-tags.php:11
-msgid "Tags"
-msgstr "Etiquetas"
 
 #: lib/MapasCulturais/ApiOutputs/Html.php:98
 msgid "Áreas"
@@ -3244,15 +3837,6 @@ msgstr "Usuario invitado"
 msgid "Denunciar"
 msgstr "Denunciar"
 
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:27
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:69
-#: themes/BaseV1/views/agent/create.php:107
-#: themes/BaseV1/views/agent/edit.php:107
-#: themes/BaseV1/views/agent/single.php:107
-#: themes/BaseV1/views/auth/fake-authentication.php:105
-msgid "E-mail"
-msgstr "E-mail"
-
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:36
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:85
 #: lib/modules/OpportunityClaimForm/layouts/parts/claim-form.php:13
@@ -3266,37 +3850,6 @@ msgstr "Denuncia anónima"
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:45
 msgid "Receber cópia da denúncia"
 msgstr "Recibir copia de la renuncia"
-
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:48
-#: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:108
-#: lib/modules/EntityOpportunities/layouts/parts/entity-opportunities--content-edit.php:18
-#: lib/modules/OpportunityPhases/layouts/parts/widget-opportunity-phases.php:48
-#: plugins/EvaluationMethodTechnical/layouts/parts/technical--configuration-form.php:11
-#: themes/BaseV1/Theme.php:1567 themes/BaseV1/Theme.php:1663
-#: themes/BaseV1/layouts/parts/owner.php:43
-#: themes/BaseV1/layouts/parts/related-admin-agents.php:34
-#: themes/BaseV1/layouts/parts/related-agents.php:9
-#: themes/BaseV1/layouts/parts/related-agents.php:12
-#: themes/BaseV1/layouts/parts/related-agents.php:55
-#: themes/BaseV1/layouts/parts/singles/control--edit-buttons.php:12
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:24
-#: themes/BaseV1/layouts/parts/singles/history_event.php:20
-#: themes/BaseV1/layouts/parts/singles/history_space.php:24
-#: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--committee.php:92
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:26
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:46
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:77
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:119
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:139
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--form.php:10
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--rules.php:15
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:18
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:48
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--seals.php:78
-#: themes/BaseV1/layouts/parts/singles/registration-edit--agents.php:30
-#: themes/BaseV1/layouts/parts/singles/registration-edit--fields.php:71
-msgid "Cancelar"
-msgstr "Cancelar"
 
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:49
 msgid "Enviar Denúncia"
@@ -3773,25 +4326,6 @@ msgstr "Esta fase de la convocatoria es un borrador."
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phase-status.php:12
 msgid "Esta fase da oportunidade está na lixeira."
 msgstr "Esta fase de la convocatoria está en la papelera."
-
-#: lib/modules/OpportunityPhases/layouts/parts/opportunity-phases-tabs.php:4
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:87
-#: themes/BaseV1/layouts/parts/singles/history_event.php:88
-#: themes/BaseV1/layouts/parts/singles/history_space.php:91
-#: themes/BaseV1/layouts/parts/singles/project-tabs.php:4
-#: themes/BaseV1/views/agent/create.php:58
-#: themes/BaseV1/views/agent/edit.php:58
-#: themes/BaseV1/views/agent/single.php:58
-#: themes/BaseV1/views/event/create.php:146
-#: themes/BaseV1/views/event/edit.php:146
-#: themes/BaseV1/views/event/single.php:146
-#: themes/BaseV1/views/seal/create.php:51 themes/BaseV1/views/seal/edit.php:51
-#: themes/BaseV1/views/seal/single.php:51
-#: themes/BaseV1/views/space/create.php:62
-#: themes/BaseV1/views/space/edit.php:62
-#: themes/BaseV1/views/space/single.php:62
-msgid "Sobre"
-msgstr "Acerca de"
 
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phases-tabs.php:10
 #: themes/BaseV1/layouts/parts/singles/opportunity-evaluations--committee--table.php:2
@@ -6706,13 +7240,6 @@ msgstr "borrar"
 msgid "Nenhum link disponível"
 msgstr "Nigún link desponible"
 
-#: themes/BaseV1/layouts/parts/link-list.php:29
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:363
-#: themes/BaseV1/layouts/parts/singles/history_event.php:343
-#: themes/BaseV1/layouts/parts/singles/history_space.php:324
-msgid "Links"
-msgstr "Enlaces"
-
 #: themes/BaseV1/layouts/parts/link-list.php:34
 msgid "Adicionar Link"
 msgstr "Agregar enlace"
@@ -6740,28 +7267,6 @@ msgstr "Editar Enlace"
 #: themes/BaseV1/layouts/parts/link-list.php:67
 msgid "Endereço (com http://)"
 msgstr "Dirección (con http://)"
-
-#: themes/BaseV1/layouts/parts/link-list.php:68
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:201
-#: themes/BaseV1/layouts/parts/singles/history_space.php:186
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:73
-#: themes/BaseV1/layouts/parts/singles/opportunity-registrations--fields.php:115
-#: themes/BaseV1/layouts/parts/singles/project-about.php:34
-#: themes/BaseV1/layouts/parts/singles/space-extra-info.php:2
-#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:139
-#: themes/BaseV1/layouts/parts/singles/subsite-filters.php:182
-#: themes/BaseV1/layouts/parts/video-gallery.php:69
-#: themes/BaseV1/views/agent/create.php:128
-#: themes/BaseV1/views/agent/edit.php:128
-#: themes/BaseV1/views/agent/single.php:128
-#: themes/BaseV1/views/event/create.php:341
-#: themes/BaseV1/views/event/edit.php:341
-#: themes/BaseV1/views/event/single.php:341
-#: themes/BaseV1/views/generic/list.php:18
-#: themes/BaseV1/views/seal/create.php:96 themes/BaseV1/views/seal/edit.php:96
-#: themes/BaseV1/views/seal/single.php:96
-msgid "Descrição"
-msgstr "Descripción"
 
 #: themes/BaseV1/layouts/parts/link-list.php:70
 msgid "Para adicionar links você primeiro deve salvar."
@@ -7144,13 +7649,6 @@ msgstr ""
 "Para relacionar el sello al %s, primero es preciso guardar el registro."
 
 #: themes/BaseV1/layouts/parts/related-seals.php:16
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:243
-#: themes/BaseV1/layouts/parts/singles/history_event.php:241
-#: themes/BaseV1/layouts/parts/singles/history_space.php:241
-msgid "Selos Aplicados"
-msgstr "Sellos Aplicados"
-
-#: themes/BaseV1/layouts/parts/related-seals.php:16
 #: themes/BaseV1/layouts/parts/related-seals.php:17
 msgid "Adicionar selo relacionado"
 msgstr "Agregar sello relacionado"
@@ -7318,224 +7816,12 @@ msgstr "Editar imagen de la portada"
 msgid "Excluir capa"
 msgstr "Excluir portada"
 
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:38
-#: themes/BaseV1/layouts/parts/singles/history_event.php:34
-#: themes/BaseV1/layouts/parts/singles/history_space.php:38
-#, php-format
-msgid "As informações deste registro é histórico gerado em %s."
-msgstr "La información de este registro y el histórico generado en %s."
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:41
-#: themes/BaseV1/layouts/parts/singles/history_event.php:37
-#: themes/BaseV1/layouts/parts/singles/history_space.php:41
-#, php-format
-msgid "Este %s está como <b>publicado</b>"
-msgstr "Este %s está como <b>publicado</b>"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:43
-#: themes/BaseV1/layouts/parts/singles/history_event.php:39
-#: themes/BaseV1/layouts/parts/singles/history_space.php:43
-#, php-format
-msgid "Este %s é um <b>rascunho</b>"
-msgstr "Este %s es un  <b>borrador</b>"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:45
-#: themes/BaseV1/layouts/parts/singles/history_event.php:41
-#: themes/BaseV1/layouts/parts/singles/history_space.php:45
-#, php-format
-msgid "Este %s está na <b>lixeira</b>"
-msgstr "Este %s está en la <b>papelera</b>"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:47
-#: themes/BaseV1/layouts/parts/singles/history_event.php:43
-#: themes/BaseV1/layouts/parts/singles/history_space.php:47
-#, php-format
-msgid "Este %s está <b>arquivado</b>"
-msgstr "Este %s está <b>archivado</b>"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:48
-#: themes/BaseV1/layouts/parts/singles/history_event.php:44
-#: themes/BaseV1/layouts/parts/singles/history_space.php:48
-#, php-format
-msgid "e pode ser acessado clicando <a href=\"%s\">aqui</a>"
-msgstr "y se puede acceder haciendo clic <a href=\"%s\">aquí</a>"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:65
-#: themes/BaseV1/layouts/parts/singles/history_space.php:65
-#: themes/BaseV1/layouts/parts/singles/type.php:8
-msgid "Selecione um tipo"
-msgstr "Seleccione un tipo"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:73
-#: themes/BaseV1/layouts/parts/singles/history_event.php:66
-#: themes/BaseV1/layouts/parts/singles/history_space.php:77
-#: themes/BaseV1/layouts/parts/singles/name.php:8
-#: themes/BaseV1/views/seal/sealrelation.php:33
-#: themes/BaseV1/views/seal/sealrelation.php:42
-msgid "Nome de exibição"
-msgstr "Nombre para mostrar"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:98
-#: themes/BaseV1/layouts/parts/singles/history_event.php:99
-#: themes/BaseV1/layouts/parts/singles/history_space.php:102
-#: themes/BaseV1/layouts/parts/singles/project-about.php:16
-#: themes/BaseV1/views/agent/create.php:76
-#: themes/BaseV1/views/agent/edit.php:76
-#: themes/BaseV1/views/agent/single.php:76
-#: themes/BaseV1/views/seal/create.php:64 themes/BaseV1/views/seal/edit.php:64
-#: themes/BaseV1/views/seal/single.php:64
-#: themes/BaseV1/views/space/create.php:80
-#: themes/BaseV1/views/space/edit.php:80
-#: themes/BaseV1/views/space/single.php:80
-msgid "Insira uma descrição curta"
-msgstr "Agregue una descripción breve"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
-#: themes/BaseV1/views/agent/create.php:92
-#: themes/BaseV1/views/agent/edit.php:92
-#: themes/BaseV1/views/agent/single.php:92
-msgid "Nome Completo ou Razão Social"
-msgstr "Nombre Completo o Razón Social"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:110
-#: themes/BaseV1/views/agent/create.php:92
-#: themes/BaseV1/views/agent/edit.php:92
-#: themes/BaseV1/views/agent/single.php:92
-msgid "Insira seu nome completo ou razão social"
-msgstr "Agregue el Nombre Completo o la Razón Social"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:114
-#: themes/BaseV1/views/agent/create.php:93
-#: themes/BaseV1/views/agent/edit.php:93
-#: themes/BaseV1/views/agent/single.php:93
-msgid "CPF/CNPJ"
-msgstr "Documento de Identidad"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:114
-#: themes/BaseV1/views/agent/create.php:93
-#: themes/BaseV1/views/agent/edit.php:93
-#: themes/BaseV1/views/agent/single.php:93
-msgid "Insira o CPF ou CNPJ com pontos, hífens e barras"
-msgstr "Ingrese el documento de identidad con puntos, guiones y barras"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:119
-#: themes/BaseV1/views/agent/create.php:95
-#: themes/BaseV1/views/agent/edit.php:95
-#: themes/BaseV1/views/agent/single.php:95
-msgid "Insira a data de nascimento ou fundação do agente"
-msgstr "Ingrese la fecha de nacimiento o fundación del agente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:126
-#: themes/BaseV1/views/agent/create.php:99
-#: themes/BaseV1/views/agent/edit.php:99
-#: themes/BaseV1/views/agent/single.php:99
-msgid "Selecione o gênero se for pessoa física"
-msgstr "Seleccione el género, en el caso de persona física"
-
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:130
 #: themes/BaseV1/views/agent/create.php:100
 #: themes/BaseV1/views/agent/edit.php:100
 #: themes/BaseV1/views/agent/single.php:100
 msgid "Selecione a orientação sexual se for pessoa física"
 msgstr "Seleccione la orientación sexual en caso de persona física"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
-#: themes/BaseV1/views/agent/create.php:101
-#: themes/BaseV1/views/agent/edit.php:101
-#: themes/BaseV1/views/agent/single.php:101
-msgid "Raça/Cor"
-msgstr "Raza/Color"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:134
-#: themes/BaseV1/views/agent/create.php:101
-#: themes/BaseV1/views/agent/edit.php:101
-#: themes/BaseV1/views/agent/single.php:101
-msgid "Selecione a raça/cor se for pessoa física"
-msgstr "Seleccione raza/color en caso de persona física"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:138
-#: themes/BaseV1/layouts/parts/singles/history_space.php:138
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:42
-#: themes/BaseV1/views/agent/create.php:103
-#: themes/BaseV1/views/agent/edit.php:103
-#: themes/BaseV1/views/agent/single.php:103
-msgid "Insira um email que não será exibido publicamente"
-msgstr "Ingrese un e-mail que será exhibido públicamente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:142
-#: themes/BaseV1/layouts/parts/singles/history_space.php:142
-msgid "Email"
-msgstr "E-mail"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:142
-#: themes/BaseV1/layouts/parts/singles/history_space.php:142
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:38
-#: themes/BaseV1/views/agent/create.php:107
-#: themes/BaseV1/views/agent/edit.php:107
-#: themes/BaseV1/views/agent/single.php:107
-msgid "Insira um email que será exibido publicamente"
-msgstr "Ingrese un e-mail que será exhibido públicamente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:146
-#: themes/BaseV1/layouts/parts/singles/history_event.php:128
-#: themes/BaseV1/layouts/parts/singles/history_space.php:146
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:46
-#: themes/BaseV1/views/agent/create.php:111
-#: themes/BaseV1/views/agent/edit.php:111
-#: themes/BaseV1/views/agent/single.php:111
-msgid "Insira um telefone que será exibido publicamente"
-msgstr "Ingrese un teléfono que será exhibido públicamente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:150
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:154
-#: themes/BaseV1/layouts/parts/singles/history_space.php:150
-#: themes/BaseV1/layouts/parts/singles/history_space.php:154
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:50
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:51
-#: themes/BaseV1/views/agent/create.php:115
-#: themes/BaseV1/views/agent/create.php:116
-#: themes/BaseV1/views/agent/edit.php:115
-#: themes/BaseV1/views/agent/edit.php:116
-#: themes/BaseV1/views/agent/single.php:115
-#: themes/BaseV1/views/agent/single.php:116
-msgid "Telefone Privado"
-msgstr "Teléfono Privado"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:150
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:154
-#: themes/BaseV1/layouts/parts/singles/history_space.php:150
-#: themes/BaseV1/layouts/parts/singles/history_space.php:154
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:50
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:51
-#: themes/BaseV1/views/agent/create.php:115
-#: themes/BaseV1/views/agent/create.php:116
-#: themes/BaseV1/views/agent/edit.php:115
-#: themes/BaseV1/views/agent/edit.php:116
-#: themes/BaseV1/views/agent/single.php:115
-#: themes/BaseV1/views/agent/single.php:116
-msgid "Insira um telefone que não será exibido publicamente"
-msgstr "Ingrese un teléfono que no será exhibido públicamente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:202
-#: themes/BaseV1/views/agent/create.php:129
-#: themes/BaseV1/views/agent/edit.php:129
-#: themes/BaseV1/views/agent/single.php:129
-msgid "Descrição do Agente"
-msgstr "Descripción del Agente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:202
-#: themes/BaseV1/views/agent/create.php:129
-#: themes/BaseV1/views/agent/edit.php:129
-#: themes/BaseV1/views/agent/single.php:129
-msgid "Insira uma descrição do agente"
-msgstr "Ingrese una descripción del agente"
-
-#: themes/BaseV1/layouts/parts/singles/history_agent.php:209
-#: themes/BaseV1/layouts/parts/singles/history_event.php:198
-#: themes/BaseV1/layouts/parts/singles/history_space.php:198
-#: themes/BaseV1/layouts/parts/video-gallery.php:35
-msgid "Vídeos"
-msgstr "Videos"
 
 #: themes/BaseV1/layouts/parts/singles/history_event.php:72
 #: themes/BaseV1/views/event/create.php:130
@@ -8393,44 +8679,6 @@ msgstr "Área(s) de actuación"
 msgid "Você não possui nenhum agente com permissão."
 msgstr "Usted no posee ningún agente con permiso."
 
-#: themes/BaseV1/layouts/parts/singles/project-about.php:12
-#: themes/BaseV1/views/agent/create.php:72
-#: themes/BaseV1/views/agent/edit.php:72
-#: themes/BaseV1/views/agent/single.php:72
-#: themes/BaseV1/views/event/create.php:161
-#: themes/BaseV1/views/event/edit.php:161
-#: themes/BaseV1/views/event/single.php:161
-#: themes/BaseV1/views/space/create.php:76
-#: themes/BaseV1/views/space/edit.php:76
-#: themes/BaseV1/views/space/single.php:76
-msgid ""
-"O limite de caracteres da descrição curta foi diminuido para 400, mas seu "
-"texto atual possui"
-msgstr ""
-"El límite de caracteres de la descripción breve fue acortado a 400, pero su "
-"texto actual posee"
-
-#: themes/BaseV1/layouts/parts/singles/project-about.php:12
-#: themes/BaseV1/views/agent/create.php:72
-#: themes/BaseV1/views/agent/edit.php:72
-#: themes/BaseV1/views/agent/single.php:72
-#: themes/BaseV1/views/event/create.php:161
-#: themes/BaseV1/views/event/edit.php:161
-#: themes/BaseV1/views/event/single.php:161
-#: themes/BaseV1/views/space/create.php:76
-#: themes/BaseV1/views/space/edit.php:76
-#: themes/BaseV1/views/space/single.php:76
-msgid "caracteres. Você deve alterar seu texto ou este será cortado ao salvar."
-msgstr "caracteres. Usted debe cambiar su texto o será cortado al guardar."
-
-#: themes/BaseV1/layouts/parts/singles/project-about.php:24
-#: themes/BaseV1/layouts/parts/singles/space-servico.php:31
-#: themes/BaseV1/views/agent/create.php:85
-#: themes/BaseV1/views/agent/edit.php:85
-#: themes/BaseV1/views/agent/single.php:85
-msgid "Insira a url de seu site"
-msgstr "Agregue la url de su página web"
-
 #: themes/BaseV1/layouts/parts/singles/project-about.php:35
 msgid "Descrição do Projeto"
 msgstr "Descripción del Proyecto"
@@ -8458,21 +8706,6 @@ msgstr "Autor"
 #: themes/BaseV1/layouts/parts/singles/project-tabs.php:7
 msgid "Status dos eventos"
 msgstr "Estado de los eventos"
-
-#: themes/BaseV1/layouts/parts/singles/project-tabs.php:11
-#: themes/BaseV1/views/agent/create.php:60
-#: themes/BaseV1/views/agent/edit.php:60
-#: themes/BaseV1/views/agent/single.php:60
-#: themes/BaseV1/views/event/create.php:148
-#: themes/BaseV1/views/event/edit.php:148
-#: themes/BaseV1/views/event/single.php:148
-#: themes/BaseV1/views/seal/create.php:53 themes/BaseV1/views/seal/edit.php:53
-#: themes/BaseV1/views/seal/single.php:53
-#: themes/BaseV1/views/space/create.php:64
-#: themes/BaseV1/views/space/edit.php:64
-#: themes/BaseV1/views/space/single.php:64
-msgid "Responsáveis"
-msgstr "Responsables"
 
 #: themes/BaseV1/layouts/parts/singles/registration--sidebar--left.php:10
 msgid "Somente avaliações pendentes"
@@ -9102,16 +9335,6 @@ msgstr "Agregar video"
 #: themes/BaseV1/layouts/parts/widget-tags.php:11
 msgid "Insira tags"
 msgstr "Introduzca etiquetas"
-
-#: themes/BaseV1/views/agent/create.php:167
-#: themes/BaseV1/views/agent/edit.php:167
-#: themes/BaseV1/views/agent/single.php:167
-msgid ""
-"Para adicionar arquivos para download ou links, primeiro é preciso salvar o "
-"agente."
-msgstr ""
-"Para agregar archivos para descarga o enlaces, primero es preciso guardar el "
-"agente."
 
 #: themes/BaseV1/views/app/create.php:8
 msgid "Novo App"
@@ -9916,6 +10139,22 @@ msgstr ""
 "Agente individual (persona física) con los campos Documento de Identidad, "
 "Fecha de Nacimiento / Fundación, Email Privado y Teléfono 1 completos"
 
+#: lib/MapasCulturais/Entities/EventOccurrence.php:150
+msgid "Data de inicio é obrigatória"
+msgstr "La fecha de inicio es obligatoria"
+
+#: themes/BaseV1/layouts/parts/singles/registration--sidebar--right.php:36
+msgid "Informações gerais"
+msgstr "Información general"
+
+#: conf/agent-types.php:34
+msgid "Afrodescendente"
+msgstr "Afrodescendiente"
+
+#: conf/agent-types.php:38
+msgid "Pertence a um Povo Originário"
+msgstr "Pertenece a un Pueblo Originario"
+
 #: conf/space-types.php:209
 msgid "Drive-in"
 msgstr ""
@@ -9972,10 +10211,6 @@ msgstr ""
 msgid "Bem Móvel ou Integrado"
 msgstr ""
 
-#: lib/MapasCulturais/Entities/EventOccurrence.php:150
-msgid "Data de inicio é obrigatória"
-msgstr "La fecha de inicio es obligatoria"
-
 #: themes/BaseV1/Theme.php:74
 msgid "Mapa da Cultura de Rio Branco"
 msgstr ""
@@ -10025,10 +10260,6 @@ msgstr ""
 msgid "Veja abaixo as inscrições suplentes/selecionadas"
 msgstr ""
 
-#: themes/BaseV1/layouts/parts/singles/registration--sidebar--right.php:36
-msgid "Informações gerais"
-msgstr "Información general"
-
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:164
 msgid "Preencha todos os campos para adicionar um filtro"
 msgstr ""
@@ -10044,31 +10275,6 @@ msgstr ""
 #: themes/BaseV1/views/opportunity/report.php:107
 msgid "zip"
 msgstr ""
-
-#: themes/IberCulturaViva/Theme.php:28
-msgid ""
-"O Mapa IberCultura Viva é a plataforma livre, gratuita e colaborativa de "
-"mapeamento do programa de cooperação IberCultura Viva. Neste espaço, "
-"representantes de organizações culturais comunitárias e povos originários "
-"podem se registrar como agentes culturais, difundir eventos, cadastrar "
-"projetos e inscrever-se nos editais e concursos publicados.<br/><br/>\n"
-"           A informação coletada pelo Mapa IberCultura Viva será utilizada "
-"para a construção/consolidação de indicadores culturais que fortalecerão os "
-"sistemas de informação cultural dos países membros do programa (Argentina, "
-"Brasil, Chile, Costa Rica, El Salvador, Equador, Espanha, Guatemala, México, "
-"Peru e Uruguai)."
-msgstr ""
-"El Mapa IberCultura Viva es la plataforma libre, gratuita y colaborativa de "
-"mapeo del programa de cooperación IberCultura Viva. En este espacio, "
-"representantes de organizaciones culturales comunitarias y de pueblos "
-"originarios pueden registrarse como agentes culturales, difundir sus "
-"eventos, subir espacios, proyectos, e inscribirse a las convocatorias y "
-"concursos publicados.<br/><br/>\n"
-"La información recabada por el Mapa IberCultura Viva será utilizada para la "
-"construcción/consolidación de indicadores culturales que fortalecerán los "
-"sistemas de información cultural de los países miembros (Argentina, Brasil, "
-"Chile, Costa Rica, Ecuador, El Salvador, España, Guatemala, México, Perú y "
-"Uruguay)."
 
 #~ msgid "A data de nascimento é obrigatória."
 #~ msgstr "La fecha de nacimiento/fundación es obligatoria"
