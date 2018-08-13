@@ -73,11 +73,12 @@ return [
     'mailer.alwaysTo' => env('MAILER_ALWAYSTO', false),
 
     // MAP
-    'maps.zoom.default' => env('MAPS_ZOOM_DEFAULTS', 5),
+    'maps.center' => [-5, -30],
+    'maps.zoom.default' => env('MAPS_ZOOM_DEFAULTS', 3),
     'maps.zoom.approximate' => env('MAPS_ZOOM_APPROXIMATE', 14),
     'maps.zoom.precise' => env('MAPS_ZOOM_PRECISE', 16),
     'maps.zoom.max' => env('MAPS_ZOOM_MAX', 18),
-    'maps.zoom.min' => env('MAPS_ZOOM_MIN', 5),
+    'maps.zoom.min' => env('MAPS_ZOOM_MIN', 3),
     'maps.includeGoogleLayers' => env('MAPS_INCLUDE_GOOGLE_LAYERS', false),
 
     // CEP API
