@@ -3,7 +3,12 @@ body {
 }
 
 #main-section {
-    min-height: calc(100vh - 330px);
+    min-height: calc(100vh - 320px);
+    padding-bottom: 30px;
+
+    #home-developers {
+        margin-bottom: -30px;
+    }
 }
 
 footer {
