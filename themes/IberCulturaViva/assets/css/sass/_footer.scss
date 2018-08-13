@@ -39,7 +39,7 @@ footer {
     color: #111;
     display: table;
     padding: 15px;
-    width: 100%;
+    width: calc(100% - 30px);
 
     .row {
         display: table-row;
