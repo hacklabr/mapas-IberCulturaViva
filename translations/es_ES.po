@@ -1,6 +1,143 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-13 17:09-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2018-08-10 17:26-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
@@ -192,7 +329,9 @@ msgstr "Nombre completo o Razón Social"
 msgid "Documento de identidade"
 msgstr "Documento de identidad"
 
-#: conf/agent-types.php:28
+#: conf/agent-types.php:28 themes/IberCulturaViva/views/agent/create.php:100
+#: themes/IberCulturaViva/views/agent/edit.php:100
+#: themes/IberCulturaViva/views/agent/single.php:100
 msgid "É Afrodescendente?"
 msgstr "¿Es Afrodescendiente?"
 
@@ -212,13 +351,19 @@ msgstr "Sí"
 msgid "Não"
 msgstr "No"
 
-#: conf/agent-types.php:38
+#: conf/agent-types.php:38 themes/IberCulturaViva/views/agent/create.php:101
+#: themes/IberCulturaViva/views/agent/edit.php:101
+#: themes/IberCulturaViva/views/agent/single.php:101
 msgid "Pertence a um Povo Originário?"
 msgstr "¿Pertenece a un Pueblo Originario?"
 
 #: conf/agent-types.php:48
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:118
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:119
+#: themes/IberCulturaViva/views/agent/create.php:94
+#: themes/IberCulturaViva/views/agent/create.php:95
+#: themes/IberCulturaViva/views/agent/edit.php:94
+#: themes/IberCulturaViva/views/agent/edit.php:95
 #: themes/IberCulturaViva/views/agent/single.php:94
 #: themes/IberCulturaViva/views/agent/single.php:95 conf/agent-types.php:44
 #: conf/agent-types.php:43
@@ -271,6 +416,8 @@ msgstr "Privada"
 
 #: conf/agent-types.php:67
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:126
+#: themes/IberCulturaViva/views/agent/create.php:99
+#: themes/IberCulturaViva/views/agent/edit.php:99
 #: themes/IberCulturaViva/views/agent/single.php:99 conf/agent-types.php:63
 #: conf/agent-types.php:62
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:126
@@ -311,6 +458,9 @@ msgstr "Otras"
 
 #: conf/agent-types.php:82
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:138
+#: themes/IberCulturaViva/views/agent/create.php:107
+#: themes/IberCulturaViva/views/agent/edit.php:107
+#: themes/IberCulturaViva/views/agent/single.php:107
 #: themes/IberCulturaViva/views/agent/single.php:105 conf/agent-types.php:93
 #: conf/agent-types.php:92 conf/space-types.php:8
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:142
@@ -329,6 +479,9 @@ msgstr "El email público no es un email válido."
 
 #: conf/agent-types.php:90
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:134
+#: themes/IberCulturaViva/views/agent/create.php:103
+#: themes/IberCulturaViva/views/agent/edit.php:103
+#: themes/IberCulturaViva/views/agent/single.php:103
 #: themes/IberCulturaViva/views/agent/single.php:101 conf/agent-types.php:101
 #: conf/agent-types.php:100 conf/space-types.php:15
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:138
@@ -347,6 +500,9 @@ msgstr "El email privado ne es un email válido."
 
 #: conf/agent-types.php:98
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:142
+#: themes/IberCulturaViva/views/agent/create.php:111
+#: themes/IberCulturaViva/views/agent/edit.php:111
+#: themes/IberCulturaViva/views/agent/single.php:111
 #: themes/IberCulturaViva/views/agent/single.php:109 conf/agent-types.php:109
 #: conf/agent-types.php:108 conf/space-types.php:23
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:146
@@ -367,6 +523,9 @@ msgstr ""
 
 #: conf/agent-types.php:107
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:146
+#: themes/IberCulturaViva/views/agent/create.php:115
+#: themes/IberCulturaViva/views/agent/edit.php:115
+#: themes/IberCulturaViva/views/agent/single.php:115
 #: themes/IberCulturaViva/views/agent/single.php:113 conf/agent-types.php:118
 #: conf/agent-types.php:117 conf/space-types.php:31
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:150
@@ -384,6 +543,9 @@ msgstr "Por favor, introduzca el teléfono 1 en el formato (xx) xxxx-xxxx."
 
 #: conf/agent-types.php:117
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/create.php:116
+#: themes/IberCulturaViva/views/agent/edit.php:116
+#: themes/IberCulturaViva/views/agent/single.php:116
 #: themes/IberCulturaViva/views/agent/single.php:114 conf/agent-types.php:128
 #: conf/agent-types.php:127 conf/space-types.php:41
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:154
@@ -515,6 +677,10 @@ msgstr "País"
 
 #: conf/agent-types.php:207 conf/opportunity-types.php:31
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:105
+#: themes/IberCulturaViva/views/agent/create.php:83
+#: themes/IberCulturaViva/views/agent/create.php:85
+#: themes/IberCulturaViva/views/agent/edit.php:83
+#: themes/IberCulturaViva/views/agent/edit.php:85
 #: themes/IberCulturaViva/views/agent/single.php:83
 #: themes/IberCulturaViva/views/agent/single.php:85 conf/agent-types.php:217
 #: conf/conf-base.php:450 conf/event-types.php:64 conf/project-types.php:8
@@ -1291,6 +1457,8 @@ msgid "Nome de exibição"
 msgstr "Nombre para mostrar"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:87
+#: themes/IberCulturaViva/views/agent/create.php:58
+#: themes/IberCulturaViva/views/agent/edit.php:58
 #: themes/IberCulturaViva/views/agent/single.php:58
 #: lib/modules/OpportunityPhases/layouts/parts/opportunity-phases-tabs.php:4
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:87
@@ -1312,6 +1480,8 @@ msgid "Sobre"
 msgstr "Acerca de"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:98
+#: themes/IberCulturaViva/views/agent/create.php:76
+#: themes/IberCulturaViva/views/agent/edit.php:76
 #: themes/IberCulturaViva/views/agent/single.php:76 conf/conf-base.php:247
 #: lib/MapasCulturais/ApiOutputs/Html.php:77
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:98
@@ -1338,6 +1508,8 @@ msgid "Descrição Curta"
 msgstr "Descripción breve"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:98
+#: themes/IberCulturaViva/views/agent/create.php:76
+#: themes/IberCulturaViva/views/agent/edit.php:76
 #: themes/IberCulturaViva/views/agent/single.php:76
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:98
 #: themes/BaseV1/layouts/parts/singles/history_event.php:99
@@ -1355,6 +1527,8 @@ msgid "Insira uma descrição curta"
 msgstr "Agregue una descripción breve"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/create.php:92
+#: themes/IberCulturaViva/views/agent/edit.php:92
 #: themes/IberCulturaViva/views/agent/single.php:92 conf/conf-base.php:244
 #: lib/MapasCulturais/ApiOutputs/Html.php:68
 #: lib/MapasCulturais/EvaluationMethod.php:85
@@ -1373,6 +1547,8 @@ msgid "Nome"
 msgstr "Nombre"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/create.php:92
+#: themes/IberCulturaViva/views/agent/edit.php:92
 #: themes/IberCulturaViva/views/agent/single.php:92
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:110
 #: themes/BaseV1/views/agent/create.php:92
@@ -1382,6 +1558,8 @@ msgid "Nome Completo ou Razão Social"
 msgstr "Nombre Completo o Razón Social"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:110
+#: themes/IberCulturaViva/views/agent/create.php:92
+#: themes/IberCulturaViva/views/agent/edit.php:92
 #: themes/IberCulturaViva/views/agent/single.php:92
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:110
 #: themes/BaseV1/views/agent/create.php:92
@@ -1391,6 +1569,8 @@ msgid "Insira seu nome completo ou razão social"
 msgstr "Agregue el Nombre Completo o la Razón Social"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:114
+#: themes/IberCulturaViva/views/agent/create.php:93
+#: themes/IberCulturaViva/views/agent/edit.php:93
 #: themes/IberCulturaViva/views/agent/single.php:93
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:114
 #: themes/BaseV1/views/agent/create.php:93
@@ -1400,6 +1580,8 @@ msgid "CPF/CNPJ"
 msgstr "Documento de Identidad"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:114
+#: themes/IberCulturaViva/views/agent/create.php:93
+#: themes/IberCulturaViva/views/agent/edit.php:93
 #: themes/IberCulturaViva/views/agent/single.php:93
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:114
 #: themes/BaseV1/views/agent/create.php:93
@@ -1409,6 +1591,8 @@ msgid "Insira o CPF ou CNPJ com pontos, hífens e barras"
 msgstr "Ingrese el documento de identidad con puntos, guiones y barras"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:119
+#: themes/IberCulturaViva/views/agent/create.php:95
+#: themes/IberCulturaViva/views/agent/edit.php:95
 #: themes/IberCulturaViva/views/agent/single.php:95
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:119
 #: themes/BaseV1/views/agent/create.php:95
@@ -1418,6 +1602,8 @@ msgid "Insira a data de nascimento ou fundação do agente"
 msgstr "Ingrese la fecha de nacimiento o fundación del agente"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:126
+#: themes/IberCulturaViva/views/agent/create.php:99
+#: themes/IberCulturaViva/views/agent/edit.php:99
 #: themes/IberCulturaViva/views/agent/single.php:99
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:126
 #: themes/BaseV1/views/agent/create.php:99
@@ -1452,6 +1638,9 @@ msgid "Selecione a raça/cor se for pessoa física"
 msgstr "Seleccione raza/color en caso de persona física"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:134
+#: themes/IberCulturaViva/views/agent/create.php:103
+#: themes/IberCulturaViva/views/agent/edit.php:103
+#: themes/IberCulturaViva/views/agent/single.php:103
 #: themes/IberCulturaViva/views/agent/single.php:101
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:138
 #: themes/BaseV1/layouts/parts/singles/history_space.php:138
@@ -1469,6 +1658,9 @@ msgid "Email"
 msgstr "E-mail"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:138
+#: themes/IberCulturaViva/views/agent/create.php:107
+#: themes/IberCulturaViva/views/agent/edit.php:107
+#: themes/IberCulturaViva/views/agent/single.php:107
 #: themes/IberCulturaViva/views/agent/single.php:105
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:142
 #: themes/BaseV1/layouts/parts/singles/history_space.php:142
@@ -1480,6 +1672,9 @@ msgid "Insira um email que será exibido publicamente"
 msgstr "Ingrese un e-mail que será exhibido públicamente"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:142
+#: themes/IberCulturaViva/views/agent/create.php:111
+#: themes/IberCulturaViva/views/agent/edit.php:111
+#: themes/IberCulturaViva/views/agent/single.php:111
 #: themes/IberCulturaViva/views/agent/single.php:109
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:146
 #: themes/BaseV1/layouts/parts/singles/history_event.php:128
@@ -1493,6 +1688,12 @@ msgstr "Ingrese un teléfono que será exhibido públicamente"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:146
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/create.php:115
+#: themes/IberCulturaViva/views/agent/create.php:116
+#: themes/IberCulturaViva/views/agent/edit.php:115
+#: themes/IberCulturaViva/views/agent/edit.php:116
+#: themes/IberCulturaViva/views/agent/single.php:115
+#: themes/IberCulturaViva/views/agent/single.php:116
 #: themes/IberCulturaViva/views/agent/single.php:113
 #: themes/IberCulturaViva/views/agent/single.php:114
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:150
@@ -1512,6 +1713,12 @@ msgstr "Teléfono Privado"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:146
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:150
+#: themes/IberCulturaViva/views/agent/create.php:115
+#: themes/IberCulturaViva/views/agent/create.php:116
+#: themes/IberCulturaViva/views/agent/edit.php:115
+#: themes/IberCulturaViva/views/agent/edit.php:116
+#: themes/IberCulturaViva/views/agent/single.php:115
+#: themes/IberCulturaViva/views/agent/single.php:116
 #: themes/IberCulturaViva/views/agent/single.php:113
 #: themes/IberCulturaViva/views/agent/single.php:114
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:150
@@ -1594,6 +1801,9 @@ msgid "Insira o Estado"
 msgstr "Ingrese la Entidad Subnacional"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:197
+#: themes/IberCulturaViva/views/agent/create.php:128
+#: themes/IberCulturaViva/views/agent/edit.php:128
+#: themes/IberCulturaViva/views/agent/single.php:128
 #: themes/IberCulturaViva/views/agent/single.php:126
 #: themes/BaseV1/layouts/parts/link-list.php:68
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:201
@@ -1618,6 +1828,9 @@ msgid "Descrição"
 msgstr "Descripción"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:198
+#: themes/IberCulturaViva/views/agent/create.php:129
+#: themes/IberCulturaViva/views/agent/edit.php:129
+#: themes/IberCulturaViva/views/agent/single.php:129
 #: themes/IberCulturaViva/views/agent/single.php:127
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:202
 #: themes/BaseV1/views/agent/create.php:129
@@ -1627,6 +1840,9 @@ msgid "Descrição do Agente"
 msgstr "Descripción del Agente"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:198
+#: themes/IberCulturaViva/views/agent/create.php:129
+#: themes/IberCulturaViva/views/agent/edit.php:129
+#: themes/IberCulturaViva/views/agent/single.php:129
 #: themes/IberCulturaViva/views/agent/single.php:127
 #: themes/BaseV1/layouts/parts/singles/history_agent.php:202
 #: themes/BaseV1/views/agent/create.php:129
@@ -1682,6 +1898,8 @@ msgstr "Ingrese el País"
 msgid "Informações Geográficas"
 msgstr "Informaciones Geográficas"
 
+#: themes/IberCulturaViva/views/agent/create.php:60
+#: themes/IberCulturaViva/views/agent/edit.php:60
 #: themes/IberCulturaViva/views/agent/single.php:60
 #: themes/BaseV1/layouts/parts/singles/project-tabs.php:11
 #: themes/BaseV1/views/agent/create.php:60
@@ -1698,6 +1916,8 @@ msgstr "Informaciones Geográficas"
 msgid "Responsáveis"
 msgstr "Responsables"
 
+#: themes/IberCulturaViva/views/agent/create.php:72
+#: themes/IberCulturaViva/views/agent/edit.php:72
 #: themes/IberCulturaViva/views/agent/single.php:72
 #: themes/BaseV1/layouts/parts/singles/project-about.php:12
 #: themes/BaseV1/views/agent/create.php:72
@@ -1716,6 +1936,8 @@ msgstr ""
 "El límite de caracteres de la descripción breve fue acortado a 400, pero su "
 "texto actual posee"
 
+#: themes/IberCulturaViva/views/agent/create.php:72
+#: themes/IberCulturaViva/views/agent/edit.php:72
 #: themes/IberCulturaViva/views/agent/single.php:72
 #: themes/BaseV1/layouts/parts/singles/project-about.php:12
 #: themes/BaseV1/views/agent/create.php:72
@@ -1730,6 +1952,8 @@ msgstr ""
 msgid "caracteres. Você deve alterar seu texto ou este será cortado ao salvar."
 msgstr "caracteres. Usted debe cambiar su texto o será cortado al guardar."
 
+#: themes/IberCulturaViva/views/agent/create.php:85
+#: themes/IberCulturaViva/views/agent/edit.php:85
 #: themes/IberCulturaViva/views/agent/single.php:85
 #: themes/BaseV1/layouts/parts/singles/project-about.php:24
 #: themes/BaseV1/layouts/parts/singles/space-servico.php:31
@@ -1739,6 +1963,22 @@ msgstr "caracteres. Usted debe cambiar su texto o será cortado al guardar."
 msgid "Insira a url de seu site"
 msgstr "Agregue la url de su página web"
 
+#: themes/IberCulturaViva/views/agent/create.php:100
+#: themes/IberCulturaViva/views/agent/edit.php:100
+#: themes/IberCulturaViva/views/agent/single.php:100
+msgid "Selecione se for pessoa física e afrodescendente"
+msgstr "Seleccione si es afrodescendiente, en el caso de persona física"
+
+#: themes/IberCulturaViva/views/agent/create.php:101
+#: themes/IberCulturaViva/views/agent/edit.php:101
+#: themes/IberCulturaViva/views/agent/single.php:101
+msgid "Selecione se for pessoa física e pertence a povo originario"
+msgstr ""
+"Seleccione si pertenece a un pueblo originario, en el caso de persona física"
+
+#: themes/IberCulturaViva/views/agent/create.php:107
+#: themes/IberCulturaViva/views/agent/edit.php:107
+#: themes/IberCulturaViva/views/agent/single.php:107
 #: themes/IberCulturaViva/views/agent/single.php:105
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:27
 #: lib/modules/CompliantSuggestion/layouts/parts/compliant_suggestion.php:69
@@ -1749,6 +1989,9 @@ msgstr "Agregue la url de su página web"
 msgid "E-mail"
 msgstr "E-mail"
 
+#: themes/IberCulturaViva/views/agent/create.php:167
+#: themes/IberCulturaViva/views/agent/edit.php:167
+#: themes/IberCulturaViva/views/agent/single.php:167
 #: themes/IberCulturaViva/views/agent/single.php:165
 #: themes/BaseV1/views/agent/create.php:167
 #: themes/BaseV1/views/agent/edit.php:167

@@ -23,7 +23,7 @@ return array(
 //            )
         ),
 
-        'ehAfrodescentente' => array(
+        'ehAfrodescendente' => array(
             'private' => true,
             'label' => \MapasCulturais\i::__('É Afrodescendente?'),
             'type' => 'select',
