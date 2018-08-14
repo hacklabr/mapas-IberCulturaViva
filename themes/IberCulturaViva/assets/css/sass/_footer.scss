@@ -1,14 +1,49 @@
-#main-section {
-min-height: 90vh;
+body {
+    background-color: white;
 }
 
-footer#main-footer {
+#main-section {
+    min-height: calc(100vh - 320px);
+    padding-bottom: 30px;
+
+    #home-developers {
+        margin-bottom: -30px;
+    }
+}
+
+footer {
+    background-color: white;
     bottom: 0;
+    overflow: hidden;
+    padding: 20px 20px 0;
+    position: relative;
+    width: calc(100% - 40px);
+}
+
+#footer-paises {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+
+    img {
+        flex: 0;
+        height: 40px;
+        padding: 5px;
+    }
+}
+
+#main-footer {
+    background-color: white;
     color: #111;
     display: table;
-    padding: 30px 0 0;
-    position: absolute;
-    width: 100%;
+    padding: 15px;
+    width: calc(100% - 30px);
+
+    .row {
+        display: table-row;
+    }
 
     .column {
         display: table-cell;
