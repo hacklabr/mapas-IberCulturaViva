@@ -87,12 +87,12 @@ return [
     'cep.token'         => env('CEP_TOKEN', ''),
 
     // LOG
-    'slim.log.level' => $loglevel,
-    'slim.log.enabled' => env('LOG_ENABLED', false),
+    'slim.log.level' => \Slim\Log::DEBUG,
+    'slim.log.enabled' => env('LOG_ENABLED', true),
 
     'app.log.path' => env('LOG_PATH', realpath(BASE_PATH . '..') . '/logs/'),
     'app.log.query' => env('LOG_QUERY', false),
-    'app.log.hook' => env('LOG_HOOK', false),
+    'app.log.hook' => env('LOG_HOOK', '*RegistrationAgentRelation*'),
     'app.log.requestData' => env('LOG_REQUESTDATA', false),
     'app.log.translations' => env('LOG_TRANSLATIONS', false),
     'app.log.apiCache' => env('LOG_APICACHE', false),
@@ -102,5 +102,5 @@ return [
     'app.useGoogleGeocode' => true,
     'app.googleApiKey' => env('GOOGLE_GEOCODING_API_KEY', ''),
 
-    'app.verifiedSealsIds' => explode(env('VERIFIED_SEALS', '3'))
+    'app.verifiedSealsIds' => explode(',', env('VERIFIED_SEALS', '3'))
 ];
