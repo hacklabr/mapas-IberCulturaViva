@@ -1,6 +1,6 @@
 FROM hacklab/mapasculturais:v4.4.8
 
-RUN git clone https://github.com/LibreCoopUruguay/MultipleLocalAuth /var/www/html/protected/application/plugins/MultipleLocalAuth
+RUN git clone https://github.com/hacklabr/mapasculturais-multipleLocalAuth /var/www/html/protected/application/plugins/MultipleLocalAuth
 RUN curl https://raw.githubusercontent.com/opauth/facebook/master/FacebookStrategy.php > /var/www/html/protected/application/plugins/MultipleLocalAuth/Facebook/FacebookStrategy.php
 
 COPY compose/config.d /var/www/html/protected/application/conf/config.d
