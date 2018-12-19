@@ -101,4 +101,6 @@ return [
 
     'app.useGoogleGeocode' => true,
     'app.googleApiKey' => env('GOOGLE_GEOCODING_API_KEY', ''),
+
+    'app.verifiedSealsIds' => explode(env('VERIFIED_SEALS', '3'))
 ];
