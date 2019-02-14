@@ -9,7 +9,7 @@ return [
             'mergeScripts' => $is_production,
             'mergeStyles' => $is_production,
 
-            'process.js' => true ?
+            'process.js' => !$is_production ?
                     'cp {IN} {OUT}':
                     'uglifyjs {IN} -o {OUT} --source-map {OUT}.map --source-map-include-sources --source-map-url /assets/{FILENAME}.map -b -p ' . substr_count(BASE_PATH, '/'),
 
