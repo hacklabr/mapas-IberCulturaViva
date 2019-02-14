@@ -6,7 +6,7 @@ return [
         'themes.assetManager' => new \MapasCulturais\AssetManagers\FileSystem(array(
             'publishPath' => BASE_PATH . 'assets/',
 
-            'mergeScripts' => false,
+            'mergeScripts' => $is_production,
             'mergeStyles' => $is_production,
 
             'process.js' => true ?
