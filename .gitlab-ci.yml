@@ -9,15 +9,17 @@ stages:
 
 variables:
   PROJECT_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME
-
+  HOMOLOG_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-CI_COMMIT_SHORT_SHA
+  RELEASE_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME
+  KUBECONFIG: /etc/k8s-config
 
 build to homolog:
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
     - docker pull hacklab/mapasculturais:develop
-    - docker build -t $PROJECT_IMAGE -f compose/Dockerfile .
-    - docker push $PROJECT_IMAGE
+    - docker build -t $HOMOLOG_IMAGE -f compose/Dockerfile .
+    - docker push $HOMOLOG_IMAGE
   only:
     - /master/
   environment: homolog
@@ -26,9 +28,10 @@ build to homolog:
 
 deploy to homolog:
   stage: deploy
-  image: cdrx/rancher-gitlab-deploy
+  image: hacklab/kubectl:latest
   script:
-    - upgrade --environment Shared --stack iberculturaviva-mapas-dev --service backend --sidekicks --no-finish-upgrade
+    - echo ${kube_config} | base64 -d > ${KUBECONFIG}
+    - kubectl -n mapas-iberculturaviva-dev --record deployment.apps/mapas set image deployment.v1.apps/mapas mapas=$HOMOLOG_IMAGE
   only:
     - /master/
   environment: homolog
@@ -41,9 +44,9 @@ build to production:
   script:
     - docker login -u "gitlab-ci-token" -p "$CI_JOB_TOKEN" $CI_REGISTRY
     - docker pull hacklab/mapasculturais:develop
-    - docker build -t $PROJECT_IMAGE -f compose/Dockerfile .
-    - docker tag $PROJECT_IMAGE "$CI_REGISTRY_IMAGE:latest"
-    - docker push $PROJECT_IMAGE
+    - docker build -t $RELEASE_IMAGE -f compose/Dockerfile .
+    - docker tag $RELEASE_IMAGE "$CI_REGISTRY_IMAGE:latest"
+    - docker push $RELEASE_IMAGE
     - docker push "$CI_REGISTRY_IMAGE:latest"
   only:
     - tags
@@ -53,9 +56,10 @@ build to production:
 
 deploy to production:
   stage: deploy
-  image: cdrx/rancher-gitlab-deploy
+  image: hacklab/kubectl:latest
   script:
-    - upgrade --environment Shared --stack iberculturaviva-mapas-prod --service backend --sidekicks --no-finish-upgrade
+    - echo ${kube_config} | base64 -d > ${KUBECONFIG}
+    - kubectl -n mapas-ibercultura-prod --record deployment.apps/mapas set image deployment.apps/mapas mapas=$RELEASE_IMAGE
   only:
     - tags
   environment: production
