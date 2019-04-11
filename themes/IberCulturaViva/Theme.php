@@ -48,6 +48,11 @@ class Theme extends BaseV1\Theme{
         $app->hook('view.render(<<*>>):before', function() use($app) {
             $this->_publishAssets();
         });
+
+        // impede o download automático dos arquivos privados
+        $app->hook('GET(file.privateFile).headers', function(&$headers){
+            unset($headers['Content-Disposition']);
+        });
     }
 
     protected function _publishAssets() {

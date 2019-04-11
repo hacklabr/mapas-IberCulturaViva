@@ -1,0 +1,45 @@
+version: '2'
+services:
+  mapas:
+    build:
+      context: ../
+      dockerfile: compose/local/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      # - ../../mapasculturais/src/protected/application/lib:/var/www/html/protected/application/lib
+
+      - ../docker-data/assets:/var/www/html/assets
+      - ../docker-data/public-files:/var/www/html/files
+      - ../docker-data/private-files:/var/www/private-files
+      # - ../docker-data/pcache-cron.log:/var/www/scripts/nohup.out
+
+      - ../compose/common/config.d:/var/www/html/protected/application/conf/conf-common.d
+      - ../compose/local/config.d:/var/www/html/protected/application/conf/config.d
+
+      # themes and plugins
+      - ../themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
+
+    environment:
+      - PENDING_PCACHE_RECREATION_INTERVAL=10
+      - APP_MODE=development
+
+    depends_on:
+      - db
+  
+    stdin_open: true
+    tty: true
+
+  db:
+    image: mdillon/postgis:10
+    environment:
+      - POSTGRES_PASSWORD=mapas
+      - POSTGRES_USER=mapas
+      - POSTGRES_DB=mapas
+    ports:
+      - "5432:5432"
+    volumes:
+#      - ../compose/local/db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ../compose/local/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      - ../compose/local/db/initial-data.sql:/docker-entrypoint-initdb.d/initial-data.sql
+      - ../docker-data/postgres:/var/lib/postgresql/data
