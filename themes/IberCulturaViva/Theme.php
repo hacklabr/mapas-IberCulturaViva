@@ -79,7 +79,42 @@ class Theme extends BaseV1\Theme{
 
         $app = App::i();
         
-        $meta_pais = [
+        // Metadata de espaço
+        $this->registerSpaceMetadata('En_Pais', [
+            'label' => i::__('País'),
+            'type' => 'select',
+            'options' => array(
+                'AD' => 'Andorra',
+                'AR'=>'Argentina',
+                'BO' => 'Bolivia',
+                'BR'=>'Brasil',
+                'CL'=>'Chile',
+                'CO' => 'Colombia',
+                'CR'=>'Costa Rica',
+                'CU' => 'Cuba',
+                'EC'=>'Ecuador',
+                'SV'=>'El Salvador',
+                'ES'=>'España',
+                'GT'=>'Guatemala',
+                'HN' => 'Honduras',
+                'MX'=>'México',
+                'NI' => 'Nicarágua',
+                'PA' => 'Panamá',
+                'PY' => 'Paraguay',
+                'PE'=>'Perú',
+                'PT' => 'Portugal',
+                'DO' => 'República Dominicana',
+                'UY'=>'Uruguay',
+                'VE' => 'Venezuela',
+            )
+        ]);
+        $this->registerSpaceMetadata('En_Estado', ['label' => i::__('Estado') ]);
+
+        //Metadata de agente
+        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'raca');
+        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'orientacaoSexual');
+
+        $this->registerAgentMetadata('En_Pais', [
             'label' => i::__('País'),
             'private' => function(){
                 return !$this->publicLocation;
@@ -109,25 +144,13 @@ class Theme extends BaseV1\Theme{
                 'UY'=>'Uruguay',
                 'VE' => 'Venezuela',
             )
-        ];
-
-        $meta_estado = [
+        ]);
+        $this->registerAgentMetadata('En_Estado', [
             'label' => i::__('Estado'),
             'private' => function(){
                 return !$this->publicLocation;
             }
-        ];
-
-        // Metadata de espaço
-        $this->registerSpaceMetadata('En_Pais', $meta_pais);
-        $this->registerSpaceMetadata('En_Estado', $meta_estado);
-
-        //Metadata de agente
-        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'raca');
-        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'orientacaoSexual');
-
-        $this->registerAgentMetadata('En_Pais', $meta_pais);
-        $this->registerAgentMetadata('En_Estado', $meta_estado);
+        ]);
 
         $this->registerAgentMetadata('documento', [
             'private' => true,
