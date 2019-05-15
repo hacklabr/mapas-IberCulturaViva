@@ -4,7 +4,7 @@ RUN git clone https://github.com/hacklabr/mapasculturais-multipleLocalAuth /var/
 RUN curl https://raw.githubusercontent.com/opauth/facebook/master/FacebookStrategy.php > /var/www/html/protected/application/plugins/MultipleLocalAuth/Facebook/FacebookStrategy.php
 
 COPY compose/common/config.php /var/www/html/protected/application/conf/config.php
-COPY compose/common/config.d /var/www/html/protected/application/conf/conf-common.d
+COPY compose/common/config.d /var/www/html/protected/application/conf/config.d
 COPY compose/production/config.d /var/www/html/protected/application/conf/config.d
 
 COPY themes /var/www/html/protected/application/themes
