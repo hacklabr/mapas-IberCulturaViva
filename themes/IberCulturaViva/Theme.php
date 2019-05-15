@@ -178,4 +178,43 @@ class Theme extends BaseV1\Theme{
         ]);
     }
 
+
+    protected function _getFilters(){
+        $filters = parent::_getFilters();
+
+
+        $filters['agent'] = [
+            'paises' => [
+                'label' => i::__('Países'),
+                'placeholder' => i::__('Países'),
+                'fieldType' => 'singleselect',
+                'filter' => [
+                    'param' => 'En_Pais',
+                    'value' => 'IN({val})'
+                ]
+            ],
+            'area' => $filters['agent']['area'],
+            'tipos' => $filters['agent']['tipos'],
+            'verificados' => $filters['agent']['verificados']
+        ];
+
+        $filters['space'] = [
+            'paises' => [
+                'label' => i::__('Países'),
+                'placeholder' => i::__('Países'),
+                'fieldType' => 'singleselect',
+                'filter' => [
+                    'param' => 'En_Pais',
+                    'value' => 'IN({val})'
+                ]
+            ],
+            'area' => $filters['space']['area'],
+            'tipos' => $filters['space']['tipos'],
+            'acessibilidade' => $filters['space']['acessibilidade'],
+            'verificados' => $filters['space']['verificados']
+        ];
+
+        return $filters;
+    }
+
 }
