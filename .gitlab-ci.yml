@@ -30,7 +30,7 @@ deploy to homolog:
   image: hacklab/kubectl:latest
   script:
     - echo ${kube_config} | base64 -d > ${KUBECONFIG}
-    - kubectl -n mapas-iberculturaviva-dev --record deployment.apps/mapas set image deployment.v1.apps/mapas mapas=$HOMOLOG_IMAGE
+    - kubectl -n mapas-iberculturaviva-dev --record deployment.apps/web set image deployment.v1.apps/web web=$HOMOLOG_IMAGE
   only:
     - /master/
   environment: homolog
@@ -58,7 +58,7 @@ deploy to production:
   image: hacklab/kubectl:latest
   script:
     - echo ${kube_config} | base64 -d > ${KUBECONFIG}
-    - kubectl -n mapas-ibercultura-prod --record deployment.apps/mapas set image deployment.apps/mapas mapas=$RELEASE_IMAGE
+    - kubectl -n mapas-ibercultura-prod --record deployment.apps/web set image deployment.apps/web web=$RELEASE_IMAGE
   only:
     - tags
   environment: production
