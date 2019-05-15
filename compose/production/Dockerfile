@@ -9,4 +9,5 @@ COPY compose/production/config.d /var/www/html/protected/application/conf/config
 
 COPY themes /var/www/html/protected/application/themes
 COPY plugins /var/www/html/protected/application/plugins
+COPY translations /var/www/html/protected/application/translations
 
