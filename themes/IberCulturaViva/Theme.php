@@ -74,4 +74,147 @@ class Theme extends BaseV1\Theme{
         ];
     }
 
+    function register() {
+        parent::register();
+
+        $app = App::i();
+        
+        // Metadata de espaço
+        $this->registerSpaceMetadata('En_Pais', [
+            'label' => i::__('País'),
+            'type' => 'select',
+            'options' => array(
+                'AD' => 'Andorra',
+                'AR'=>'Argentina',
+                'BO' => 'Bolivia',
+                'BR'=>'Brasil',
+                'CL'=>'Chile',
+                'CO' => 'Colombia',
+                'CR'=>'Costa Rica',
+                'CU' => 'Cuba',
+                'EC'=>'Ecuador',
+                'SV'=>'El Salvador',
+                'ES'=>'España',
+                'GT'=>'Guatemala',
+                'HN' => 'Honduras',
+                'MX'=>'México',
+                'NI' => 'Nicarágua',
+                'PA' => 'Panamá',
+                'PY' => 'Paraguay',
+                'PE'=>'Perú',
+                'PT' => 'Portugal',
+                'DO' => 'República Dominicana',
+                'UY'=>'Uruguay',
+                'VE' => 'Venezuela',
+            )
+        ]);
+        $this->registerSpaceMetadata('En_Estado', ['label' => i::__('Estado') ]);
+
+        //Metadata de agente
+        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'raca');
+        $app->unregisterEntityMetadata('MapasCulturais\\Entities\\Agent', 'orientacaoSexual');
+
+        $this->registerAgentMetadata('En_Pais', [
+            'label' => i::__('País'),
+            'private' => function(){
+                return !$this->publicLocation;
+            },
+            'type' => 'select',
+            'options' => array(
+                'AD' => 'Andorra',
+                'AR'=>'Argentina',
+                'BO' => 'Bolivia',
+                'BR'=>'Brasil',
+                'CL'=>'Chile',
+                'CO' => 'Colombia',
+                'CR'=>'Costa Rica',
+                'CU' => 'Cuba',
+                'EC'=>'Ecuador',
+                'SV'=>'El Salvador',
+                'ES'=>'España',
+                'GT'=>'Guatemala',
+                'HN' => 'Honduras',
+                'MX'=>'México',
+                'NI' => 'Nicarágua',
+                'PA' => 'Panamá',
+                'PY' => 'Paraguay',
+                'PE'=>'Perú',
+                'PT' => 'Portugal',
+                'DO' => 'República Dominicana',
+                'UY'=>'Uruguay',
+                'VE' => 'Venezuela',
+            )
+        ]);
+        $this->registerAgentMetadata('En_Estado', [
+            'label' => i::__('Estado'),
+            'private' => function(){
+                return !$this->publicLocation;
+            }
+        ]);
+
+        $this->registerAgentMetadata('documento', [
+            'private' => true,
+            'label' => i::__('Documento de identidade')
+        ]);
+
+        $this->registerAgentMetadata('ehAfrodescendente', [
+            'private' => true,
+            'label' => i::__('É Afrodescendente?'),
+            'type' => 'select',
+            'options' => [
+                'Sim' => i::__('Sim'),
+                'Não' => i::__('Não')
+            ]
+        ]);
+
+        $this->registerAgentMetadata('pertenceAPovoOriginario', [
+            'private' => true,
+            'label' => i::__('Pertence a um Povo Originário?'),
+            'type' => 'select',
+            'options' => [
+                'Sim' => i::__('Sim'),
+                'Não' => i::__('Não')
+            ]
+        ]);
+    }
+
+
+    protected function _getFilters(){
+        $filters = parent::_getFilters();
+
+
+        $filters['agent'] = [
+            'paises' => [
+                'label' => i::__('Países'),
+                'placeholder' => i::__('Países'),
+                'fieldType' => 'singleselect',
+                'filter' => [
+                    'param' => 'En_Pais',
+                    'value' => 'IN({val})'
+                ]
+            ],
+            'area' => $filters['agent']['area'],
+            'tipos' => $filters['agent']['tipos'],
+            'verificados' => $filters['agent']['verificados']
+        ];
+
+        $filters['space'] = [
+            'paises' => [
+                'label' => i::__('Países'),
+                'placeholder' => i::__('Países'),
+                'fieldType' => 'singleselect',
+                'filter' => [
+                    'param' => 'En_Pais',
+                    'value' => 'IN({val})'
+                ]
+            ],
+            'area' => $filters['space']['area'],
+            'tipos' => $filters['space']['tipos'],
+            'acessibilidade' => $filters['space']['acessibilidade'],
+            'verificados' => $filters['space']['verificados']
+        ];
+
+        return $filters;
+    }
+
 }

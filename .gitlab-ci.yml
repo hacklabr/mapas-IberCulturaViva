@@ -8,8 +8,7 @@ stages:
 - deploy
 
 variables:
-  PROJECT_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME
-  HOMOLOG_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-CI_COMMIT_SHORT_SHA
+  HOMOLOG_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME-$CI_COMMIT_SHORT_SHA
   RELEASE_IMAGE: $CI_REGISTRY_IMAGE:$CI_BUILD_REF_NAME
   KUBECONFIG: /etc/k8s-config
 
@@ -59,7 +58,11 @@ deploy to production:
   image: hacklab/kubectl:latest
   script:
     - echo ${kube_config} | base64 -d > ${KUBECONFIG}
+<<<<<<< HEAD
     - kubectl -n mapas-iberculturaviva-prod --record deployment.apps/web set image deployment.apps/web mapas=$RELEASE_IMAGE
+=======
+    - kubectl -n mapas-ibercultura-prod --record deployment.apps/web set image deployment.apps/web mapas=$RELEASE_IMAGE
+>>>>>>> master
   only:
     - tags
   environment: production

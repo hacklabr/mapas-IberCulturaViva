@@ -10,17 +10,20 @@ return [
 
     'app.lcode' => env('APP_LCODE', 'es_ES,pt_BR'),
 
-    'namespaces' => array(
-        'MapasCulturais\Themes' => THEMES_PATH,
-        'MapasCulturais\Themes\BaseV1' => THEMES_PATH . 'BaseV1/',
-        'Subsite' => THEMES_PATH . 'Subsite/',
-    ),
+    'app.verifiedSealsIds' => explode(',', env('VERIFIED_SEALS', '3')),
 
-    'doctrine.database' => [
-        'host'           => env('DB_HOST', 'db'),
-        'dbname'         => env('DB_NAME', 'mapas'),
-        'user'           => env('DB_USER', 'mapas'),
-        'password'       => env('DB_PASS', 'mapas'),
-        'server_version' => env('DB_VERSION', 10),
-    ]
+    // MAP
+    'maps.center' => [-5, -30],
+    'maps.zoom.default' => env('MAPS_ZOOM_DEFAULTS', 3),
+    'maps.zoom.approximate' => env('MAPS_ZOOM_APPROXIMATE', 14),
+    'maps.zoom.precise' => env('MAPS_ZOOM_PRECISE', 16),
+    'maps.zoom.max' => env('MAPS_ZOOM_MAX', 18),
+    'maps.zoom.min' => env('MAPS_ZOOM_MIN', 3),
+    'maps.includeGoogleLayers' => env('MAPS_INCLUDE_GOOGLE_LAYERS', false),
+
+    // CEP API
+    'cep.endpoint'      => env('CEP_ENDPOINT', 'http://www.cepaberto.com/api/v2/ceps.json?cep=%s'),
+    'cep.token_header'  => env('CEP_TOKEN_HEADER', 'Authorization: Token token="%s"'),
+    'cep.token'         => env('CEP_TOKEN', ''),
+    
 ];
