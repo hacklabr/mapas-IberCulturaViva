@@ -7,7 +7,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      # - ../../mapasculturais/src/protected/application/lib:/var/www/html/protected/application/lib
+      - ../../mapasculturais/src/protected/application/lib:/var/www/html/protected/application/lib
 
       - ../docker-data/assets:/var/www/html/assets
       - ../docker-data/public-files:/var/www/html/files
@@ -19,6 +19,8 @@ services:
 
       # themes and plugins
       - ../themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
+      
+      - ../translations:/var/www/html/protected/application/translations
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
@@ -42,4 +44,7 @@ services:
 #      - ../compose/local/db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
       - ../compose/local/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
       - ../compose/local/db/initial-data.sql:/docker-entrypoint-initdb.d/initial-data.sql
-      - ../docker-data/postgres:/var/lib/postgresql/data
+      - ibercultura-db-data:/var/lib/postgresql/data
+
+volumes:
+  ibercultura-db-data:
