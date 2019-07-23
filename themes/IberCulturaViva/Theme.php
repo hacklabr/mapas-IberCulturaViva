@@ -51,7 +51,10 @@ class Theme extends BaseV1\Theme{
 
         // impede o download automático dos arquivos privados
         $app->hook('GET(file.privateFile).headers', function(&$headers){
-            unset($headers['Content-Disposition']);
+            if(isset($headers['Content-Disposition']) && strpos($headers['Content-Disposition'], '.pdf')){
+                unset($headers['Content-Description']);
+                $headers['Content-Disposition'] = str_replace('attachment; ', '', $headers['Content-Disposition']);
+            }
         });
     }
 
