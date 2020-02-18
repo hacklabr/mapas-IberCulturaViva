@@ -6,13 +6,12 @@
         <img src="<?php $this->asset('img/paises/brasil.png'); ?>" alt="Brasil">
         <img src="<?php $this->asset('img/paises/chile.png'); ?>" alt="Chile">
         <img src="<?php $this->asset('img/paises/red-cultura.png'); ?>" alt="Red Cultura, Chile">
-        <img src="<?php $this->asset('img/paises/costa-rica.jpg'); ?>" alt="Costa Rica">
+        <img src="<?php $this->asset('img/paises/costa-rica.png'); ?>" alt="Costa Rica">
         <img src="<?php $this->asset('img/paises/ecuador.jpg'); ?>" alt="Ecuador">
-        <img src="<?php $this->asset('img/paises/el-salvador.png'); ?>" alt="El Salvador">
+        <img src="<?php $this->asset('img/paises/el-salvador.jpg'); ?>" alt="El Salvador">
         <img src="<?php $this->asset('img/paises/espana.png'); ?>" alt="España">
-        <img src="<?php $this->asset('img/paises/guatemala.jpg'); ?>" alt="Guatemala">
-        <img src="<?php $this->asset('img/paises/mexico.jpg'); ?>" alt="Perú">
-        <img src="<?php $this->asset('img/paises/peru.png'); ?>" alt="México">
+        <img src="<?php $this->asset('img/paises/mexico.jpg'); ?>" alt="México">
+        <img src="<?php $this->asset('img/paises/peru.png'); ?>" alt="Perú">
         <img src="<?php $this->asset('img/paises/uruguay.png'); ?>" alt="Uruguay">
     </div>
     <div id="main-footer">
