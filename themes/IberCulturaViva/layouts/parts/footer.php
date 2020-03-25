@@ -4,6 +4,7 @@
         <img src="<?php $this->asset('img/paises/segib.png'); ?>" alt="Secretaría General Iberoamericana">
         <img src="<?php $this->asset('img/paises/argentina.png'); ?>" alt="Argentina">
         <img src="<?php $this->asset('img/paises/brasil.png'); ?>" alt="Brasil">
+        <img src="<?php $this->asset('img/paises/colombia.jpg'); ?>" alt="Colombia">
         <img src="<?php $this->asset('img/paises/chile.png'); ?>" alt="Chile">
         <img src="<?php $this->asset('img/paises/red-cultura.png'); ?>" alt="Red Cultura, Chile">
         <img src="<?php $this->asset('img/paises/costa-rica.png'); ?>" alt="Costa Rica">
