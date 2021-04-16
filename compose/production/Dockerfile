@@ -11,3 +11,5 @@ COPY themes /var/www/html/protected/application/themes
 COPY plugins /var/www/html/protected/application/plugins
 COPY translations /var/www/html/protected/application/translations
 
+RUN sass /var/www/html/protected/application/themes/IberCulturaViva/assets/css/sass/main.scss /var/www/html/protected/application/themes/IberCulturaViva/assets/css/main.css
+
