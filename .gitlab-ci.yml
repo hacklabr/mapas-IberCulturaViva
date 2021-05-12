@@ -57,7 +57,7 @@ deploy to production:
   stage: deploy
   image: hacklab/kubectl:latest
   script:
-    - echo ${kube_config} | base64 -d > ${KUBECONFIG}
+    - echo ${kube_hackcloud} | base64 -d > ${KUBECONFIG}
     - kubectl -n mapas-iberculturaviva-prod --record deployment.apps/web set image deployment.apps/web mapas=$RELEASE_IMAGE
   only:
     - tags
