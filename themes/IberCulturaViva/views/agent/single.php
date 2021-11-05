@@ -43,6 +43,8 @@ $editEntity = $this->controller->action === 'create' || $this->controller->actio
 
             <?php $this->part('singles/name', ['entity' => $entity]) ?>
 
+            <?php $this->part('widget-areas', array('entity'=>$entity)); ?>
+
             <?php $this->applyTemplateHook('header-content','end'); ?>
         </div>
         <!--.header-content-->
@@ -157,7 +159,6 @@ $editEntity = $this->controller->action === 'create' || $this->controller->actio
     <?php $this->part('related-seals.php', array('entity'=>$entity)); ?>
     <!-- Related Seals END -->
 
-    <?php $this->part('widget-areas', array('entity'=>$entity)); ?>
     <?php $this->part('widget-tags', array('entity'=>$entity)); ?>
     <?php $this->part('redes-sociais', array('entity'=>$entity)); ?>
 </div>
