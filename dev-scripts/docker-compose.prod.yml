@@ -23,6 +23,7 @@ services:
       - ../docker-data/pcache-cron.log:/var/www/scripts/nohup.out
 
       # themes and plugins
+      - ../plugins/LocationPatch:/var/www/html/protected/application/plugins/LocationPatch    
       - ../themes/IberCulturaViva:/var/www/html/protected/application/themes/IberCulturaViva
 
     environment:
