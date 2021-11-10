@@ -28,6 +28,8 @@ services:
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - APP_MODE=development
+      - MAPS_GOOGLE_API_KEY=AIzaSyBFYFIpzm9DEGiAsQ9zkrxJgMl-xkkXAHI
+      - MAPS_USE_GOOGLE_GEOCODE=true
 
     depends_on:
       - db
