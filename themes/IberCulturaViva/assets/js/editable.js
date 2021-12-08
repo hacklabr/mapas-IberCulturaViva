@@ -92,6 +92,17 @@ jQuery(function(){
              * Example: ['00-0009', '000-009', '0000-000']
              * 
              */
+            if (libphonenumber !== undefined) {
+                editable.input.$input.keypress(function (ev) {
+                    current = editable.input.$input.val().replace(/\s/g, "");
+                    if (!current.startsWith("+")) {
+                        current = `+${current}`;
+                    }
+                    editable.input.$input.val(new libphonenumber.AsYouType().input(current));
+                    return;
+                });
+                return;
+            }
             if (MapasCulturais.phoneMasks === false) return;
             var masks = MapasCulturais.phoneMasks ? MapasCulturais.phoneMasks : ['(00) 0000-00009', '(00) 00000-0000'];
             editable.input.$input.mask(masks[0], {onKeyPress:

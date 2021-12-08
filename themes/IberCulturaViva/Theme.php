@@ -58,6 +58,13 @@ class Theme extends BaseV1\Theme{
         });
     }
 
+    function includeVendorAssets()
+    {
+        parent::includeVendorAssets();
+        $this->enqueueScript("vendor", "libphonenumber-min", "vendor/libphonenumber-min.js");
+        return;
+    }
+
     protected function _publishAssets() {
         $this->asset('img/home--agents.jpg', false);
         $this->asset('img/home--developers.jpg', false);
