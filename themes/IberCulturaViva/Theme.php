@@ -56,6 +56,16 @@ class Theme extends BaseV1\Theme{
                 $headers['Content-Disposition'] = str_replace('attachment; ', '', $headers['Content-Disposition']);
             }
         });
+        // atribui área de atuação padrão para novos agentes e espaços
+        $app->hook("entity(<<Agent|Space>>).insert:before", function () use ($app) {
+            /** @var \MapasCulturais\Entity $this */
+            $terms = (array) $this->terms ?? [];
+            if (empty($this->terms["area"])) {
+                $terms["area"] = [$app->config["app.defaultActivity"]];
+                $this->terms = $terms;
+            }
+            return;
+        });
     }
 
     function includeVendorAssets()
@@ -88,7 +98,7 @@ class Theme extends BaseV1\Theme{
         parent::register();
 
         $app = App::i();
-        
+
         // Metadata de espaço
         $this->registerSpaceMetadata('En_Pais', [
             'label' => i::__('País'),

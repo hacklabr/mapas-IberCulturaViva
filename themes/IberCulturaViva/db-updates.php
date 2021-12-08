@@ -6,10 +6,10 @@ $conn = $em->getConnection();
 return [
     'update registrations set category = owner.pais' => function() use($conn){
         $sql = "UPDATE registration r SET category = (
-                    SELECT m.value 
-                    FROM agent a 
-                        JOIN agent_meta m ON 
-                            a.id = m.object_id AND 
+                    SELECT m.value
+                    FROM agent a
+                        JOIN agent_meta m ON
+                            a.id = m.object_id AND
                             m.key = 'En_Pais'
                     WHERE a.id = r.agent_id
                 ) WHERE r.opportunity_id = 17";
@@ -49,8 +49,35 @@ return [
         $conn->executeQuery("UPDATE opportunity SET registration_categories = '$paises' WHERE id = 17");
         $conn->executeQuery("UPDATE opportunity_meta SET value = 'País' WHERE object_id = 17 AND key = 'registrationCategTitle'");
         $conn->executeQuery("UPDATE opportunity_meta SET value = 'Seleccione un país' WHERE object_id = 17 AND key = 'registrationCategDescription'");
-        
-        return false;
-    }
-];
 
+        return false;
+    },
+    "apply default activity to agents" => function () use ($app, $conn) {
+        $ids = $conn->executeQuery("SELECT id FROM agent WHERE id NOT IN (
+            SELECT a.id FROM agent a
+                JOIN term_relation tr ON a.id=tr.object_id AND tr.object_type='MapasCulturais\\Entities\\Agent'
+                JOIN term t ON tr.term_id=t.id AND t.taxonomy='area')")->fetchAll();
+        foreach ($ids as $id) {
+            $entity = $app->repo("Agent")->find($id);
+            $terms = $entity->terms ?? [];
+            $terms["area"] = [$app->config["app.defaultActivity"]];
+            $entity->save(true);
+            $app->em->clear();
+        }
+        return true;
+    },
+    "apply default activity to spaces" => function () use ($app, $conn) {
+        $ids = $conn->executeQuery("SELECT id FROM space WHERE id NOT IN (
+            SELECT s.id FROM space s
+                JOIN term_relation tr ON s.id=tr.object_id AND tr.object_type='MapasCulturais\\Entities\\Space'
+                JOIN term t ON tr.term_id=t.id AND t.taxonomy='area')")->fetchAll();
+        foreach ($ids as $id) {
+            $entity = $app->repo("Space")->find($id);
+            $terms = $entity->terms ?? [];
+            $terms["area"] = [$app->config["app.defaultActivity"]];
+            $entity->save(true);
+            $app->em->clear();
+        }
+        return true;
+    },
+];
