@@ -14,6 +14,9 @@ services:
       - ../docker-data/private-files:/var/www/private-files
       # - ../docker-data/pcache-cron.log:/var/www/scripts/nohup.out
 
+      - ../themes/IberCulturaViva/agent-types.php:/var/www/html/protected/application/conf/agent-types.php
+      - ../themes/IberCulturaViva/space-types.php:/var/www/html/protected/application/conf/space-types.php
+
       - ../compose/common/config.d:/var/www/html/protected/application/conf/conf-common.d
       - ../compose/local/config.d:/var/www/html/protected/application/conf/config.d
 
