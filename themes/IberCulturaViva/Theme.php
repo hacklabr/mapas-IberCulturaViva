@@ -66,6 +66,33 @@ class Theme extends BaseV1\Theme{
             }
             return;
         });
+        // insere botão de imprimir na visualização do formulário de inscrição
+        $app->hook("template(registration.view.form):begin", function () use ($app) {
+            /** @var \MapasCulturais\Theme $this */
+            if (!$this->controller->requestedEntity->canUser("admin")) {
+                return;
+            }
+            $this->part("button-print-registration", [
+                "registration" => $this->controller->requestedEntity
+            ]);
+            return;
+        });
+        // implementa o endpoint para o botão de imprimir
+        $app->hook("GET(registration.print)", function () use ($app) {
+            /** @var \MapasCulturais\Controller $this */
+            $this->requireAuthentication();
+            if (!$this->requestedEntity->canUser("admin")) {
+                $this->errorJson("Unauthorised.", 401);
+                return;
+            }
+            $app->view->enqueueScript("app", "print-registration", "js/print-registration.js");
+            $app->view->enqueueStyle("app", "print-registration", "css/print-registration.css", ["main"]);
+            $this->render("single", [
+                "entity" => $this->requestedEntity
+            ]);
+            return;
+        });
+        return;
     }
 
     function includeVendorAssets()
