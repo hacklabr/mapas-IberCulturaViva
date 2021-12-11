@@ -95,6 +95,13 @@ class Theme extends BaseV1\Theme{
         return;
     }
 
+    function includeCommonAssets()
+    {
+        parent::includeCommonAssets();
+        $this->enqueueScript("app", "registration-phone", "js/registration-phone.js");
+        return;
+    }
+
     function includeVendorAssets()
     {
         parent::includeVendorAssets();
@@ -223,6 +230,17 @@ class Theme extends BaseV1\Theme{
                 'Não' => i::__('Não')
             ]
         ]);
+        // international phone type for registrations
+        $app->registerRegistrationFieldType(new \MapasCulturais\Definitions\RegistrationFieldType([
+            "slug" => "phone",
+            "name" => \MapasCulturais\i::__("Campo de telefone internacional"),
+            "viewTemplate" => "registration-field-types/phone",
+            "configTemplate" => "registration-field-types/phone-config",
+            "validations" => [
+                "v::phone()" => \MapasCulturais\i::__("O valor não é um telefone válido")
+            ]
+        ]));
+        return;
     }
 
 
