@@ -40,6 +40,7 @@ a.btn, #registration-valuers--admin {
 }
 
 @media print {
+/*
     #main-header {
         display: table-header-group;
     }
@@ -47,7 +48,7 @@ a.btn, #registration-valuers--admin {
     #main-section {
         display: table-row-group;
     }
-
+*/
     .header-content {
         min-height: 4rem;
     }
@@ -60,15 +61,15 @@ a.btn, #registration-valuers--admin {
     #editable-entity, .alert.warning {
         display: none;
     }
-
+/*
     #empty-footer {
         display: table-footer-group;
         height: 160px;
         visibility: hidden;
     }
-
+*/
     footer {
-        position: fixed;
+        /*position: fixed;*/
         height: 160px;
         bottom: 0;
         padding: 0;
