@@ -37,7 +37,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone Público'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('Por favor, informe o telefone público no formato (xx) xxxx-xxxx.')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('Por favor, informe o telefone público no formato (xx) xxxx-xxxx.')
             ),
             'available_for_opportunities' => true,
             'field_type' => 'phone'
@@ -47,7 +47,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone 1'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('Por favor, informe o telefone 1 no formato (xx) xxxx xxxx.')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('Por favor, informe o telefone 1 no formato (xx) xxxx xxxx.')
             ),
         	'private' => true,
             'available_for_opportunities' => true,
@@ -59,7 +59,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone 2'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('Por favor, informe o telefone 2 no formato ')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('Por favor, informe o telefone 2 no formato ')
             ),
         	'private' => true,
             'available_for_opportunities' => true,

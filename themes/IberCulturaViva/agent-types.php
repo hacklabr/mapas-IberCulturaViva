@@ -121,7 +121,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone Público'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
             ),
             'available_for_opportunities' => true,
             'field_type' => 'phone'
@@ -132,7 +132,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone 1'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
             ),
             'available_for_opportunities' => true,
             'field_type' => 'phone'
@@ -144,7 +144,7 @@ return array(
             'label' => \MapasCulturais\i::__('Telefone 2'),
             'type' => 'string',
             'validations' => array(
-                'v::phone()' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
+                'v::regex("#\+\d{1,3}( ?\(\d+\) ?|-\d+-| ?\d+ ?) ?(\d+[- ]?)+#")' => \MapasCulturais\i::__('O número de telefone informado é inválido.')
             ),
             'available_for_opportunities' => true,
             'field_type' => 'phone'
