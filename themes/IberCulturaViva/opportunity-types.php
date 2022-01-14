@@ -52,6 +52,30 @@ return array(
                 "v::url('plus.google.com')" => \MapasCulturais\i::__("A url informada é inválida.")
             )
         ),
+        'linkedin' => array(
+            'label' => \MapasCulturais\i::__('Linkedin'),
+            'validations' => array(
+                "v::url('linkedin.com')" => \MapasCulturais\i::__("A url informada é inválida.")
+            )
+        ),
+        'spotify' => array(
+            'label' => \MapasCulturais\i::__('Spotify'),
+            'validations' => array(
+                "v::url('open.spotify.com')" => \MapasCulturais\i::__("A url informada é inválida.")
+            )
+        ),
+        'youtube' => array(
+            'label' => \MapasCulturais\i::__('YouTube'),
+            'validations' => array(
+                "v::url('youtube.com')" => \MapasCulturais\i::__("A url informada é inválida.")
+            )
+        ),
+        'pinterest' => array(
+            'label' => \MapasCulturais\i::__('Pinterest'),
+            'validations' => array(
+                "v::url('pinterest.com')" => \MapasCulturais\i::__("A url informada é inválida.")
+            )
+        ),
 
         'registrationSeals' => array(
                 'label' => \MapasCulturais\i::__('Selos'),
