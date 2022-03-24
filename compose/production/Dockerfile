@@ -1,4 +1,4 @@
-FROM mapasculturais/mapasculturais:v5.0.23
+FROM mapasculturais/mapasculturais:v5.0.24
 
 # clona versão v1.0.1 do autenticador
 RUN git clone --depth 1 --branch v1.0.1 https://github.com/hacklabr/mapasculturais-multipleLocalAuth /var/www/html/protected/application/plugins/MultipleLocalAuth
