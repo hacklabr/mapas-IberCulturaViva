@@ -1,0 +1,3 @@
+[submodule "plugins/LocationPatch"]
+	path = plugins/LocationPatch
+	url = https://github.com/mapasculturais/plugin-LocationPatch
