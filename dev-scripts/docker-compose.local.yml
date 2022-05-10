@@ -7,12 +7,16 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ../../mapasculturais/src/protected/application/lib:/var/www/html/protected/application/lib
+     
 
       - ../docker-data/assets:/var/www/html/assets
       - ../docker-data/public-files:/var/www/html/files
       - ../docker-data/private-files:/var/www/private-files
       # - ../docker-data/pcache-cron.log:/var/www/scripts/nohup.out
+
+      - ../../ibermapas/src/protected/application/lib:/var/www/html/protected/application/lib
+      - ../../ibermapas/src/protected/application/themes:/var/www/html/protected/application/themes
+      - ../../ibermapas/src/protected/db-updates.php:/var/www/html/protected/db-updates.php
 
       - ../compose/common/config.d:/var/www/html/protected/application/conf/conf-common.d
       - ../compose/local/config.d:/var/www/html/protected/application/conf/config.d
@@ -25,7 +29,7 @@ services:
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - APP_MODE=development
-
+      - ACTIVE_THEME=IberCulturaViva
     depends_on:
       - db
   
@@ -41,9 +45,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-#      - ../compose/local/db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
-      - ../compose/local/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
-      - ../compose/local/db/initial-data.sql:/docker-entrypoint-initdb.d/initial-data.sql
+      - ../compose/local/db/dump.sql:/docker-entrypoint-initdb.d/dump.sql
       - ibercultura-db-data:/var/lib/postgresql/data
 
 volumes:

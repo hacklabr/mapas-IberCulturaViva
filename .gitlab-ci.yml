@@ -13,6 +13,8 @@ variables:
   KUBECONFIG: /etc/k8s-config
 
 build to homolog:
+  variables:
+    GIT_SUBMODULE_STRATEGY: normal
   stage: build
   script:
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
@@ -57,8 +59,8 @@ deploy to production:
   stage: deploy
   image: hacklab/kubectl:latest
   script:
-    - echo ${kube_config} | base64 -d > ${KUBECONFIG}
-    - kubectl -n mapas-iberculturaviva-prod --record deployment.apps/web set image deployment.apps/web mapas=$RELEASE_IMAGE
+    - echo ${kube_hackcloud} | base64 -d > ${KUBECONFIG}
+    - kubectl -n ibercultura-mapas-prod --record deployment.apps/mapas set image deployment.apps/mapas mapas=$RELEASE_IMAGE
   only:
     - tags
   environment: production

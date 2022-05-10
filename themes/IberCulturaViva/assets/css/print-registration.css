@@ -1,0 +1,113 @@
+#main-header, #main-content-header {
+    display: block;
+}
+
+#main-nav, #about-nav, #main-footer, #empty-footer {
+    display: none;
+}
+
+.header-image, .avatar, .icon {
+    display: none;
+    height: 0;
+}
+
+.header-content {
+    padding-left: 0;
+}
+
+.header-content .entity-type {
+    display: none;
+}
+
+.color-project {
+    color: black;
+}
+
+.sidebar {
+    display: none;
+}
+
+.registration-help {
+    display: none;
+}
+
+.registration-agent-avatar, .registration-space-avatar {
+    display: none;
+}
+
+a.btn, #registration-valuers--admin {
+    display: none;
+}
+
+@media print {
+    #main-header {
+        display: block;
+    }
+
+    #main-section {
+        display: block;
+    }
+
+    .header-content {
+        min-height: 4rem;
+    }
+
+    .registration-fieldset {
+        padding: 0;
+        margin-bottom: 0.75rem;
+    }
+
+    #editable-entity, .alert.warning {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .main-content {
+        padding-top: 0;
+    }
+
+    a, .color-project {
+        color: black !important;
+    }
+
+    .registration-id {
+        font-size: 2rem;
+    }
+
+    .alert.success {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        color: black;
+    }
+
+    .alert.success::before {
+        content: "";
+    }
+
+    .dropdown {
+        background-color: transparent;
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .dropdown .placeholder::after {
+        content: "";
+    }
+
+    .attachment-list .attachment-list-item .attachment-title::before {
+        content: "";
+    }
+
+    .space-single-view-message {
+        margin-top: 0;
+    }
+
+    .log-execution-time {
+        display: none;
+    }
+}

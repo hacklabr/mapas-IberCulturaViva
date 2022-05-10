@@ -1,6 +1,5 @@
 FROM hacklab/mapasculturais:v5.1
 
-RUN git clone https://github.com/hacklabr/mapasculturais-multipleLocalAuth /var/www/html/protected/application/plugins/MultipleLocalAuth
 RUN curl https://raw.githubusercontent.com/opauth/facebook/master/FacebookStrategy.php > /var/www/html/protected/application/plugins/MultipleLocalAuth/Facebook/FacebookStrategy.php
 
 COPY compose/common/config.php /var/www/html/protected/application/conf/config.php
@@ -11,3 +10,4 @@ COPY themes /var/www/html/protected/application/themes
 COPY plugins /var/www/html/protected/application/plugins
 COPY translations /var/www/html/protected/application/translations
 
+RUN sass /var/www/html/protected/application/themes/IberCulturaViva/assets/css/sass/main.scss /var/www/html/protected/application/themes/IberCulturaViva/assets/css/main.css

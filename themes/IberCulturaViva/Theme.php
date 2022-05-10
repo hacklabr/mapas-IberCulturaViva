@@ -56,6 +56,57 @@ class Theme extends BaseV1\Theme{
                 $headers['Content-Disposition'] = str_replace('attachment; ', '', $headers['Content-Disposition']);
             }
         });
+        // atribui área de atuação padrão para novos agentes e espaços
+        $app->hook("entity(<<Agent|Space>>).insert:before", function () use ($app) {
+            /** @var \MapasCulturais\Entity $this */
+            $terms = (array) $this->terms ?? [];
+            if (empty($this->terms["area"])) {
+                $terms["area"] = [$app->config["app.defaultActivity"]];
+                $this->terms = $terms;
+            }
+            return;
+        });
+        // insere botão de imprimir na visualização do formulário de inscrição
+        $app->hook("template(registration.view.form):begin", function () use ($app) {
+            /** @var \MapasCulturais\Theme $this */
+            if (!$this->controller->requestedEntity->canUser("admin")) {
+                return;
+            }
+            $this->part("button-print-registration", [
+                "registration" => $this->controller->requestedEntity
+            ]);
+            return;
+        });
+        // implementa o endpoint para o botão de imprimir
+        $app->hook("GET(registration.print)", function () use ($app) {
+            /** @var \MapasCulturais\Controller $this */
+            $this->requireAuthentication();
+            if (!$this->requestedEntity->canUser("admin")) {
+                $this->errorJson("Unauthorised.", 401);
+                return;
+            }
+            $app->view->enqueueScript("app", "print-registration", "js/print-registration.js");
+            $app->view->enqueueStyle("app", "print-registration", "css/print-registration.css", ["main"]);
+            $this->render("single", [
+                "entity" => $this->requestedEntity
+            ]);
+            return;
+        });
+        return;
+    }
+
+    function includeCommonAssets()
+    {
+        parent::includeCommonAssets();
+        $this->enqueueScript("app", "registration-phone", "js/registration-phone.js");
+        return;
+    }
+
+    function includeVendorAssets()
+    {
+        parent::includeVendorAssets();
+        $this->enqueueScript("vendor", "libphonenumber-min", "vendor/libphonenumber-min.js");
+        return;
     }
 
     protected function _publishAssets() {
@@ -81,7 +132,7 @@ class Theme extends BaseV1\Theme{
         parent::register();
 
         $app = App::i();
-        
+
         // Metadata de espaço
         $this->registerSpaceMetadata('En_Pais', [
             'label' => i::__('País'),
@@ -179,6 +230,17 @@ class Theme extends BaseV1\Theme{
                 'Não' => i::__('Não')
             ]
         ]);
+        // international phone type for registrations
+        $app->registerRegistrationFieldType(new \MapasCulturais\Definitions\RegistrationFieldType([
+            "slug" => "phone",
+            "name" => \MapasCulturais\i::__("Campo de telefone internacional"),
+            "viewTemplate" => "registration-field-types/phone",
+            "configTemplate" => "registration-field-types/phone-config",
+            "validations" => [
+                "v::phone()" => \MapasCulturais\i::__("O valor não é um telefone válido")
+            ]
+        ]));
+        return;
     }
 
 

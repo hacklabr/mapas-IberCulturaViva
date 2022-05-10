@@ -519,7 +519,7 @@ msgstr "Teléfono Público"
 #: conf/event-types.php:35 conf/space-types.php:26
 msgid "Por favor, informe o telefone público no formato (xx) xxxx-xxxx."
 msgstr ""
-"Por favor, introduzca el teléfono público en el formato (xx) xxxx-xxxx."
+"Por favor, introduzca el teléfono público en el formato +xxx x xxx xxxx-xxxx."
 
 #: conf/agent-types.php:107
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:146
@@ -539,7 +539,7 @@ msgstr "Teléfono 1"
 #: conf/agent-types.php:110 conf/agent-types.php:121 conf/agent-types.php:120
 #: conf/space-types.php:34
 msgid "Por favor, informe o telefone 1 no formato (xx) xxxx-xxxx."
-msgstr "Por favor, introduzca el teléfono 1 en el formato (xx) xxxx-xxxx."
+msgstr "Por favor, introduzca el teléfono 1 en el formato +xxx x xxx xxxx-xxxx."
 
 #: conf/agent-types.php:117
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:150
@@ -559,7 +559,7 @@ msgstr "Teléfono 2"
 #: conf/agent-types.php:120 conf/agent-types.php:131 conf/agent-types.php:130
 #: conf/space-types.php:44
 msgid "Por favor, informe o telefone 2 no formato (xx) xxxx-xxxx."
-msgstr "Por favor, introduzca el teléfono 2 en el formato (xx) xxxx-xxxx."
+msgstr "Por favor, introduzca el teléfono 2 en el formato +xxx x xxx xxxx-xxxx."
 
 #: conf/agent-types.php:128
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:168
@@ -592,7 +592,7 @@ msgstr "Dirección"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:169
 #: themes/BaseV1/layouts/parts/singles/location.php:21
 msgid "CEP"
-msgstr "CP"
+msgstr "Código Postal (si tuviera)"
 
 #: conf/agent-types.php:139
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:171
@@ -626,7 +626,7 @@ msgstr "Número"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:172
 #: themes/BaseV1/layouts/parts/singles/location.php:24
 msgid "Complemento"
-msgstr "Complemento"
+msgstr "Más Datos"
 
 #: conf/agent-types.php:157
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:174
@@ -639,7 +639,7 @@ msgstr "Complemento"
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:43
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:72
 msgid "Bairro"
-msgstr "Barrio"
+msgstr "Barrio/Localidad"
 
 #: conf/agent-types.php:163
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:175
@@ -653,7 +653,7 @@ msgstr "Barrio"
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:39
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:68
 msgid "Município"
-msgstr "Municipio/Localidad"
+msgstr "Municipio"
 
 #: conf/agent-types.php:169
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:176
@@ -666,7 +666,7 @@ msgstr "Municipio/Localidad"
 #: themes/BaseV1/layouts/parts/singles/location.php:27
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:64
 msgid "Estado"
-msgstr "Entidad Subnacional"
+msgstr "Provincia/Estado/Departamento"
 
 #: conf/agent-types.php:175
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:31
@@ -1750,7 +1750,7 @@ msgstr "Ingrese una dirección"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:169
 #: themes/BaseV1/layouts/parts/singles/location.php:21
 msgid "Insira o CEP"
-msgstr "Ingrese el CP"
+msgstr "Ingrese el código postal (si tuviera)"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:171
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:25
@@ -1766,7 +1766,7 @@ msgstr "Ingrese la calle"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:171
 #: themes/BaseV1/layouts/parts/singles/location.php:23
 msgid "Insira o Número"
-msgstr "Ingrese el Número"
+msgstr "Ingrese el número"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:173
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:27
@@ -1774,7 +1774,7 @@ msgstr "Ingrese el Número"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:172
 #: themes/BaseV1/layouts/parts/singles/location.php:24
 msgid "Insira um complemento"
-msgstr "Ingrese un complemento"
+msgstr "Ingrese más datos"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:174
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:28
@@ -1782,7 +1782,7 @@ msgstr "Ingrese un complemento"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:173
 #: themes/BaseV1/layouts/parts/singles/location.php:25
 msgid "Insira o Bairro"
-msgstr "Ingrese el Barrio"
+msgstr "Ingrese el barrio/localidad"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:175
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:29
@@ -1790,7 +1790,7 @@ msgstr "Ingrese el Barrio"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:174
 #: themes/BaseV1/layouts/parts/singles/location.php:26
 msgid "Insira o Município"
-msgstr "Ingrese el Municipio/Localidad"
+msgstr "Ingrese el municipio"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:176
 #: themes/IberCulturaViva/layouts/parts/singles/location.php:30
@@ -1798,7 +1798,7 @@ msgstr "Ingrese el Municipio/Localidad"
 #: themes/BaseV1/layouts/parts/singles/history_space.php:175
 #: themes/BaseV1/layouts/parts/singles/location.php:27
 msgid "Insira o Estado"
-msgstr "Ingrese la Entidad Subnacional"
+msgstr "Ingrese la provincia/estado/departamento"
 
 #: themes/IberCulturaViva/layouts/parts/history_agent.php:197
 #: themes/IberCulturaViva/views/agent/create.php:128
@@ -9252,39 +9252,39 @@ msgstr "Área de actuación del Agente:"
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:31
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:55
 msgid "Selecione a(s) área(s) de atuação"
-msgstr "Seleccione la(s) Área(s) de actuación"
+msgstr "Seleccione la(s) área(s) de actuación"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:34
 msgid "Estado(s):"
-msgstr "Departamento(s):"
+msgstr "Provincia(s)/Estado(s)/Departamento(s):"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:35
 msgid "Estado(s)"
-msgstr "Departamento(s)"
+msgstr "Provincia(s)/Estado(s)/Departamento(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:35
 msgid "Selecione o(s) estado(s) para o(s) Agente(s)"
-msgstr "Seleccione el/los estado(s) para el/los Agente(s)"
+msgstr "Seleccione la(s) provincia(s)/estado(s)/departamento(s) para el/los Agente(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:38
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:67
 msgid "Municipio(s):"
-msgstr "Municipio(s)/Localidades:"
+msgstr "Municipio(s):"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:39
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:68
 msgid "Selecione o(s) município(s) para o(s) Agente(s)"
-msgstr "Seleccione el/los municipio(s)/localidades para el/los Agente(s)"
+msgstr "Seleccione el/los municipio(s) para el/los Agente(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:42
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:71
 msgid "Bairro(s):"
-msgstr "Barrio(s):"
+msgstr "Barrio(s)/Localidad(es):"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:43
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:72
 msgid "Selecione o(s) bairro(s) para o(s) Agente(s)"
-msgstr "Seleccione el/los barrio(s) para el/los Agente(s)"
+msgstr "Seleccione el/los barrio(s)/localidad(es) para el/los Agente(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:54
 msgid "Área de Atuação do Espaço:"
@@ -9304,11 +9304,11 @@ msgstr "Seleccione el(los) tipo(s) de espacio(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:63
 msgid "Estado:"
-msgstr "Departamento:"
+msgstr "Provincia/Estado/Departamento:"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:64
 msgid "Selecione o(s) estado(s) para o(s) Espaço(s)"
-msgstr "Seleccione el(los) estado(s) para el(los) Espacio(s)"
+msgstr "Seleccione la(s) provincia(s)/estado(s)/departamento(s) para el(los) Espacio(s)"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-filters.php:83
 msgid "Linguagem:"
@@ -9430,12 +9430,12 @@ msgstr ""
 "En esta sección se indica la posición inicial en el mapa, es decir, cuando "
 "el usuario abre el mapa se mostrará la información en esta posición ya "
 "establecida, pudiendo hacer un mínimo y máximo de zoom. Introduzca la "
-"dirección / nombre del municipio o localidad / ciudad / departamento / en el "
-"campo \"Introducir una dirección\"."
+"dirección/nombre del municipio o ciudad/provincia o estado o departamento en "
+"el campo \"Introducir una dirección\"."
 
 #: themes/BaseV1/layouts/parts/singles/subsite-map.php:13
 msgid "Busque pelo nome da cidade ou estado"
-msgstr "Busque por el nombre de la ciudad o departamento"
+msgstr "Busque por el nombre de la ciudad o provincia/estado/departamento"
 
 #: themes/BaseV1/layouts/parts/singles/subsite-map.php:14
 msgid "buscar"
